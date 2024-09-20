@@ -1,0 +1,1115 @@
+[su_tabs active="1" vertical="no" class="custom-tabs"]
+
+[su_tab title="Capacitación" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet-map lat=-34.60977567877862 lng=-58.38135838508607 zoomcontrol=1 scrollwheel=1 fitbounds]
+
+[leaflet-marker lat=-38.717921 lng=-62.272172 title="Escuela de Enfermería | ATSA Bahía Blanca"]
+<strong>Escuela de Enfermería | ATSA Bahía Blanca</strong><br>
+Gorriti 146<br>
+Bahía Blanca<br>
+Tel: (0291) 451 1545<br>
+Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0007A.jpg" alt="Escuela de Enfermería"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.737282 lng=-58.397821 title="ATSA Zona Sur"]
+<strong>ATSA Zona Sur</strong><br>
+Hipólito Yrigoyen 7066<br>
+Banfield<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com" target="_blank">www.atsazonasur.com</a><br>
+Técnico en Radiología, Hemoterapia, Instrumentación Quirúrgica, Laboratorio. Profesionalización de Auxiliar en Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/noimage.jpg" alt="ATSA Zona Sur"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.458863 lng=-58.537676 title="Sede Beccar | ATSA Zona Norte"]
+<strong>Sede Beccar | ATSA Zona Norte</strong><br>
+Udaondo 417<br>
+Beccar<br>
+Tel: (011) 4846 4150<br>
+Web: <a href="http://www.atsazonanorte.org.ar" target="_blank">www.atsazonanorte.org.ar</a><br>
+Secundario. Técnico en Radiología, Instrumentación Quirúrgica, Laboratorio, Hemoterapia. Cursos de Computación. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0001A.jpg" alt="Sede Beccar"><br>
+Correo: lcapul@isalud.edu.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.467799 lng=-65.789321 title="ATSA Catamarca"]
+<strong>ATSA Catamarca</strong><br>
+Samuel Molina 178<br>
+Catamarca<br>
+Tel: (0383) 443 3566<br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0026A.png" alt="ATSA Catamarca"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.611985 lng=-58.401633 title="Instituto Amado Olmos | ATSA Bs As"]
+<strong>Instituto Amado Olmos | ATSA Bs As</strong><br>
+Alberti 191<br>
+Ciudad Autónoma de Buenos Aires<br>
+Tel: (011) 4959 7100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+Plan Fines. Técnico Superior en Enfermería Profesional, Hemoterapia, Instrumentación Quirúrgica, Laboratorio, Radiología. Curso Asistente Gerontológico. Profesionalización de Auxiliares en Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0015A.jpg" alt="Instituto Amado Olmos"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.414051 lng=-64.171562 title="Instituto Cruz del Sacrificio | ATSA Córdoba"]
+<strong>Instituto Cruz del Sacrificio | ATSA Córdoba</strong><br>
+Lima 871<br>
+Córdoba<br>
+Tel: (0351) 424 1542<br>
+Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+Enfermería Nivel Terciario. Hemoterapia e Inmunología. Instrumentación Quirúrgica. Bachillerato a Distancia para adultos. Cursos de Facturación. Cursos a Distancia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0014A.jpg" alt="Instituto Cruz del Sacrificio"><br>
+Correo: cruzdelsacrificio@fibertel.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.027202 lng=-67.571644 title="Instituto de Capacitación | ATSA Río Negro"]
+<strong>Instituto de Capacitación | ATSA Río Negro</strong><br>
+Rodhe 55<br>
+General Roca<br>
+Tel: (0298) 443 2918<br>
+Web: <a href="http://www.atsarionegro.com" target="_blank">www.atsarionegro.com</a><br>
+Tecnicatura en Acompañante Terapéutico. Cursos de Auxiliar Odontológico y Facturación en prestaciones Médicas. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0002A.jpg" alt="Instituto de Capacitación ATSA Río Negro"><br>
+Correo: institutosaludygestion@hotmail.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.186671 lng=-65.293594 title="ATSA Jujuy"]
+<strong>ATSA Jujuy</strong><br>
+3 Sargentos esquina Pasaje Suecia<br>
+Jujuy<br>
+Tel: (0388) 422 2936 int 112<br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0004A.jpg" alt="ATSA Jujuy"><br>
+Correo: gladysdelmilagro_pavon@hotmail.com.ar<br>
+[/leaflet-marker]
+[/su_tab]
+
+
+[/su_tab]
+
+[su_tab title="Turismo" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet-map lat=-34.421213 lng=-58.578985 zoomcontrol=1 scrollwheel=1 fitbounds]
+
+[leaflet-marker lat=-34.421213 lng=-58.578985 title="Isla I Marangatá | ATSA Bs As"]
+<strong>Isla I Marangatá | ATSA Bs As</strong><br>
+General Bartolomé Mitre 305<br>
+Tigre<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-35.597168 lng=-58.036900 title="Camping 21 de Septiembre | ATSA Bs As"]
+<strong>Camping 21 de Septiembre | ATSA Bs As</strong><br>
+Camino de Circunvalación Km. 16,500<br>
+Chascomús<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.966788 lng=-57.86303 title="Complejo 8 de Marzo | SSP"]
+<strong>Complejo 8 de Marzo | SSP</strong><br>
+Calle 635 entre 1 y 115<br>
+La Plata<br>
+Tel: (0221) 421 5405<br>
+Web: <a href="http://www.ssp.org.ar" target="_blank">www.ssp.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.565257 lng=-60.948829 title="Complejo Polideportivo | ATSA Junin"]
+<strong>Complejo Polideportivo | ATSA Junin</strong><br>
+Ruta 188 y Avenida República<br>
+Junin<br>
+Tel: (0236) 443 3815<br>
+Web: <a href="http://www.sanidadjunin.com.ar" target="_blank">www.sanidadjunin.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.770270 lng=-60.835515 title="Recreativo Otto Calace | ATSA Santa Fe"]
+<strong>Recreativo Otto Calace | ATSA Santa Fe</strong><br>
+Almirante Brown y Estrella Federal<br>
+Sauce Viejo<br>
+Tel: (0342) 455 2574<br>
+Web: <a href="http://www.atsasantafe.org.ar" target="_blank">www.atsasantafe.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.737734 lng=-60.485325 title="Complejo Camping | ATSA Entre Ríos"]
+<strong>Complejo Camping | ATSA Entre Ríos</strong><br>
+Don Bosco 2906<br>
+Paraná<br>
+Tel: (0343) 423 0029<br>
+Web: <a href="http://www.atsaentrerios.com.ar" target="_blank">www.atsaentrerios.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.261023 lng=-58.970021 title="Complejo Recreativo | ATSA Chaco"]
+<strong>Complejo Recreativo | ATSA Chaco</strong><br>
+R.N. 11 KM 1021 Dpto 1° de Mayo Margarita Belén<br>
+Chaco<br>
+Tel: (0362) 444 9554<br>
+Web: <a href="http://www.sanidadatsachaco.com.ar" target="_blank">www.sanidadatsachaco.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.689430 lng=-65.465913 title="Camping | ATSA San Luis"]
+<strong>Camping | ATSA San Luis</strong><br>
+Pringles 84<br>
+Villa Mercedes<br>
+Tel: (02657) 421 882<br>
+Web: <a href="http://www.atsafilialsanluis.com.ar" target="_blank">www.atsafilialsanluis.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.072901 lng=-65.976397 title="Hotel Cafayate | ATSA Salta"]
+<strong>Hotel Cafayate | ATSA Salta</strong><br>
+Cafayate<br>
+Tel: (0387) 425 6684<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.829677 lng=-68.122002 title="Camping Los Nonos | ATSA Neuquén"]
+<strong>Camping Los Nonos | ATSA Neuquén</strong><br>
+Calle 4 chacra 101<br>
+Centenario<br>
+Tel: (0299) 489 4856<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.848267 lng=-68.815909 title="Camping El Challao | ATSA Mendoza"]
+<strong>Camping El Challao | ATSA Mendoza</strong><br>
+Av. Champagnat y Arroyo Seco<br>
+Las Heras<br>
+Tel: (0261) 444 2167<br>
+Web: <a href="http://www.atsamza.org.ar" target="_blank">www.atsamza.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.382941 lng=-58.733581 title="Las Clavelinas | ATSA Zona Norte"]
+<strong>Las Clavelinas | ATSA Zona Norte</strong><br>
+Ruta Panamericana km 43.5 - Colectora Oeste<br>
+Ingeniero Maschwitz<br>
+Tel: (011) 4846 4150<br>
+Web: <a href="http://www.atsazonanorte.org.ar" target="_blank">www.atsazonanorte.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.500958 lng=-64.864539 title="Hotel ATSA | ATSA Tucumán"]
+<strong>Hotel ATSA | ATSA Tucumán</strong><br>
+Güemes N° 386-390<br>
+Termas de Río Hondo | Santiago del Estero<br>
+Tel: (03858) 422 005<br>
+Web: <a href="http://www.atsatucuman.org.ar" target="_blank">www.atsatucuman.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731893 lng=-58.259006 title="Recreativo Fernando Kelly | ATSA Quilmes"]
+<strong>Recreativo Fernando Kelly | ATSA Quilmes</strong><br>
+Calle 422 y 13<br>
+Villa Elisa<br>
+Tel: (011) 4350 7400<br>
+Web: <a href="http://www.atsaquilmes.org.ar" target="_blank">www.atsaquilmes.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.733330 lng=-65.408109 title="Hotel Sanidad | ATSA Salta"]
+<strong>Hotel Sanidad | ATSA Salta</strong><br>
+Av. San Antonio de los Cobres s/n<br>
+Salta<br>
+Tel: (0387) 425 6684<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.576813 lng=-68.521938 title="Camping Orlando Collado | ATSA San Juan"]
+<strong>Camping Orlando Collado | ATSA San Juan</strong><br>
+Rawson<br>
+Tel: (0264) 421 4388<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.039652 lng=-67.593373 title="Complejo Recreativo | ATSA Río Negro"]
+<strong>Complejo Recreativo | ATSA Río Negro</strong><br>
+Ruta 22 chacra 259<br>
+General Roca<br>
+Tel: (0298) 442 4672<br>
+Web: <a href="http://www.atsarionegro.com" target="_blank">www.atsarionegro.com</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.554960 lng=-58.740073 title="Camping Necochea | ATSA La Plata"]
+<strong>Camping Necochea | ATSA La Plata</strong><br>
+10 y 189<br>
+Villa Zabala | Necochea<br>
+Tel: (0221) 421 6023<br>
+Web: <a href="http://www.atsalaplata.org.ar" target="_blank">www.atsalaplata.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.998542 lng=-58.016540 title="Camping La Plata | ATSA La Plata"]
+<strong>Camping La Plata | ATSA La Plata</strong><br>
+Calle 66 y 185<br>
+La Plata<br>
+Tel: (0221) 496 1185<br>
+Web: <a href="http://www.atsalaplata.org.ar" target="_blank">www.atsalaplata.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.786829 lng=-64.265974 title="Polideportivo | ATSA Stgo del Estero"]
+<strong>Polideportivo | ATSA Stgo del Estero</strong><br>
+Puestito de San Antonio<br>
+Tel: (0385) 421 3463<br>
+Web: <a href="http://www.atsasgo.com.ar" target="_blank">www.atsasgo.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.751397 lng=-58.487679 title="Recreativo Pasteleros | ATSA Zona Sur"]
+<strong>Recreativo Pasteleros | ATSA Zona Sur</strong><br>
+Ruta de la Tradición (Ex Camino de Cintura) 6455<br>
+Esteban Echeverría<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com" target="_blank">www.atsazonasur.com</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.405263 lng=-64.500125 title="Gran Hotel Casablanca | ATSA Córdoba"]
+<strong>Gran Hotel Casablanca | ATSA Córdoba</strong><br>
+Bv. Sarmiento 1001<br>
+Villa Carlos Paz<br>
+Tel: (0351) 423 3885 Int 105<br>
+Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.711596 lng=-62.269955 title="Complejo el Oasis | ATSA Bahía Blanca"]
+<strong>Complejo el Oasis | ATSA Bahía Blanca</strong><br>
+Monseñor de Andrea y 3 de Febrero<br>
+Bahía Blanca<br>
+Tel: (0291) 452 8961<br>
+Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.704559 lng=-62.268423 title="Club Atlético Liniers | ATSA Bahía Blanca"]
+<strong>Club Atlético Liniers | ATSA Bahía Blanca</strong><br>
+Avenida Alem 1089<br>
+Bahía Blanca<br>
+Tel: (0291) 452 8961<br>
+Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.287751 lng=-60.270150 title="Camping ACA | ATSA San Nicolás"]
+<strong>Camping ACA | ATSA San Nicolás</strong><br>
+Ruta 21, Km 242<br>
+San Nicolás de los Arroyos<br>
+Tel: (0336) 445 3805<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124942 lng=-64.352103 title="Círculo de Oficiales | ATSA Río Cuarto"]
+<strong>Círculo de Oficiales | ATSA Río Cuarto</strong><br>
+Cabrera 930<br>
+Río Cuarto<br>
+Tel: (0358) 464 5789<br>
+Web: <a href="http://www.atsariocuarto.com.ar" target="_blank">www.atsariocuarto.com.ar</a><br>
+[/leaflet-marker]
+
+[/su_tab]
+
+[/su_tab]
+
+[su_tab title="OSPSA" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet-map lat=-34.611754 lng=-58.403259 zoomcontrol=1 scrollwheel=1 fitbounds]
+
+[leaflet-marker lat=-34.611754 lng=-58.403259 title="BUENOS AIRES | OSPSA"]
+<strong>BUENOS AIRES | OSPSA</strong><br>
+Venezuela 2359<br>
+Capital Federal, Buenos Aires<br>
+Tel: (011) 4943-9400<br>
+E-mail: ospsa@sanidad.org.ar<br>
+Horario: LaV 08:00 a 19:30<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.403502 lng=-64.1746 title="CÓRDOBA | OSPSA"]
+<strong>CÓRDOBA | OSPSA</strong><br>
+Cochabamba 940<br>
+Córdoba, Córdoba<br>
+Tel: (0351) 556-0400<br>
+E-mail: contaduria@ospsacordoba.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643545 lng=-60.709914 title="SANTA FE | OSPSA"]
+<strong>SANTA FE | OSPSA</strong><br>
+Salta 2828<br>
+Santa Fe, Santa Fe<br>
+Tel: (0342) 454-7400<br>
+E-mail: obrasocialstafe@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.905079 lng=-57.958321 title="LA PLATA | OSPSA"]
+<strong>LA PLATA | OSPSA</strong><br>
+Calle 5 N°375<br>
+La Plata, Buenos Aires<br>
+Tel: (0221) 483-8573<br>
+E-mail: secretariageneral@atsalaplata.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.897953 lng=-68.826224 title="MENDOZA | OSPSA"]
+<strong>MENDOZA | OSPSA</strong><br>
+25 de Mayo N°722<br>
+Mendoza, Mendoza<br>
+Tel: (0261) 423-6622<br>
+E-mail: mendoza@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731874 lng=-58.258964 title="QUILMES | OSPSA"]
+<strong>QUILMES | OSPSA</strong><br>
+Vicente Lopez N°1969<br>
+Quilmes, Buenos Aires<br>
+Tel: (011) 4350-7400<br>
+E-mail: mauditorquilmes@sanidad.org.ar<br>
+Horario: LaV 08:00 a 18:00<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.721044 lng=-60.525839 title="ENTRE RÍOS | OSPSA"]
+<strong>ENTRE RÍOS | OSPSA</strong><br>
+Monte Caseros 373<br>
+Paraná, Entre Ríos<br>
+Tel: (0343) 423-1466<br>
+E-mail: entrerios@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.820777 lng=-65.219203 title="TUCUMÁN | OSPSA"]
+<strong>TUCUMÁN | OSPSA</strong><br>
+Santiago del Estero N°1578<br>
+Tucumán, Tucumán<br>
+Tel: (0381) 432-2296<br>
+E-mail: ospsatucuman@gmail.com<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124919 lng=-64.351884 title="RÍO CUARTO | OSPSA"]
+<strong>RÍO CUARTO | OSPSA</strong><br>
+Cabrera N°930<br>
+Río Cuarto, Córdoba<br>
+Tel: (0358) 464-5789<br>
+E-mail: riocuarto@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-37.993704 lng=-57.559289 title="MAR DEL PLATA | OSPSA"]
+<strong>MAR DEL PLATA | OSPSA</strong><br>
+Dorrego N°1752<br>
+Mar del Plata, Buenos Aires<br>
+Tel: (0223) 473-6501<br>
+E-mail: mardelplata@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.651791 lng=-58.616766 title="HURLINGHAM | OSPSA"]
+<strong>HURLINGHAM | OSPSA</strong><br>
+Almirante Brown 1.172<br>
+Moron, Buenos Aires<br>
+Tel: (011) 4628-7006<br>
+E-mail: afiliahurlingham@sanidad.org.ar<br>
+Horario: LaV 09:00 a 18:00<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457102 lng=-58.988302 title="CHACO | OSPSA"]
+<strong>CHACO | OSPSA</strong><br>
+Rodriguez Peña N°275<br>
+Resistencia, Chaco<br>
+Tel: (0362) 444-9554<br>
+E-mail: afiliachaco@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.931015 lng=-57.582433 title="CORRIENTES | OSPSA"]
+<strong>CORRIENTES | OSPSA</strong><br>
+Pasaje Alvarez N°843<br>
+Corrientes, Corrientes<br>
+Tel: (03794) 464-763<br>
+E-mail: corrientes@sanidad.org.ar<br>
+Horario: LaV 08:00 a 15:00<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.676475 lng=-59.666059 title="SAN PEDRO | OSPSA"]
+<strong>SAN PEDRO | OSPSA</strong><br>
+Belgrano N°589<br>
+San Pedro, Buenos Aires<br>
+Tel: (03329) 426-949<br>
+E-mail: sanpedro@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.791819 lng=-65.417794 title="SALTA | OSPSA"]
+<strong>SALTA | OSPSA</strong><br>
+Urquiza N°1070<br>
+Salta, Salta<br>
+Tel: (0387) 421-2552<br>
+E-mail: salta@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.723212 lng=-62.266004 title="BAHÍA BLANCA | OSPSA"]
+<strong>BAHÍA BLANCA | OSPSA</strong><br>
+Fitz Roy N°192<br>
+Bahía Blanca, Buenos Aires<br>
+Tel: (0291) 452-8961<br>
+E-mail: bahiablanca@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.788137 lng=-64.253929 title="STGO DEL ESTERO | OSPSA"]
+<strong>STGO DEL ESTERO | OSPSA</strong><br>
+Mendoza N°133<br>
+Santiago del Estero, Santiago del Estero<br>
+Tel: (0385) 422-7758<br>
+E-mail: andreamend2003@hotmail.com<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.5381 lng=-68.513931 title="SAN JUAN | OSPSA"]
+<strong>SAN JUAN | OSPSA</strong><br>
+Santa Fe N°856<br>
+San Juan, San Juan<br>
+Tel: (0264) 421-4388<br>
+E-mail: reymundoalfredoduarte@gmail.com<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.890408 lng=-60.570924 title="PERGAMINO | OSPSA"]
+<strong>PERGAMINO | OSPSA</strong><br>
+Lagos N°578<br>
+Pergamino, Buenos Aires<br>
+Tel: (02477) 426-237<br>
+E-mail: atsapergamino@fibertel.com.ar<br>
+[/leaflet-marker]
+
+[/su_tab]
+
+[su_tab title="ATSA" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet-map lat=-34.6118 lng=-58.403109 zoomcontrol=1 scrollwheel=1 fitbounds]
+
+[leaflet-marker lat=-34.6118 lng=-58.403109 title="BUENOS AIRES | ATSA"]
+<strong>BUENOS AIRES | ATSA</strong><br>
+SAAVEDRA N°166<br>
+Capital Federal, Buenos Aires, 1083<br>
+Tel: (011) 4959-7100<br>
+E-mail: sindicato@atsa.org.ar<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.413932 lng=-64.171327 title="CÓRDOBA | ATSA"]
+<strong>CÓRDOBA | ATSA</strong><br>
+LIMA N°877<br>
+Córdoba, Córdoba, 5000<br>
+Tel: (0351) 423-3882<br>
+E-mail: contaduriacba@arnetbiz.com.ar<br>
+Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643545 lng=-60.709914 title="SANTA FE | ATSA"]
+<strong>SANTA FE | ATSA</strong><br>
+1° DE MAYO N°2718<br>
+Santa Fe, Santa Fe, 3000<br>
+Tel: (0342) 455-2574<br>
+E-mail: sanidad@atsasantafe.org.ar<br>
+Web: <a href="http://www.atsasantafe.org.ar" target="_blank">www.atsasantafe.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.905079 lng=-57.958321 title="LA PLATA | ATSA"]
+<strong>LA PLATA | ATSA</strong><br>
+Calle 5 N°375<br>
+La Plata, Buenos Aires, 1900<br>
+Tel: (0221) 483-8573<br>
+E-mail: secretariageneral@atsalaplata.org.ar<br>
+Web: <a href="http://www.atsalaplata.org.ar" target="_blank">www.atsalaplata.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.898916 lng=-68.817942 title="MENDOZA | ATSA"]
+<strong>MENDOZA | ATSA</strong><br>
+25 de Mayo N°1745<br>
+Mendoza, Mendoza, 5500<br>
+Tel: (0261) 423-9666<br>
+E-mail: atsamza@speedy.com.ar<br>
+Web: <a href="http://www.atsamza.org.ar" target="_blank">www.atsamza.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731874 lng=-58.258964 title="QUILMES | ATSA"]
+<strong>QUILMES | ATSA</strong><br>
+Vicente Lopez N°1969<br>
+Quilmes, Buenos Aires, 1878<br>
+Tel: (011) 4350-7400<br>
+E-mail: atsaquilmes@speedy.com.ar<br>
+Web: <a href="http://www.atsaquilmes.org.ar" target="_blank">www.atsaquilmes.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.7359 lng=-60.5321 title="ENTRE RÍOS | ATSA"]
+<strong>ENTRE RÍOS | ATSA</strong><br>
+Gualeguaychu 599 esq. Pascual Palma<br>
+Paraná, Entre Ríos, 3100<br>
+Tel: (0343) 423-0029<br>
+E-mail: atsaentrerios@gmail.com<br>
+Web: <a href="http://www.atsaentrerios.com.ar" target="_blank">www.atsaentrerios.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.82093 lng=-65.214868 title="TUCUMÁN | ATSA"]
+<strong>TUCUMÁN | ATSA</strong><br>
+Suipacha N°553<br>
+San Miguel de Tucumán, Tucumán, 4000<br>
+Tel: (0381) 433-1665<br>
+Web: <a href="http://www.atsatucuman.org.ar" target="_blank">www.atsatucuman.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124919 lng=-64.351884 title="RÍO CUARTO | ATSA"]
+<strong>RÍO CUARTO | ATSA</strong><br>
+Cabrera N°930<br>
+Río Cuarto, Córdoba, 5800<br>
+Tel: (0358) 464-5789<br>
+E-mail: atsaculturayprensa_r4@yahoo.com.ar<br>
+Web: <a href="http://www.atsariocuarto.com.ar" target="_blank">www.atsariocuarto.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-37.992144 lng=-57.555147 title="MAR DEL PLATA | ATSA"]
+<strong>MAR DEL PLATA | ATSA</strong><br>
+20 de Septiembre N°1440<br>
+Mar del Plata, Buenos Aires, 7600<br>
+Tel: (0223) 475-2274<br>
+E-mail: atsamardelplata@yahoo.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.6511 lng=-58.624185 title="HURLINGHAM | ATSA"]
+<strong>HURLINGHAM | ATSA</strong><br>
+Almirante G. Brown N°1172<br>
+Morón, Buenos Aires, 1708<br>
+Tel: (011) 6074-8900<br>
+E-mail: secretariageneral@atsahurlingham.org<br>
+Web: <a href="http://www.atsahurlingham.org" target="_blank">www.atsahurlingham.org</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457102 lng=-58.988302 title="CHACO | ATSA"]
+<strong>CHACO | ATSA</strong><br>
+Rodriguez Peña N°275<br>
+Resistencia, Chaco, 3500<br>
+Tel: (0362) 444-9554<br>
+E-mail: atsachacoprensa2012@gmail.com<br>
+[/leaflet-marker]
+
+[/su_tab]
+[su_tab title="Todos" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet-map lat=-34.60977567877862 lng=-58.38135838508607 zoomcontrol=1 scrollwheel=1 fitbounds]
+[leaflet-marker lat=-38.717921 lng=-62.272172 title="Escuela de Enfermería | ATSA Bahía Blanca"]
+<strong>Escuela de Enfermería | ATSA Bahía Blanca</strong><br>
+Gorriti 146<br>
+Bahía Blanca<br>
+Tel: (0291) 451 1545<br>
+Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0007A.jpg" alt="Escuela de Enfermería"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.737282 lng=-58.397821 title="ATSA Zona Sur"]
+<strong>ATSA Zona Sur</strong><br>
+Hipólito Yrigoyen 7066<br>
+Banfield<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com" target="_blank">www.atsazonasur.com</a><br>
+Técnico en Radiología, Hemoterapia, Instrumentación Quirúrgica, Laboratorio. Profesionalización de Auxiliar en Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/noimage.jpg" alt="ATSA Zona Sur"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.458863 lng=-58.537676 title="Sede Beccar | ATSA Zona Norte"]
+<strong>Sede Beccar | ATSA Zona Norte</strong><br>
+Udaondo 417<br>
+Beccar<br>
+Tel: (011) 4846 4150<br>
+Web: <a href="http://www.atsazonanorte.org.ar" target="_blank">www.atsazonanorte.org.ar</a><br>
+Secundario. Técnico en Radiología, Instrumentación Quirúrgica, Laboratorio, Hemoterapia. Cursos de Computación. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0001A.jpg" alt="Sede Beccar"><br>
+Correo: lcapul@isalud.edu.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.467799 lng=-65.789321 title="ATSA Catamarca"]
+<strong>ATSA Catamarca</strong><br>
+Samuel Molina 178<br>
+Catamarca<br>
+Tel: (0383) 443 3566<br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0026A.png" alt="ATSA Catamarca"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.611985 lng=-58.401633 title="Instituto Amado Olmos | ATSA Bs As"]
+<strong>Instituto Amado Olmos | ATSA Bs As</strong><br>
+Alberti 191<br>
+Ciudad Autónoma de Buenos Aires<br>
+Tel: (011) 4959 7100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+Plan Fines. Técnico Superior en Enfermería Profesional, Hemoterapia, Instrumentación Quirúrgica, Laboratorio, Radiología. Curso Asistente Gerontológico. Profesionalización de Auxiliares en Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0015A.jpg" alt="Instituto Amado Olmos"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.414051 lng=-64.171562 title="Instituto Cruz del Sacrificio | ATSA Córdoba"]
+<strong>Instituto Cruz del Sacrificio | ATSA Córdoba</strong><br>
+Lima 871<br>
+Córdoba<br>
+Tel: (0351) 424 1542<br>
+Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+Enfermería Nivel Terciario. Hemoterapia e Inmunología. Instrumentación Quirúrgica. Bachillerato a Distancia para adultos. Cursos de Facturación. Cursos a Distancia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0014A.jpg" alt="Instituto Cruz del Sacrificio"><br>
+Correo: cruzdelsacrificio@fibertel.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.027202 lng=-67.571644 title="Instituto de Capacitación | ATSA Río Negro"]
+<strong>Instituto de Capacitación | ATSA Río Negro</strong><br>
+Rodhe 55<br>
+General Roca<br>
+Tel: (0298) 443 2918<br>
+Web: <a href="http://www.atsarionegro.com" target="_blank">www.atsarionegro.com</a><br>
+Tecnicatura en Acompañante Terapéutico. Cursos de Auxiliar Odontológico y Facturación en prestaciones Médicas. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0002A.jpg" alt="Instituto de Capacitación ATSA Río Negro"><br>
+Correo: institutosaludygestion@hotmail.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.186671 lng=-65.293594 title="ATSA Jujuy"]
+<strong>ATSA Jujuy</strong><br>
+3 Sargentos esquina Pasaje Suecia<br>
+Jujuy<br>
+Tel: (0388) 422 2936 int 112<br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0004A.jpg" alt="ATSA Jujuy"><br>
+Correo: gladysdelmilagro_pavon@hotmail.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.421213 lng=-58.578985 title="Isla I Marangatá | ATSA Bs As"]
+<strong>Isla I Marangatá | ATSA Bs As</strong><br>
+General Bartolomé Mitre 305<br>
+Tigre<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-35.597168 lng=-58.036900 title="Camping 21 de Septiembre | ATSA Bs As"]
+<strong>Camping 21 de Septiembre | ATSA Bs As</strong><br>
+Camino de Circunvalación Km. 16,500<br>
+Chascomús<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.966788 lng=-57.86303 title="Complejo 8 de Marzo | SSP"]
+<strong>Complejo 8 de Marzo | SSP</strong><br>
+Calle 635 entre 1 y 115<br>
+La Plata<br>
+Tel: (0221) 421 5405<br>
+Web: <a href="http://www.ssp.org.ar" target="_blank">www.ssp.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.565257 lng=-60.948829 title="Complejo Polideportivo | ATSA Junin"]
+<strong>Complejo Polideportivo | ATSA Junin</strong><br>
+Ruta 188 y Avenida República<br>
+Junin<br>
+Tel: (0236) 443 3815<br>
+Web: <a href="http://www.sanidadjunin.com.ar" target="_blank">www.sanidadjunin.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.770270 lng=-60.835515 title="Recreativo Otto Calace | ATSA Santa Fe"]
+<strong>Recreativo Otto Calace | ATSA Santa Fe</strong><br>
+Almirante Brown y Estrella Federal<br>
+Sauce Viejo<br>
+Tel: (0342) 455 2574<br>
+Web: <a href="http://www.atsasantafe.org.ar" target="_blank">www.atsasantafe.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.737734 lng=-60.485325 title="Complejo Camping | ATSA Entre Ríos"]
+<strong>Complejo Camping | ATSA Entre Ríos</strong><br>
+Don Bosco 2906<br>
+Paraná<br>
+Tel: (0343) 423 0029<br>
+Web: <a href="http://www.atsaentrerios.com.ar" target="_blank">www.atsaentrerios.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.261023 lng=-58.970021 title="Complejo Recreativo | ATSA Chaco"]
+<strong>Complejo Recreativo | ATSA Chaco</strong><br>
+R.N. 11 KM 1021 Dpto 1° de Mayo Margarita Belén<br>
+Chaco<br>
+Tel: (0362) 444 9554<br>
+Web: <a href="http://www.sanidadatsachaco.com.ar" target="_blank">www.sanidadatsachaco.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.689430 lng=-65.465913 title="Camping | ATSA San Luis"]
+<strong>Camping | ATSA San Luis</strong><br>
+Pringles 84<br>
+Villa Mercedes<br>
+Tel: (02657) 421 882<br>
+Web: <a href="http://www.atsafilialsanluis.com.ar" target="_blank">www.atsafilialsanluis.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.072901 lng=-65.976397 title="Hotel Cafayate | ATSA Salta"]
+<strong>Hotel Cafayate | ATSA Salta</strong><br>
+Cafayate<br>
+Tel: (0387) 425 6684<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.829677 lng=-68.122002 title="Camping Los Nonos | ATSA Neuquén"]
+<strong>Camping Los Nonos | ATSA Neuquén</strong><br>
+Calle 4 chacra 101<br>
+Centenario<br>
+Tel: (0299) 489 4856<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.848267 lng=-68.815909 title="Camping El Challao | ATSA Mendoza"]
+<strong>Camping El Challao | ATSA Mendoza</strong><br>
+Av. Champagnat y Arroyo Seco<br>
+Las Heras<br>
+Tel: (0261) 444 2167<br>
+Web: <a href="http://www.atsamza.org.ar" target="_blank">www.atsamza.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.382941 lng=-58.733581 title="Las Clavelinas | ATSA Zona Norte"]
+<strong>Las Clavelinas | ATSA Zona Norte</strong><br>
+Ruta Panamericana km 43.5 - Colectora Oeste<br>
+Ingeniero Maschwitz<br>
+Tel: (011) 4846 4150<br>
+Web: <a href="http://www.atsazonanorte.org.ar" target="_blank">www.atsazonanorte.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.500958 lng=-64.864539 title="Hotel ATSA | ATSA Tucumán"]
+<strong>Hotel ATSA | ATSA Tucumán</strong><br>
+Güemes N° 386-390<br>
+Termas de Río Hondo | Santiago del Estero<br>
+Tel: (03858) 422 005<br>
+Web: <a href="http://www.atsatucuman.org.ar" target="_blank">www.atsatucuman.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731893 lng=-58.259006 title="Recreativo Fernando Kelly | ATSA Quilmes"]
+<strong>Recreativo Fernando Kelly | ATSA Quilmes</strong><br>
+Calle 422 y 13<br>
+Villa Elisa<br>
+Tel: (011) 4350 7400<br>
+Web: <a href="http://www.atsaquilmes.org.ar" target="_blank">www.atsaquilmes.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.733330 lng=-65.408109 title="Hotel Sanidad | ATSA Salta"]
+<strong>Hotel Sanidad | ATSA Salta</strong><br>
+Av. San Antonio de los Cobres s/n<br>
+Salta<br>
+Tel: (0387) 425 6684<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.576813 lng=-68.521938 title="Camping Orlando Collado | ATSA San Juan"]
+<strong>Camping Orlando Collado | ATSA San Juan</strong><br>
+Rawson<br>
+Tel: (0264) 421 4388<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.039652 lng=-67.593373 title="Complejo Recreativo | ATSA Río Negro"]
+<strong>Complejo Recreativo | ATSA Río Negro</strong><br>
+Ruta 22 chacra 259<br>
+General Roca<br>
+Tel: (0298) 442 4672<br>
+Web: <a href="http://www.atsarionegro.com" target="_blank">www.atsarionegro.com</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.554960 lng=-58.740073 title="Camping Necochea | ATSA La Plata"]
+<strong>Camping Necochea | ATSA La Plata</strong><br>
+10 y 189<br>
+Villa Zabala | Necochea<br>
+Tel: (0221) 421 6023<br>
+Web: <a href="http://www.atsalaplata.org.ar" target="_blank">www.atsalaplata.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.998542 lng=-58.016540 title="Camping La Plata | ATSA La Plata"]
+<strong>Camping La Plata | ATSA La Plata</strong><br>
+Calle 66 y 185<br>
+La Plata<br>
+Tel: (0221) 496 1185<br>
+Web: <a href="http://www.atsalaplata.org.ar" target="_blank">www.atsalaplata.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.786829 lng=-64.265974 title="Polideportivo | ATSA Stgo del Estero"]
+<strong>Polideportivo | ATSA Stgo del Estero</strong><br>
+Puestito de San Antonio<br>
+Tel: (0385) 421 3463<br>
+Web: <a href="http://www.atsasgo.com.ar" target="_blank">www.atsasgo.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.751397 lng=-58.487679 title="Recreativo Pasteleros | ATSA Zona Sur"]
+<strong>Recreativo Pasteleros | ATSA Zona Sur</strong><br>
+Ruta de la Tradición (Ex Camino de Cintura) 6455<br>
+Esteban Echeverría<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com" target="_blank">www.atsazonasur.com</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.405263 lng=-64.500125 title="Gran Hotel Casablanca | ATSA Córdoba"]
+<strong>Gran Hotel Casablanca | ATSA Córdoba</strong><br>
+Bv. Sarmiento 1001<br>
+Villa Carlos Paz<br>
+Tel: (0351) 423 3885 Int 105<br>
+Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.711596 lng=-62.269955 title="Complejo el Oasis | ATSA Bahía Blanca"]
+<strong>Complejo el Oasis | ATSA Bahía Blanca</strong><br>
+Monseñor de Andrea y 3 de Febrero<br>
+Bahía Blanca<br>
+Tel: (0291) 452 8961<br>
+Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.704559 lng=-62.268423 title="Club Atlético Liniers | ATSA Bahía Blanca"]
+<strong>Club Atlético Liniers | ATSA Bahía Blanca</strong><br>
+Avenida Alem 1089<br>
+Bahía Blanca<br>
+Tel: (0291) 452 8961<br>
+Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.287751 lng=-60.270150 title="Camping ACA | ATSA San Nicolás"]
+<strong>Camping ACA | ATSA San Nicolás</strong><br>
+Ruta 21, Km 242<br>
+San Nicolás de los Arroyos<br>
+Tel: (0336) 445 3805<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124942 lng=-64.352103 title="Círculo de Oficiales | ATSA Río Cuarto"]
+<strong>Círculo de Oficiales | ATSA Río Cuarto</strong><br>
+Cabrera 930<br>
+Río Cuarto<br>
+Tel: (0358) 464 5789<br>
+Web: <a href="http://www.atsariocuarto.com.ar" target="_blank">www.atsariocuarto.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.611754 lng=-58.403259 title="BUENOS AIRES | OSPSA"]
+<strong>BUENOS AIRES | OSPSA</strong><br>
+Venezuela 2359<br>
+Capital Federal, Buenos Aires<br>
+Tel: (011) 4943-9400<br>
+E-mail: ospsa@sanidad.org.ar<br>
+Horario: LaV 08:00 a 19:30<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.403502 lng=-64.1746 title="CÓRDOBA | OSPSA"]
+<strong>CÓRDOBA | OSPSA</strong><br>
+Cochabamba 940<br>
+Córdoba, Córdoba<br>
+Tel: (0351) 556-0400<br>
+E-mail: contaduria@ospsacordoba.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643545 lng=-60.709914 title="SANTA FE | OSPSA"]
+<strong>SANTA FE | OSPSA</strong><br>
+Salta 2828<br>
+Santa Fe, Santa Fe<br>
+Tel: (0342) 454-7400<br>
+E-mail: obrasocialstafe@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.905079 lng=-57.958321 title="LA PLATA | OSPSA"]
+<strong>LA PLATA | OSPSA</strong><br>
+Calle 5 N°375<br>
+La Plata, Buenos Aires<br>
+Tel: (0221) 483-8573<br>
+E-mail: secretariageneral@atsalaplata.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.897953 lng=-68.826224 title="MENDOZA | OSPSA"]
+<strong>MENDOZA | OSPSA</strong><br>
+25 de Mayo N°722<br>
+Mendoza, Mendoza<br>
+Tel: (0261) 423-6622<br>
+E-mail: mendoza@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731874 lng=-58.258964 title="QUILMES | OSPSA"]
+<strong>QUILMES | OSPSA</strong><br>
+Vicente Lopez N°1969<br>
+Quilmes, Buenos Aires<br>
+Tel: (011) 4350-7400<br>
+E-mail: mauditorquilmes@sanidad.org.ar<br>
+Horario: LaV 08:00 a 18:00<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.721044 lng=-60.525839 title="ENTRE RÍOS | OSPSA"]
+<strong>ENTRE RÍOS | OSPSA</strong><br>
+Monte Caseros 373<br>
+Paraná, Entre Ríos<br>
+Tel: (0343) 423-1466<br>
+E-mail: entrerios@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.820777 lng=-65.219203 title="TUCUMÁN | OSPSA"]
+<strong>TUCUMÁN | OSPSA</strong><br>
+Santiago del Estero N°1578<br>
+Tucumán, Tucumán<br>
+Tel: (0381) 432-2296<br>
+E-mail: ospsatucuman@gmail.com<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124919 lng=-64.351884 title="RÍO CUARTO | OSPSA"]
+<strong>RÍO CUARTO | OSPSA</strong><br>
+Cabrera N°930<br>
+Río Cuarto, Córdoba<br>
+Tel: (0358) 464-5789<br>
+E-mail: riocuarto@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-37.993704 lng=-57.559289 title="MAR DEL PLATA | OSPSA"]
+<strong>MAR DEL PLATA | OSPSA</strong><br>
+Dorrego N°1752<br>
+Mar del Plata, Buenos Aires<br>
+Tel: (0223) 473-6501<br>
+E-mail: mardelplata@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.651791 lng=-58.616766 title="HURLINGHAM | OSPSA"]
+<strong>HURLINGHAM | OSPSA</strong><br>
+Almirante Brown 1.172<br>
+Moron, Buenos Aires<br>
+Tel: (011) 4628-7006<br>
+E-mail: afiliahurlingham@sanidad.org.ar<br>
+Horario: LaV 09:00 a 18:00<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457102 lng=-58.988302 title="CHACO | OSPSA"]
+<strong>CHACO | OSPSA</strong><br>
+Rodriguez Peña N°275<br>
+Resistencia, Chaco<br>
+Tel: (0362) 444-9554<br>
+E-mail: afiliachaco@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.931015 lng=-57.582433 title="CORRIENTES | OSPSA"]
+<strong>CORRIENTES | OSPSA</strong><br>
+Pasaje Alvarez N°843<br>
+Corrientes, Corrientes<br>
+Tel: (03794) 464-763<br>
+E-mail: corrientes@sanidad.org.ar<br>
+Horario: LaV 08:00 a 15:00<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.676475 lng=-59.666059 title="SAN PEDRO | OSPSA"]
+<strong>SAN PEDRO | OSPSA</strong><br>
+Belgrano N°589<br>
+San Pedro, Buenos Aires<br>
+Tel: (03329) 426-949<br>
+E-mail: sanpedro@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.791819 lng=-65.417794 title="SALTA | OSPSA"]
+<strong>SALTA | OSPSA</strong><br>
+Urquiza N°1070<br>
+Salta, Salta<br>
+Tel: (0387) 421-2552<br>
+E-mail: salta@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.723212 lng=-62.266004 title="BAHÍA BLANCA | OSPSA"]
+<strong>BAHÍA BLANCA | OSPSA</strong><br>
+Fitz Roy N°192<br>
+Bahía Blanca, Buenos Aires<br>
+Tel: (0291) 452-8961<br>
+E-mail: bahiablanca@sanidad.org.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.788137 lng=-64.253929 title="STGO DEL ESTERO | OSPSA"]
+<strong>STGO DEL ESTERO | OSPSA</strong><br>
+Mendoza N°133<br>
+Santiago del Estero, Santiago del Estero<br>
+Tel: (0385) 422-7758<br>
+E-mail: andreamend2003@hotmail.com<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.5381 lng=-68.513931 title="SAN JUAN | OSPSA"]
+<strong>SAN JUAN | OSPSA</strong><br>
+Santa Fe N°856<br>
+San Juan, San Juan<br>
+Tel: (0264) 421-4388<br>
+E-mail: reymundoalfredoduarte@gmail.com<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.890408 lng=-60.570924 title="PERGAMINO | OSPSA"]
+<strong>PERGAMINO | OSPSA</strong><br>
+Lagos N°578<br>
+Pergamino, Buenos Aires<br>
+Tel: (02477) 426-237<br>
+E-mail: atsapergamino@fibertel.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.6118 lng=-58.403109 title="BUENOS AIRES | ATSA"]
+<strong>BUENOS AIRES | ATSA</strong><br>
+SAAVEDRA N°166<br>
+Capital Federal, Buenos Aires, 1083<br>
+Tel: (011) 4959-7100<br>
+E-mail: sindicato@atsa.org.ar<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.413932 lng=-64.171327 title="CÓRDOBA | ATSA"]
+<strong>CÓRDOBA | ATSA</strong><br>
+LIMA N°877<br>
+Córdoba, Córdoba, 5000<br>
+Tel: (0351) 423-3882<br>
+E-mail: contaduriacba@arnetbiz.com.ar<br>
+Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643545 lng=-60.709914 title="SANTA FE | ATSA"]
+<strong>SANTA FE | ATSA</strong><br>
+1° DE MAYO N°2718<br>
+Santa Fe, Santa Fe, 3000<br>
+Tel: (0342) 455-2574<br>
+E-mail: sanidad@atsasantafe.org.ar<br>
+Web: <a href="http://www.atsasantafe.org.ar" target="_blank">www.atsasantafe.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.905079 lng=-57.958321 title="LA PLATA | ATSA"]
+<strong>LA PLATA | ATSA</strong><br>
+Calle 5 N°375<br>
+La Plata, Buenos Aires, 1900<br>
+Tel: (0221) 483-8573<br>
+E-mail: secretariageneral@atsalaplata.org.ar<br>
+Web: <a href="http://www.atsalaplata.org.ar" target="_blank">www.atsalaplata.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.898916 lng=-68.817942 title="MENDOZA | ATSA"]
+<strong>MENDOZA | ATSA</strong><br>
+25 de Mayo N°1745<br>
+Mendoza, Mendoza, 5500<br>
+Tel: (0261) 423-9666<br>
+E-mail: atsamza@speedy.com.ar<br>
+Web: <a href="http://www.atsamza.org.ar" target="_blank">www.atsamza.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731874 lng=-58.258964 title="QUILMES | ATSA"]
+<strong>QUILMES | ATSA</strong><br>
+Vicente Lopez N°1969<br>
+Quilmes, Buenos Aires, 1878<br>
+Tel: (011) 4350-7400<br>
+E-mail: atsaquilmes@speedy.com.ar<br>
+Web: <a href="http://www.atsaquilmes.org.ar" target="_blank">www.atsaquilmes.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.7359 lng=-60.5321 title="ENTRE RÍOS | ATSA"]
+<strong>ENTRE RÍOS | ATSA</strong><br>
+Gualeguaychu 599 esq. Pascual Palma<br>
+Paraná, Entre Ríos, 3100<br>
+Tel: (0343) 423-0029<br>
+E-mail: atsaentrerios@gmail.com<br>
+Web: <a href="http://www.atsaentrerios.com.ar" target="_blank">www.atsaentrerios.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.82093 lng=-65.214868 title="TUCUMÁN | ATSA"]
+<strong>TUCUMÁN | ATSA</strong><br>
+Suipacha N°553<br>
+San Miguel de Tucumán, Tucumán, 4000<br>
+Tel: (0381) 433-1665<br>
+Web: <a href="http://www.atsatucuman.org.ar" target="_blank">www.atsatucuman.org.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124919 lng=-64.351884 title="RÍO CUARTO | ATSA"]
+<strong>RÍO CUARTO | ATSA</strong><br>
+Cabrera N°930<br>
+Río Cuarto, Córdoba, 5800<br>
+Tel: (0358) 464-5789<br>
+E-mail: atsaculturayprensa_r4@yahoo.com.ar<br>
+Web: <a href="http://www.atsariocuarto.com.ar" target="_blank">www.atsariocuarto.com.ar</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-37.992144 lng=-57.555147 title="MAR DEL PLATA | ATSA"]
+<strong>MAR DEL PLATA | ATSA</strong><br>
+20 de Septiembre N°1440<br>
+Mar del Plata, Buenos Aires, 7600<br>
+Tel: (0223) 475-2274<br>
+E-mail: atsamardelplata@yahoo.com.ar<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.6511 lng=-58.624185 title="HURLINGHAM | ATSA"]
+<strong>HURLINGHAM | ATSA</strong><br>
+Almirante G. Brown N°1172<br>
+Morón, Buenos Aires, 1708<br>
+Tel: (011) 6074-8900<br>
+E-mail: secretariageneral@atsahurlingham.org<br>
+Web: <a href="http://www.atsahurlingham.org" target="_blank">www.atsahurlingham.org</a><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457102 lng=-58.988302 title="CHACO | ATSA"]
+<strong>CHACO | ATSA</strong><br>
+Rodriguez Peña N°275<br>
+Resistencia, Chaco, 3500<br>
+Tel: (0362) 444-9554<br>
+E-mail: atsachacoprensa2012@gmail.com<br>
+[/leaflet-marker]
+[/su_tab]
+
+[/su_tabs]
