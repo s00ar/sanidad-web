@@ -1,0 +1,330 @@
+function leaflet_map_shortcode_atsa() {
+    ob_start();
+    ?>
+	[leaflet-map lat=-34.611754 lng=-58.403259 zoomcontrol=1 scrollwheel=1 ]
+    
+    [leaflet-marker lat= lng= title="SUTSER" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SUTSER</strong><br>
+    <br>
+    ENTRE RIOS0<br>
+    Tel: <br>
+    Titular: <br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.6118,- lng=8.403109 title="BUENOS AIRES" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>BUENOS AIRES</strong><br>
+    SAAVEDRA N°166<br>
+    CAPITAL FEDERAL<br>
+    Tel: (011) 4959 -7100<br>
+    Titular: HÉCTOR DAER<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.413932 lng=-64.171327 title="CORDOBA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>CORDOBA</strong><br>
+    LIMA N°877<br>
+    CORDOBA<br>
+    Tel: (0351) 423-3882<br>
+    Titular: RICARDO LÓPEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.643545 lng=-60.709914 title="SANTA FE" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SANTA FE</strong><br>
+    1° DE MAYO N° 2718<br>
+    SANTA FE<br>
+    Tel: (0342) 455-2574<br>
+    Titular: LIDIA ORTEGA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.905079 lng=-57.958321 title="LA PLATA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>LA PLATA</strong><br>
+    CALLE 5 N°375<br>
+    LA PLATA<br>
+    Tel: (0221) 483-8573  <br>
+    Titular: PEDRO F. BORGINI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-32.898916 lng=-68.817942 title="MENDOZA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>MENDOZA</strong><br>
+    25 DE MAYO N° 1745<br>
+    MENDOZA<br>
+    Tel: (0261) 423-9666 <br>
+    Titular: PATRICIA EDITH IRRUTIA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.731874 lng=-58.258964 title="QUILMES" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>QUILMES</strong><br>
+    VICENTE LOPEZ N° 1969<br>
+    QUILMES<br>
+    Tel: (011) 4350-7400<br>
+    Titular: RAMÓN RICARDO ROMERO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.7359,- lng=0.5321 title="ENTRE RÍOS" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>ENTRE RÍOS</strong><br>
+    GUALEGUAYCHU 599 esq Pascual Palma<br>
+    PARANÁ<br>
+    Tel: (0343) 423-0029<br>
+    Titular: MARIELA PONCE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-26.82093, lng=65.214868 title="TUCUMÁN" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>TUCUMÁN</strong><br>
+    SUIPACHA N°553<br>
+    TUCUMÁN<br>
+    Tel: (0381) 433-1665<br>
+    Titular: EDGAR RENEÉ RAMIREZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.124919 lng=-64.351884 title="RÍO CUARTO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>RÍO CUARTO</strong><br>
+    CABRERA N° 930<br>
+    RÍO CUARTO<br>
+    Tel: (0358) 464-5789<br>
+    Titular: CRISTINA FERNANDEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-37.992144 lng=-57.555147 title="MAR DEL PLATA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>MAR DEL PLATA</strong><br>
+    20 DE SPTIEMBRE N°1440<br>
+    MAR DEL PLATA<br>
+    Tel: (0223) 475-2274 <br>
+    Titular: LAURA DEL PIR<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.6511,- lng=8.624185 title="HURLINGHAM" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>HURLINGHAM</strong><br>
+    ALMIRANTE G. BROWN 1172<br>
+    MORON <br>
+    Tel: (011) 6074-8900<br>
+    Titular: JORGE VICTOR D´ANDREA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.457102 lng=-58.988302 title="CHACO " iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>CHACO </strong><br>
+    RODRIGUEZ PEÑA N°275<br>
+    RESISTENCIA<br>
+    Tel: (0362)444 9554 <br>
+    Titular: ADRIÁN BELLOMI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.4698,- lng=8.8166 title="CORRIENTES" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>CORRIENTES</strong><br>
+    PLAYA MIRAMAR N°832<br>
+    CORRIENTES<br>
+    Tel: (03794) 422-087<br>
+    Titular: ROBERTO GUIDO TELLO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.676475 lng=-59.666059 title="SAN PEDRO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SAN PEDRO</strong><br>
+    BELGRANO N°589<br>
+    SAN PEDRO<br>
+    Tel: (03329) 426-949<br>
+    Titular: NILDA IGLESIAS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-24.791819 lng=-65.417794 title="SALTA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SALTA</strong><br>
+    URQUIZA N°1070<br>
+    SALTA<br>
+    Tel: (0387) 421-2552 <br>
+    Titular: EDUARDO RAMOS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-38.723212 lng=-62.266004 title="BAHÍA BLANCA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>BAHÍA BLANCA</strong><br>
+    FITZ ROY N° 192<br>
+    BAHÍA BLANCA<br>
+    Tel: (0291) 452-8961 <br>
+    Titular: HUGO MODARELLI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.788498 lng=-64.255367 title="STGO DEL ESTERO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>STGO DEL ESTERO</strong><br>
+    URQUIZA N°324<br>
+    STGO DEL ESTERO<br>
+    Tel: (0385) 421-3463 <br>
+    Titular: RODOLFO JOSE ARCE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.5382,- lng=8.5139 title="SAN JUAN" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SAN JUAN</strong><br>
+    SANTA FE N°856 (ESTE )<br>
+    SAN JUAN<br>
+    Tel: (0264) 4214388<br>
+    Titular: REYMUNDO ALFREDO DUARTE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.890408 lng=-60.570924 title="PERGAMINO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>PERGAMINO</strong><br>
+    LAGOS N°578<br>
+    PERGAMINO<br>
+    Tel: (02477) 426-237 <br>
+    Titular: GRACIELA SIBAT<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-24.186686 lng=-65.293572 title="JUJUY" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>JUJUY</strong><br>
+    3 Sargentos esq. Pasaje Suecia<br>
+    S.S DE JUJUY<br>
+    Tel:  (0388) 422-2936  <br>
+    Titular: CLAUDIA VIVIANA LOPEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-29.410517 lng=-66.852797 title="LA RIOJA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>LA RIOJA</strong><br>
+    San Nicolas de Bari 1144<br>
+    LA RIOJA<br>
+    Tel: (0380) 442-8434  <br>
+    Titular: NICOLÁS I. DE LA FUENTE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.689442 lng=-65.465816 title="SAN LUIS" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SAN LUIS</strong><br>
+    PRINGLES N°84<br>
+    VILLA MERCEDES<br>
+    Tel: (02657) 421-882<br>
+    Titular: ANÍBAL HÉCTOR GOMEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.430238 lng=-62.078143 title="SAN FRANCISCO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SAN FRANCISCO</strong><br>
+    BOULEVARD GARIBALDI N°43<br>
+    SAN FRANCISCO<br>
+    Tel: (03564) 426-137 <br>
+    Titular: GABRIELA ALEJANDRA SIDLER<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-43.253799 lng=-65.318273 title="CHUBUT" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>CHUBUT</strong><br>
+    MARCONI N° 171<br>
+    TRELEW<br>
+    Tel: (0280) 443-2468<br>
+    Titular: SARA BARRERA DE OLMOS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-35.656965 lng=-63.754481 title="LA PAMPA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>LA PAMPA</strong><br>
+    RIVADAVIA 335 LOC.3<br>
+    SANTA ROSA<br>
+    Tel: (02954) 413288<br>
+    Titular: MIRTA ERRO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-26.192374 lng=-58.182224 title="FORMOSA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>FORMOSA</strong><br>
+    PANTALEON GOMEZ N°1187<br>
+    FORMOSA<br>
+    Tel: (0370) 4432-551<br>
+    Titular: CARMEN IRENE FERREYRA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.356312 lng=-55.892776 title="MISIONES" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>MISIONES</strong><br>
+    IVANOWSKY N° 1845<br>
+    POSADAS<br>
+    Tel: (0376) 443-8184<br>
+    Titular: IRMA RACZKOWSKI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.330156 lng=-60.222425 title="SAN NICOLÁS" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SAN NICOLÁS</strong><br>
+    LAVALLE N° 267<br>
+    SAN NICOLAS DE LOS ARROYOS<br>
+    Tel: (0336) 445-3805 <br>
+    Titular: MÓNICA CHUNGO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-28.467748 lng=-65.789376 title="CATAMARCA " iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>CATAMARCA </strong><br>
+    SAMUEL MOLINA N° 178<br>
+    CATAMARCA<br>
+    Tel: (03834) 43-3566<br>
+    Titular: LEONARDO BURGOS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-38.946744 lng=-68.054105 title="NEUQUÉN" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>NEUQUÉN</strong><br>
+    DIAGONAL ESPAÑA 175<br>
+    NEUQUEN<br>
+    Tel: (0299) 448-8503<br>
+    Titular: ADALIA NICOLAU<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-39.0391,- lng=7.5781 title="RÍO NEGRO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>RÍO NEGRO</strong><br>
+    ESPAÑA 1718<br>
+    GRAL. ROCA<br>
+    Tel: (0298) 4424672<br>
+    Titular: GLORIA DELFA NOEMI OVEJERO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-51.629753 lng=-69.206231 title="SANTA CRUZ" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SANTA CRUZ</strong><br>
+    ALVEAR N° 840<br>
+    RÍO GALLEGOS <br>
+    Tel: (02966) 425-379<br>
+    Titular: SILVIA LEIVA CELSA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.59535, lng=60.950966 title="JUNIN" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>JUNIN</strong><br>
+    BENITO DE MIGUEL N°239<br>
+    JUNIN<br>
+    Tel: (0236) 443-3815 <br>
+    Titular: HÉCTOR AZIL<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.395499 lng=-58.025325 title="CONCORDIA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>CONCORDIA</strong><br>
+    SAN MARTÍN N° 322<br>
+    CONCORDIA<br>
+    Tel: (0345) 422-7282 <br>
+    Titular: LUCIA GRACIELA TRINIDAD<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.48652, lng=58.615844 title="ZONA NORTE" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>ZONA NORTE</strong><br>
+    FRAY JUSTO SANTA MARÍA DE ORO N°1528<br>
+    DON TORCUATO<br>
+    Tel: 4846-4150 <br>
+    Titular: NÉSTOR GENTA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.737293 lng=-58.397786 title="ZONA SUR" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>ZONA SUR</strong><br>
+    HIPOLITO YRIGOYEN N°7066<br>
+    BANFIELD<br>
+    Tel: (011) 5088-2100<br>
+    Titular: SERGIO OYHAMBURU<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-53.792223 lng=-67.703787 title="TIERRA DEL FUEGO" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>TIERRA DEL FUEGO</strong><br>
+    FRANCISCO BILBAO N°308<br>
+    RÍO GRANDE<br>
+    Tel: (02964) 423-523 <br>
+    Titular: CLAUDIA ETCHEPARE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.913662 lng=-57.95885 title="SIND. SALUD PUBLICA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>SIND. SALUD PUBLICA</strong><br>
+    CALLE 44 N° 771 E/10 Y 11<br>
+    LA PLATA<br>
+    Tel: (0221) 422- 9979 <br>
+    Titular: MIGUEL ÁNGEL ZUBIETA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.413932 lng=-64.171327 title="OLIVA" iconUrl="/wp-content/uploads/2024/09/ATSA.png"]
+    <strong>OLIVA</strong><br>
+    LEANDRO N. ALEM ESQ. SAN LORENZO<br>
+    OLIVA<br>
+    Tel: (03532) 422-629 <br>
+    Titular: VICTOR OLARIAGA<br>
+    [/leaflet-marker]
+
+    <?php
+    return ob_get_clean();
+}
+
+add_shortcode('leaflet_map_atsa', 'leaflet_map_shortcode_atsa');

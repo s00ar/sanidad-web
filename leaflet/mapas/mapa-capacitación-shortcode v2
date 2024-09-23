@@ -1,0 +1,92 @@
+function leaflet_map_shortcode_capacitacion() {
+    ob_start();
+    ?>
+    [leaflet-map lat=-34.60977567877862 lng=-38.38135838508607 zoomcontrol=1 scrollwheel=1 ]
+    
+    [leaflet-marker lat=-38.717921 lng=-62.272172 title="Escuela de Enfermería | ATSA Bahía Blanca" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>Escuela de Enfermería | ATSA Bahía Blanca</strong><br>
+    Gorriti 146<br>
+    Bahía Blanca<br>
+    Tel: (0291) 451 1545<br>
+    Web: <a href="http://www.atsabahiablanca.org.ar" target="_blank">www.atsabahiablanca.org.ar</a><br>
+    Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0007A.jpg" alt="Escuela de Enfermería"><br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-34.737282 lng=-58.397821 title="ATSA Zona Sur" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>ATSA Zona Sur</strong><br>
+    Hipólito Yrigoyen 7066<br>
+    Banfield<br>
+    Tel: (011) 5088 2100<br>
+    Web: <a href="http://www.atsazonasur.com" target="_blank">www.atsazonasur.com</a><br>
+    Técnico en Radiología, Hemoterapia, Instrumentación Quirúrgica, Laboratorio. Profesionalización de Auxiliar en Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/noimage.jpg" alt="ATSA Zona Sur"><br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-34.458863 lng=-58.537676 title="Sede Beccar | ATSA Zona Norte" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>Sede Beccar | ATSA Zona Norte</strong><br>
+    Udaondo 417<br>
+    Beccar<br>
+    Tel: (011) 4846 4150<br>
+    Web: <a href="http://www.atsazonanorte.org.ar" target="_blank">www.atsazonanorte.org.ar</a><br>
+    Secundario. Técnico en Radiología, Instrumentación Quirúrgica, Laboratorio, Hemoterapia. Cursos de Computación. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0001A.jpg" alt="Sede Beccar"><br>
+    Correo: lcapul@isalud.edu.ar<br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-28.467799 lng=-65.789321 title="ATSA Catamarca" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>ATSA Catamarca</strong><br>
+    Samuel Molina 178<br>
+    Catamarca<br>
+    Tel: (0383) 443 3566<br>
+    Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0026A.png" alt="ATSA Catamarca"><br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-34.611985 lng=-58.401633 title="Instituto Amado Olmos | ATSA Bs As" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>Instituto Amado Olmos | ATSA Bs As</strong><br>
+    Alberti 191<br>
+    Ciudad Autónoma de Buenos Aires<br>
+    Tel: (011) 4959 7100<br>
+    Web: <a href="http://www.atsa.org.ar" target="_blank">www.atsa.org.ar</a><br>
+    Plan Fines. Técnico Superior en Enfermería Profesional, Hemoterapia, Instrumentación Quirúrgica, Laboratorio, Radiología. Curso Asistente Gerontológico. Profesionalización de Auxiliares en Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0015A.jpg" alt="Instituto Amado Olmos"><br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-31.414051 lng=-64.171562 title="Instituto Cruz del Sacrificio | ATSA Córdoba" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>Instituto Cruz del Sacrificio | ATSA Córdoba</strong><br>
+    Lima 871<br>
+    Córdoba<br>
+    Tel: (0351) 424 1542<br>
+    Web: <a href="http://www.sanidadatsacba.com.ar" target="_blank">www.sanidadatsacba.com.ar</a><br>
+    Enfermería Nivel Terciario. Hemoterapia e Inmunología. Instrumentación Quirúrgica. Bachillerato a Distancia para adultos. Cursos de Facturación. Cursos a Distancia.<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0014A.jpg" alt="Instituto Cruz del Sacrificio"><br>
+    Correo: cruzdelsacrificio@fibertel.com.ar<br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-39.027202 lng=-67.571644 title="Instituto de Capacitación | ATSA Río Negro" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>Instituto de Capacitación | ATSA Río Negro</strong><br>
+    Rodhe 55<br>
+    General Roca<br>
+    Tel: (0298) 443 2918<br>
+    Web: <a href="http://www.atsarionegro.com" target="_blank">www.atsarionegro.com</a><br>
+    Tecnicatura en Acompañante Terapéutico. Cursos de Auxiliar Odontológico y Facturación en prestaciones Médicas. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0002A.jpg" alt="Instituto de Capacitación ATSA Río Negro"><br>
+    Correo: institutosaludygestion@hotmail.com.ar<br>
+    [/leaflet-marker]
+    
+    [leaflet-marker lat=-24.186671 lng=-65.293594 title="ATSA Jujuy" iconUrl="/wp-content/uploads/2024/09/Capacitacion.png"]
+    <strong>ATSA Jujuy</strong><br>
+    3 Sargentos esquina Pasaje Suecia<br>
+    Jujuy<br>
+    Tel: (0388) 422 2936 int 112<br>
+    Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+    <img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0004A.jpg" alt="ATSA Jujuy"><br>
+    Correo: gladysdelmilagro_pavon@hotmail.com.ar<br>
+    [/leaflet-marker]
+    
+    <?php
+    return ob_get_clean();
+}
+
+add_shortcode('leaflet_map_capacitacion', 'leaflet_map_shortcode_capacitacion');
