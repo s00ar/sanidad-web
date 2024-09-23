@@ -1,0 +1,1188 @@
+function leaflet_map_shortcode_todos() {
+    ob_start();
+    ?>
+	[leaflet-map lat=-34.611754 lng=-58.403259 zoomcontrol=1 scrollwheel=1 ]
+    
+<!-- CAPACITACIÓN -->
+[leaflet-marker lat=-38.717921 lng=-62.272172 title="Escuela de Enfermería | ATSA Bahía Blanca"]
+<strong>Escuela de Enfermería | ATSA Bahía Blanca</strong><br>
+Gorriti 146
+<br>
+Bahía Blanca<br>
+Tel: (0291) 451 1545<br>
+Web: <a href="http://www.atsabahiablanca.org.ar/" target="_blank">http://www.atsabahiablanca.org.ar/</a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0007A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.659996 lng=-58.622813 title="Escuela de Enfermería | ATSA Hurlingham"]
+<strong>Escuela de Enfermería | ATSA Hurlingham</strong><br>
+San Martín 1060
+<br>
+Morón<br>
+Tel: (011) 4483 5827
+<br>
+Web: <a href="http://www.atsahurlingham.org/" target="_blank">http://www.atsahurlingham.org/</a><br>
+ Tecnicatura en Enfermería, Radiología. Auxiliar de Familia (Geriatría). Cursos de Computación. Administrador Contable. Profesionalización de Auxiliar de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0003A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.027202 lng= -67.57164 title="Instituto de Capacitación | ATSA Río Negro"]
+<strong>Instituto de Capacitación | ATSA Río Negro</strong><br>
+Rodhe 55
+<br>
+General Roca<br>
+Tel: (0298) 443 2918
+<br>
+Web: <a href="http://www.atsarionegro.com " target="_blank">http://www.atsarionegro.com </a><br>
+Tecnicatura en Acompañante Terapéutico. Cursos de Auxiliar Odontologico y Facturación en prestaciones Medicas. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0002A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.414051 lng=-64.171562 title="Instituto Cruz del Sacrificio | ATSA Córdoba"]
+<strong>Instituto Cruz del Sacrificio | ATSA Córdoba</strong><br>
+Lima 871
+<br>
+Córdoba<br>
+Tel: (0351) 424 1542
+<br>
+Web: <a href="http://www.sanidadatsacba.com.ar/" target="_blank">http://www.sanidadatsacba.com.ar/</a><br>
+Enfermería Nivel Terciario. Hemoterapia e Inmunología. Instrumentación Quirúrgica. Bachillerato a Distancia para adultos. Cursos de Facturación. Cursos a Distancia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0014A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.430447 lng= -62.10558 title="Teresa de Calcuta | ATSA San Francisco"]
+<strong>Teresa de Calcuta | ATSA San Francisco</strong><br>
+Belgrano 2158<br>
+San Francisco<br>
+Tel: (03564) 1556 0972<br>
+Web: <a href="" target="_blank"></a><br>
+Enfermería Profesional.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0018A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.186671 lng= -65.29359 title="ATSA Jujuy"]
+<strong>ATSA Jujuy</strong><br>
+3 Sargentos esquina Pasaje Suecia
+<br>
+Jujuy<br>
+Tel: (0388) 422 2936 int 112
+<br>
+Web: <a href="" target="_blank"></a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0004A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.689354 lng= -65.46591 title="ATSA San Luis "]
+<strong>ATSA San Luis </strong><br>
+Pringles 84 
+<br>
+Villa Mercedes<br>
+Tel: (02657) 421 882
+<br>
+Web: <a href="http://www.atsafilialsanluis.com.ar" target="_blank">http://www.atsafilialsanluis.com.ar</a><br>
+Cursos a Distancia. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0006A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.721024 lng= -58.26274 title="ATSA Quilmes"]
+<strong>ATSA Quilmes</strong><br>
+Colón 21
+<br>
+Quilmes<br>
+Tel: (011) 4253 7292
+<br>
+Web: <a href="http://www.atsaquilmes.org.ar/" target="_blank">http://www.atsaquilmes.org.ar/</a><br>
+ Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0010A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.786736 lng= -64.25719 title="ATSA Santiago del Estero"]
+<strong>ATSA Santiago del Estero</strong><br>
+Avellaneda 340
+<br>
+Santiago del Estero<br>
+Tel: (0385) 425 7724
+<br>
+Web: <a href="http://www.atsasgo.com.ar/" target="_blank">http://www.atsasgo.com.ar/</a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0012A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.458863 lng= -58.53767 title="Sede Beccar | ATSA Zona Norte"]
+<strong>Sede Beccar | ATSA Zona Norte</strong><br>
+Udaondo 417     <br>
+Beccar<br>
+Tel: (011) 4846 4150
+<br>
+Web: <a href="http://www.atsazonanorte.org.ar" target="_blank">http://www.atsazonanorte.org.ar</a><br>
+Secundario. Técnico en Radiología, Instrumentación Quirúrgica, Laboratorio, Hemoterapia. Cursos de Computación. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0001A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.820952 lng= -65.21488 title="ATSA Tucumán"]
+<strong>ATSA Tucumán</strong><br>
+Suipacha 553<br>
+Tucumán<br>
+Tel: (0381) 423 8840<br>
+Web: <a href="www.atsatucuman.org.ar" target="_blank">www.atsatucuman.org.ar</a><br>
+Enfermería Profesional. Técnico en Esterilización. Técnico en Análisis Clínicos. Cursos de Informática. Formación Hospitalaria. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0021A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.910611 lng= -57.95424 title="Instituto de Capacitación | SSP"]
+<strong>Instituto de Capacitación | SSP</strong><br>
+Diagonal 77 N°875<br>
+La Plata<br>
+Tel: (0221) 424-0313 | 427-1917<br>
+Web: <a href="http://www.ssp.org.ar/" target="_blank">http://www.ssp.org.ar/</a><br>
+Tecnicaturas Radiología, Enfermería, Hematología, Instrumentación Quirúrgica, Análisis Clínicos, Seguridad e Higiene. Cursos de Formación Profesional.  Cursos Post Título. Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0011A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.737282 lng= -58.39782 title="ATSA Zona Sur"]
+<strong>ATSA Zona Sur</strong><br>
+Hipólito Yrigoyen 7066<br>
+Banfield<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com/" target="_blank">http://www.atsazonasur.com/</a><br>
+Técnico en Radiología, Hemoterapia, Instrumentación Quirúrgica,Laboratorio. Profesionalización de Auxiliar en Enfermería (ISALUD) <br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.611985 lng= -58.40163 title="Instituto Amado Olmos | ATSA Bs As"]
+<strong>Instituto Amado Olmos | ATSA Bs As</strong><br>
+Alberti 191<br>
+Ciudad Autónoma de Buenos Aires<br>
+Tel: (011) 4959 7100<br>
+Web: <a href="http://www.atsa.org.ar/" target="_blank">http://www.atsa.org.ar/</a><br>
+Plan Fines. Técnico Superior en Enfermería Profesional, Hemoterapia, Instrumentación Quirúrgica, Laboratorio, Radiología. Curso Asistente Gerontológico. Profesionalización de Auxiliares en Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0015A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.899487 lng= -68.83835 title="Instituto de la Sanidad | ATSA Mendoza"]
+<strong>Instituto de la Sanidad | ATSA Mendoza</strong><br>
+Morón 265<br>
+Mendoza<br>
+Tel: (0261) 424 8520 <br>
+Web: <a href="www.institutosanidadmza.com.ar" target="_blank">www.institutosanidadmza.com.ar</a><br>
+Enfermería Profesional. Tecnicatura Superior en Administración de Empresas de la Salud. Cursos de Primeros Auxilios. Emergentologia. Asistencia Adultos Mayores. Secretariado Ejecutivo. Facturación (1° y 2° Nivel). Capacitación Sindical.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0008A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457171 lng= -58.98838 title="ATSA Chaco"]
+<strong>ATSA Chaco</strong><br>
+Avenida Rodriguez Peña 275 <br>
+Resistencia<br>
+Tel: (0362) 442 1096<br>
+Web: <a href="www.sanidadatsachaco.com.ar" target="_blank">www.sanidadatsachaco.com.ar</a><br>
+Auxiliar de Enfermería. Profesionalización de Auxiliares de Enfermería y Licenciatura en Enfermería. Marco Convenio con la Facultad de Ciencias de la Salud de la Universidad de Entre Ríos (UNER).<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0009A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.783390 lng= -60.45002 title="ATSA Chaco"]
+<strong>ATSA Chaco</strong><br>
+Calle 0 (Pibernus) Entre 11 y 15<br>
+Presidencia Roque Saenz Peña<br>
+Tel: (0362) 442 1096<br>
+Web: <a href="www.sanidadatsachaco.com.ar" target="_blank">www.sanidadatsachaco.com.ar</a><br>
+Auxiliar de Enfermería. Profesionalización de Auxiliares de Enfermería y Licenciatura en Enfermería. Marco Convenio con la Facultad de Ciencias de la Salud de la Universidad de Entre Ríos (UNER).<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0009A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-53.792185 lng= -67.70388 title="ATSA Tierra del Fuego"]
+<strong>ATSA Tierra del Fuego</strong><br>
+Bilbao 308<br>
+Río Grande<br>
+Tel: 02964 - 423523 / 420493<br>
+Web: <a href="" target="_blank"></a><br>
+Nivelación y Profesionalizacion a Enfermeros Auxiliares en actividad  (ISALUD).<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0013A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.787784 lng= -65.40613 title="Instituto Dr. Ramón Carrillo | ATSA Salta"]
+<strong>Instituto Dr. Ramón Carrillo | ATSA Salta</strong><br>
+Pasaje Zorrilla 253<br>
+Salta<br>
+Tel: (0387) 431 8963 <br>
+Web: <a href="" target="_blank"></a><br>
+Enfermería Profesional, Tecnicatura Superior en Radiología, Farmacia, Laboratorio, Instrumentación Quirúrgica y Esterilización. Todas las carreras tienen una duración de 3 años.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.676496 lng= -59.66607 title="ATSA San Pedro"]
+<strong>ATSA San Pedro</strong><br>
+Belgrano 589<br>
+San Pedro<br>
+Tel: (03329)  426 949<br>
+Web: <a href="http://www.atsasanpedro.com.ar/" target="_blank">http://www.atsasanpedro.com.ar/</a><br>
+Tecnicatura Superior en Enfermería. Duración 3 años. Cursos a Distancia del Departamento de Capacitación de FATSA.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0016A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.890372 lng= -60.57093 title="ATSA Pergamino"]
+<strong>ATSA Pergamino</strong><br>
+Lagos 578<br>
+Pergamino<br>
+Tel: (02477) 426 237<br>
+Web: <a href="http://www.atsapergamino.com.ar/" target="_blank">http://www.atsapergamino.com.ar/</a><br>
+Carrera Tecnicatura Superior en Enfermería. Profesionalización de Auxiliares a Distancia-UNER.  Auxiliar de Enfermería.  Auxiliar de Familia Especializado en cuidado de Adultos Mayores.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0017A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643550 lng= -60.70997 title="ATSA Santa Fé"]
+<strong>ATSA Santa Fé</strong><br>
+1 de Mayo 2718<br>
+Santa Fé<br>
+Tel: (0342) 455 2574 / 456 0877<br>
+Web: <a href="www.atsasantafe.org.ar" target="_blank">www.atsasantafe.org.ar</a><br>
+Cursos a Distancia del Departamento de Capacitación de FATSA. Cursos de Corte y Confección. Cursos de Instalaciones Eléctricas Domiciliarias, con títulos Oficiales otorgados por el Ministerio de Educación de la Provincia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0023A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.721364 lng= -60.52583 title="ATSA Entre Ríos"]
+<strong>ATSA Entre Ríos</strong><br>
+San Martín 1272<br>
+Paraná<br>
+Tel: (0343) 423 0029 int. 107<br>
+Web: <a href="http://www.atsaentrerios.com.ar/" target="_blank">http://www.atsaentrerios.com.ar/</a><br>
+Profesionalización de Auxiliares de Enfermería. Curso Nivelador. Cursos de actualización a distancia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0019A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124897 lng= -64.35199 title="ATSA Río Cuarto"]
+<strong>ATSA Río Cuarto</strong><br>
+Cabrera 930<br>
+Río Cuarto<br>
+Tel: (0358) 464 5666<br>
+Web: <a href="http://www.atsariocuarto.com.ar/" target="_blank">http://www.atsariocuarto.com.ar/</a><br>
+Carrera de Enfermería. Cursos a Distancia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0020A.png"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.904983 lng= -57.95848 title="ATSA La Plata"]
+<strong>ATSA La Plata</strong><br>
+calle 5 N° 359<br>
+La Plata<br>
+Tel: (0221) 422 6563<br>
+Web: <a href="http://www.atsalaplata.org.ar/" target="_blank">http://www.atsalaplata.org.ar/</a><br>
+Auxiliar de Enfermería. Técnicatura Sup. en Enfermería. Profesionalización de Auxiliar de Enfermería (ISALUD). Curso Auxiliar de Familia especializado en Adulto Mayor.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0022A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.467799 lng= -65.78932 title="ATSA Catamarca"]
+<strong>ATSA Catamarca</strong><br>
+Samuel Molina 178<br>
+Catamarca<br>
+Tel: (0383) 443 3566<br>
+Web: <a href="" target="_blank"></a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0026A.png"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-29.410582 lng= -66.85288 title="ATSA La Rioja"]
+<strong>ATSA La Rioja</strong><br>
+Bazan y Abel Bustos 311/13<br>
+La Rioja<br>
+Tel: (0380) 442 8434<br>
+Web: <a href="" target="_blank"></a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0025A.png"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.360481 lng= -55.89528 title="ATSA Misiones"]
+<strong>ATSA Misiones</strong><br>
+Ivanowsky 1845<br>
+Posadas<br>
+Tel: (0376) 443 8184<br>
+Web: <a href="" target="_blank"></a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-29.299295 lng= -68.20106 title="ATSA La Rioja | Sede Villa Unión"]
+<strong>ATSA La Rioja | Sede Villa Unión</strong><br>
+Avenida Juan Domingo Perón S/N<br>
+Villa Unión - La Rioja<br>
+Tel: (0380) 442 8434<br>
+Web: <a href="" target="_blank"></a><br>
+Profesionalización de Auxiliares de Enfermería (ISALUD)<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/capacitacion/image_mapa/0024A.png"><br>
+[/leaflet-marker]
+
+<!-- TURISMO -->
+[leaflet-marker lat=-34.421213 lng=-58.578985 title="Isla I´Marangatú | ATSA Bs As"]
+<strong>Isla I´Marangatú | ATSA Bs As</strong><br>
+General Bartolomé Mitre 305<br>
+Tigre<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">http://www.atsa.org.ar</a><br>
+En medio de un lugar paradisíaco, característico del delta de Tigre, adquirimos y renovamos I´Marangatu para hacerlo accesible y que todos nuestros compañeros puedan disfrutar  con sus familias.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0008A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-35.597168 lng= -58.03690 title="Camping 21 de Septiembre | ATSA Bs As"]
+<strong>Camping 21 de Septiembre | ATSA Bs As</strong><br>
+Camino de Circunvalación Km. 16,500<br>
+Chascomús<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">http://www.atsa.org.ar</a><br>
+Un lugar de esparcimiento para los trabajadores de la Sanidad ubicado a la vera de la laguna, un predio de gran extensión, donde hemos creado un sector para cada actividad. Disfrute un día a plena naturaleza.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0001A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.966788 lng=-57.86303 title="Complejo 8 de Marzo | SSP"]
+<strong>Complejo 8 de Marzo | SSP</strong><br>
+Calle 635 entre 1 y 115<br>
+La Plata<br>
+Tel: (0221) 421 5405<br>
+Web: <a href="http://www.ssp.org.ar" target="_blank">http://www.ssp.org.ar</a><br>
+Un lugar para disfrutar todo el año.Hotel. Cabañas. Quinchos. Parrillas.Comedor. Canchas de Paddle, Paleta, Basquet, Fútbol). Piletas, Jacuzzi.  Pileta Climatizada. Sauna. Estacionamiento.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0003A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.565257 lng= -60.94882 title="Complejo Polideportivo | ATSA Junin"]
+<strong>Complejo Polideportivo | ATSA Junin</strong><br>
+Ruta 188 y Avenida República<br>
+Junin<br>
+Tel: (0236) 443 3815<br>
+Web: <a href="http://www.sanidadjunin.com.ar/" target="_blank">http://www.sanidadjunin.com.ar/</a><br>
+Más de dos hectáreas dedicadas al deporte,  recreación y esparcimiento. Canchas de futbol. Quincho con capacidad para 80 personas completamente equipado.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0002A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.770270 lng= -60.83551 title="Recreativo Otto Calace | ATSA Santa Fé"]
+<strong>Recreativo Otto Calace | ATSA Santa Fé</strong><br>
+Almirante Brown y Estrella Federal<br>
+Sauce Viejo <br>
+Tel: (0342) 455 2574<br>
+Web: <a href="http://www.atsasantafe.org.ar" target="_blank">http://www.atsasantafe.org.ar</a><br>
+Ubicado en la localidad de Sauce Viejo, a 15 Km. de la ciudad de Santa Fé. Es un espacio pensado por y para los trabajadores de la Sanidad y sus familias, situado a orillas del Río Coronda.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0005A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.737734 lng= -60.48532 title="Complejo Camping | ATSA Entre Ríos"]
+<strong>Complejo Camping | ATSA Entre Ríos</strong><br>
+Don Bosco 2906<br>
+Paraná<br>
+Tel: (0343) 423 0029<br>
+Web: <a href="http://www.atsaentrerios.com.ar" target="_blank">http://www.atsaentrerios.com.ar</a><br>
+El predio cuenta con diferentes instalaciones: Cancha de Fútbol, Cancha de Hockey, Cancha  de Vóley. Juegos infantiles de libre acceso. Piletas de natación y solárium.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0004A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.261023 lng= -58.97002 title="Complejo Recreativo | ATSA Chaco"]
+<strong>Complejo Recreativo | ATSA Chaco</strong><br>
+R.N. 11 KM 1021 Dpto 1° de Mayo Margarita Belén<br>
+Chaco<br>
+Tel: (0362) 444 9554<br>
+Web: <a href="http://www.sanidadatsachaco.com.ar" target="_blank">http://www.sanidadatsachaco.com.ar</a><br>
+Este Complejo contará con un Salón de Usos Múltiples. Canchas de Fútbol 11, Voléy, Basquet y Hockey. Canchas de Bochas. Vestuarios. Piletas de Natación.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0009A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.689430 lng= -65.46591 title="Camping | ATSA San Luis"]
+<strong>Camping | ATSA San Luis</strong><br>
+Pringles 84<br>
+Villa Mercedes<br>
+Tel: (02657) 421 882<br>
+Web: <a href="www.atsafilialsanluis.com.ar" target="_blank">www.atsafilialsanluis.com.ar</a><br>
+Salón Multifunción con capacidad para 250 personas. Sector Parrillas. Juegos para niños. 3 Piletas de Natación. Quinchos con Parrillas. Canchas de Fútbol y Voley. <br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0007A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat= lng= title="Complejo El Cadillal | ATSA Tucumán"]
+<strong>Complejo El Cadillal | ATSA Tucumán</strong><br>
+Ruta 347 Km 4<br>
+Tucumán<br>
+Tel: (0381) 433 1665<br>
+Web: <a href="http://www.atsatucuman.org.ar/" target="_blank">http://www.atsatucuman.org.ar/</a><br>
+Complejo Social y Deportivo con albergue para 60 personas. Cancha de Fútbol.  Piletas de Natación. Juegos Infantiles. Salón de Fiestas para 300 personas.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0006A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.072901 lng= -65.97639 title="Hotel Cafayate | ATSA Salta"]
+<strong>Hotel Cafayate | ATSA Salta</strong><br>
+.<br>
+Cafayate<br>
+Tel: (0387) 425 6684 / (0387) 421 2552<br>
+Web: <a href=" " target="_blank"> </a><br>
+Aire acondicionado, calefacción. Habitaciones dobles twins. TV cable. Pileta de Natación.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0010A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.829677 lng= -68.12200 title="Camping Los Nonos | ATSA Neuquén"]
+<strong>Camping Los Nonos | ATSA Neuquén</strong><br>
+Calle 4 chacra 101<br>
+Centenario<br>
+Tel: (0299) 489 4856<br>
+Web: <a href="" target="_blank"></a><br>
+Lugar para acampar. Piscina. Cancha de fútbol. Tareas de chacra y huerta. Paseos en bicicleta. Dormis.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0018A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.848267 lng= -68.81590 title="Camping El Challao | ATSA Mendoza"]
+<strong>Camping El Challao | ATSA Mendoza</strong><br>
+Av. Champagnat y Arroyo Seco<br>
+Las Heras <br>
+Tel: (0261) 444 2167<br>
+Web: <a href="http://www.atsamza.org.ar/" target="_blank">http://www.atsamza.org.ar/</a><br>
+Cuenta con un sector de quinchos. Piletas para niños y adultos. Área de campamento con sanitarios y duchas. Sector de juegos.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0019A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.382941 lng= -58.73358 title="Las Clavelinas | ATSA Zona Norte"]
+<strong>Las Clavelinas | ATSA Zona Norte</strong><br>
+Ruta Panamericana km 43.5 - Colectora Oeste<br>
+Ingeniero Maschwitz<br>
+Tel: (011) 4846 4150<br>
+Web: <a href="http://www.atsazonanorte.org.ar/" target="_blank">http://www.atsazonanorte.org.ar/</a><br>
+9 hectáreas de pura diversión y esparcimiento para tus ratos libres en familia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0017A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.500958 lng= -64.86453 title="Hotel ATSA | ATSA Tucumán"]
+<strong>Hotel ATSA | ATSA Tucumán</strong><br>
+Güemes N° 386-390<br>
+Termas de Río Hondo | Santiago del Estero<br>
+Tel: (03858) 422 005<br>
+Web: <a href="http://www.atsatucuman.org.ar/" target="_blank">http://www.atsatucuman.org.ar/</a><br>
+Habitaciones con baños privados. TV por cable. Wi Fi. Aire Acondicionado. Pileta con Agua Termal. Comedor. Juegos de Salón.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0026A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731893 lng= -58.25900 title="Recreativo Fernando Kelly | ATSA Quilmes"]
+<strong>Recreativo Fernando Kelly | ATSA Quilmes</strong><br>
+Calle 422 y 13<br>
+Villa Elisa<br>
+Tel: (011) 4350 7400<br>
+Web: <a href="http://www.atsaquilmes.org.ar/" target="_blank">http://www.atsaquilmes.org.ar/</a><br>
+ATSA Quilmes | Pileta de Natación. Sector de fogones. Cancha de Fútbol. Salón comedor.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0015A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.733330 lng= -65.40810 title="Hotel Sanidad | ATSA Salta"]
+<strong>Hotel Sanidad | ATSA Salta</strong><br>
+Av. San Antonio de los Cobres s/n<br>
+Salta<br>
+Tel: (0387) 425 6684<br>
+Web: <a href="" target="_blank"></a><br>
+El hotel cuenta con 45 habitaciones con aire acondicionado, TV Cable. Confitería. Playa privada de estacionamiento. Predio parquizado. Pileta Olímpica. Juegos infantiles. Canchas de fútbol, básquet y voley.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0011A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.576813 lng= -68.52193 title="Camping Orlando Collado | ATSA San Juan"]
+<strong>Camping Orlando Collado | ATSA San Juan</strong><br>
+.<br>
+Rawson<br>
+Tel: (0264) 421 4388<br>
+Web: <a href="" target="_blank"></a><br>
+Contamos con dos SUM con capacidad para 700 y 100 personas. Cabañas con dormitorios, cocina y baño. <br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0013A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.039652 lng= -67.59337 title="Complejo Recreativo | ATSA Río Negro"]
+<strong>Complejo Recreativo | ATSA Río Negro</strong><br>
+Ruta 22 chacra 259<br>
+General Roca<br>
+Tel: (0298) 442 4672<br>
+Web: <a href="http://www.atsarionegro.com" target="_blank">http://www.atsarionegro.com</a><br>
+Quinchos abiertos y cerrados con parrillero. Canchas de pádel. Canchas de fútbol con vestuarios. 3 piscinas (para bebés, niños y adultos). Espacio para acampar. Parque.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0012A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.554960 lng= -58.74007 title="Camping Necochea | ATSA La Plata"]
+<strong>Camping Necochea | ATSA La Plata</strong><br>
+10 y 189<br>
+Villa Zabala | Necochea<br>
+Tel: (0221) 421 6023<br>
+Web: <a href="http://www.atsalaplata.org.ar/" target="_blank">http://www.atsalaplata.org.ar/</a><br>
+Guardavidas. Emergencia Médica. Baños, Vestuarios. Duchas. Proveeduría, Restaurant, TV, Video-Juegos-Pool. 4 Hectáreas Arboladas. Salida al Mar. Fogones, Mesas. Carpas y Autoportantes.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.998542 lng= -58.01654 title="Camping La Plata | ATSA La Plata"]
+<strong>Camping La Plata | ATSA La Plata</strong><br>
+Calle 66 y 185<br>
+La Plata<br>
+Tel: (0221) 496 1185<br>
+Web: <a href="http://www.atsalaplata.org.ar/" target="_blank">http://www.atsalaplata.org.ar/</a><br>
+Baños, vestuarios y duchas. Buffet. Piletas. Guardavidas. Médico en el camping. Emergencias Médicas. Parrillas. Parcelas para acampar. Canchas de voley, Paddle, Fútbol. Salón de fiestas.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.786829 lng= -64.26597 title="Polideportivo | ATSA Stgo del Estero"]
+<strong>Polideportivo | ATSA Stgo del Estero</strong><br>
+Puestito de San Antonio<br>
+Puestito de San Antonio<br>
+Tel: (0385) 421 3463<br>
+Web: <a href="http://www.atsasgo.com.ar/" target="_blank">http://www.atsasgo.com.ar/</a><br>
+Complejo Polideportivo. Canchas de Fútbol, Basquet. Piletas. Colonia de Vacaciones. Salón de Eventos.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0016A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.751397 lng= -58.48767 title="Recreativo Pasteleros | ATSA Zona Sur"]
+<strong>Recreativo Pasteleros | ATSA Zona Sur</strong><br>
+Ruta de la Tradición (Ex Camino de Cintura) 6455<br>
+Esteban Echeverria<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com/" target="_blank">http://www.atsazonasur.com/</a><br>
+Quinchos. Parrillas. Piletas de Natación. Canchas de Fútbol. Playón Multifuncional. Salón de Juegos. Juegos Infantiles. Vestuarios. Estacionamiento.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0014A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.405263 lng= -64.50012 title="Gran Hotel Casablanca | ATSA Córdoba"]
+<strong>Gran Hotel Casablanca | ATSA Córdoba</strong><br>
+Bv. Sarmiento 1001<br>
+Villa Carlos Paz<br>
+Tel: (0351) 423 3885 Int 105<br>
+Web: <a href="http://www.sanidadatsacba.com.ar/" target="_blank">http://www.sanidadatsacba.com.ar/</a><br>
+El Hotel cuenta con 67 amplias habitaciones. Restaurant - Bar. Terraza. Estacionamiento. Pileta. Solarium. Wi Fi. Recepción las 24 hs.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0020A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.287751 lng= -60.27015 title="Camping ACA | ATSA San Nicolás"]
+<strong>Camping ACA | ATSA San Nicolás</strong><br>
+Ruta 21, Km 242 <br>
+San Nicolás de los Arroyos<br>
+Tel: (0336) 445 3805<br>
+Web: <a href="" target="_blank"></a><br>
+Es un espacio dedicado a la recreación y descanso familiar. Cuenta con Pileta de Natación. Parrillas. Canchas de Tenis. Canchas de Fútbol. Colonia de vacaciones. Salón para eventos.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0024A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124942 lng= -64.35210 title="Círculo de Oficiales | ATSA Río Cuarto"]
+<strong>Círculo de Oficiales | ATSA Río Cuarto</strong><br>
+Cabrera 930<br>
+Río Cuarto<br>
+Tel: (0358) 464 5789<br>
+Web: <a href="http://www.atsariocuarto.com.ar/" target="_blank">http://www.atsariocuarto.com.ar/</a><br>
+Salón de fiestas con capacidad para 500 personas. Pileta de Natación. Gran Parque de esparcimiento. Quincho cubierto. Quinchos abiertos y asadores. Canchas de fútbol.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0025A.png"><br>
+[/leaflet-marker]
+
+
+<!-- OSPSA -->
+[leaflet-marker lat=-34.611754 lng=-58.403259 title="OSPSA BUENOS AIRES"]
+<strong>OSPSA BUENOS AIRES</strong><br>
+VENEZUELA 2359<br>
+CAPITAL FEDERAL<br>
+Tel: (011) 49439400<br>
+Titular: CAROLINA BAHAMONDE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.403502 lng=-64.1746 title="OSPSA CORDOBA"]
+<strong>OSPSA CORDOBA</strong><br>
+COCHABAMBA N°940<br>
+CORDOBA<br>
+Tel: (0351) 556-0400<br>
+Titular: SUSANA GARCIA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643545 lng=-60.709914 title="OSPSA SANTA FE"]
+<strong>OSPSA SANTA FE</strong><br>
+SALTA 2828<br>
+SANTA FE<br>
+Tel: (0342) 454-7400<br>
+Titular: NORMA KARINA RODONI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.905079 lng=-57.958321 title="OSPSA LA PLATA"]
+<strong>OSPSA LA PLATA</strong><br>
+CALLE 5 N°375<br>
+LA PLATA<br>
+Tel: (0221) 483-8573<br>
+Titular: PEDRO F. BORGINI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.897953 lng=-68.826224 title="OSPSA MENDOZA"]
+<strong>OSPSA MENDOZA</strong><br>
+25 DE MAYO N° 722<br>
+MENDOZA<br>
+Tel: (0261) 423-6622<br>
+Titular: OSCAR ALEJANDRO CAMPO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731874 lng=-58.258964 title="OSPSA QUILMES"]
+<strong>OSPSA QUILMES</strong><br>
+Vicente Lopez N° 1969<br>
+QUILMES<br>
+Tel: (011) 4350-7400<br>
+Titular: RAMÓN RICARDO ROMERO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.721044 lng= -60.52583 title="OSPSA ENTRE RÍOS"]
+<strong>OSPSA ENTRE RÍOS</strong><br>
+ MONTE CASEROS 373 -C.C. NRO. 121<br>
+PARANÁ<br>
+Tel: (0343) 423-1466<br>
+Titular: LEONEL W. WESISHEIM<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.820777 lng=-65.219203 title="OSPSA TUCUMÁN"]
+<strong>OSPSA TUCUMÁN</strong><br>
+STGO DEL ESTERO N°1578<br>
+TUCUMÁN<br>
+Tel: (0381) 432-2296<br>
+Titular: DARÍO SUAREZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124919 lng=-64.351884 title="OSPSA RÍO CUARTO"]
+<strong>OSPSA RÍO CUARTO</strong><br>
+CABRERA N° 930<br>
+RÍO CUARTO<br>
+Tel: (0358) 464-5789<br>
+Titular: CRISTINA FERNANDEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-37.993704 lng=-57.559289 title="OSPSA MAR DEL PLATA"]
+<strong>OSPSA MAR DEL PLATA</strong><br>
+DORREGO N°1752<br>
+MAR DEL PLATA<br>
+Tel: (0223) 473-6501<br>
+Titular: MARIO PIERGENTILI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.651791 lng=-58.616766 title="OSPSA HURLINGHAM"]
+<strong>OSPSA HURLINGHAM</strong><br>
+ALMIRANTE BROWN 1.172<br>
+MORON <br>
+Tel: (011) 4628-7006 <br>
+Titular: JORGE VICTOR D´ANDREA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457102 lng=-58.988302 title="OSPSA CHACO "]
+<strong>OSPSA CHACO </strong><br>
+RODRIGUEZ PEÑA N°275<br>
+RESISTENCIA<br>
+Tel: (0362)444 9554 <br>
+Titular: ADRIAN BELLOMI <br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.931015 lng= -57.58243 title="OSPSA CORRIENTES"]
+<strong>OSPSA CORRIENTES</strong><br>
+PASAJE ALVARÉZ N°843<br>
+CORRIENTES<br>
+Tel: (03794) 464-763<br>
+Titular: ROSA SEPULVEDA Y ROBERTO GUIDO TELLO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.676475 lng=-59.666059 title="OSPSA SAN PEDRO"]
+<strong>OSPSA SAN PEDRO</strong><br>
+BELGRANO N°589<br>
+SAN PEDRO<br>
+Tel: (03329) 426949<br>
+Titular: NILDA IGLESIAS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.791819 lng=-65.417794 title="OSPSA SALTA"]
+<strong>OSPSA SALTA</strong><br>
+URQUIZA N°1070<br>
+SALTA<br>
+Tel: (0387) 421-2552 <br>
+Titular: EDUARDO RAMOS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.723212 lng=-62.266004 title="OSPSA BAHÍA BLANCA"]
+<strong>OSPSA BAHÍA BLANCA</strong><br>
+FITZ ROY N° 192<br>
+BAHÍA BLANCA<br>
+Tel: (0291) 452-8961 <br>
+Titular: HUGO MODARELLI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.788137 lng=-64.253929 title="OSPSA STGO DEL ESTERO"]
+<strong>OSPSA STGO DEL ESTERO</strong><br>
+MENDOZA 133<br>
+STGO DEL ESTERO<br>
+Tel: (0385) 422-7758<br>
+Titular: DARIO SUAREZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.538100 lng= -68.51393 title="OSPSA SAN JUAN"]
+<strong>OSPSA SAN JUAN</strong><br>
+SANTA FE N°856 (ESTE)<br>
+SAN JUAN<br>
+Tel: (0264) 421-4388 <br>
+Titular: REIMUNDO ALFREDO DUARTE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.890408 lng=-60.570924 title="OSPSA PERGAMINO"]
+<strong>OSPSA PERGAMINO</strong><br>
+LAGOS N°578<br>
+PERGAMINO<br>
+Tel: (02477) 426-237 <br>
+Titular: GRACIELA SIBAT<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.186686 lng=-65.293572 title="OSPSA JUJUY"]
+<strong>OSPSA JUJUY</strong><br>
+3 Sargentos esq. Pasaje Suecia<br>
+S. S DE JUJUY<br>
+Tel:  (0388) 422-2936  <br>
+Titular: CLAUDIA VIVIANA LOPEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-29.410517 lng=-66.852797 title="OSPSA LA RIOJA"]
+<strong>OSPSA LA RIOJA</strong><br>
+San Nicolas de Bari 1144<br>
+LA RIOJA<br>
+Tel: (0380) 442-8434  <br>
+Titular: NICOLÁS I. DE LA FUENTE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.687085 lng=-65.463885 title="OSPSA SAN LUIS"]
+<strong>OSPSA SAN LUIS</strong><br>
+PRINGLES 84<br>
+VILLA MERCEDES<br>
+Tel: (02657)  426-650 <br>
+Titular: ANÍBAL HÉCTOR GOMEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.430238 lng=-62.078143 title="OSPSA SAN FRANCISCO"]
+<strong>OSPSA SAN FRANCISCO</strong><br>
+BOULEVARD GARIBALDI N°43<br>
+SAN FRANCISCO<br>
+Tel: (03564) 426-137 <br>
+Titular: GABRIELA ALEJANDRA SIDLER<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-43.253799 lng=-65.318273 title="OSPSA CHUBUT"]
+<strong>OSPSA CHUBUT</strong><br>
+MARCONI N° 171<br>
+TRELEW<br>
+Tel: (0280) 443-2468<br>
+Titular: SARA BARRERA DE OLMOS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-35.656965 lng=-63.754481 title="OSPSA LA PAMPA"]
+<strong>OSPSA LA PAMPA</strong><br>
+RIVADAVIA 335 LOC.3<br>
+SANTA ROSA<br>
+Tel: (02954) 411654<br>
+Titular: MIRTA ERRO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.192374 lng=-58.182224 title="OSPSA FORMOSA"]
+<strong>OSPSA FORMOSA</strong><br>
+PANTALEON GOMEZ  N°1187<br>
+FORMOSA<br>
+Tel: (0370) 15-4672264<br>
+Titular: CARMEN IRENE FERREYRA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.356312 lng=-55.892776 title="OSPSA MISIONES"]
+<strong>OSPSA MISIONES</strong><br>
+IVANOWSKY N° 1845<br>
+POSADAS<br>
+Tel: (0376) 443-8184<br>
+Titular: IRMA RACZKOWSKI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.330156 lng=-60.222425 title="OSPSA SAN NICOLÁS"]
+<strong>OSPSA SAN NICOLÁS</strong><br>
+LAVALLE N° 267<br>
+SAN NICOLAS DE LOS ARROYOS<br>
+Tel: (0336) 442-5537<br>
+Titular: MÓNICA CHUNGO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.467748 lng=-65.789376 title="OSPSA CATAMARCA "]
+<strong>OSPSA CATAMARCA </strong><br>
+SAMUEL MOLINA N° 178<br>
+CATAMARCA<br>
+Tel: (03834) 43-3566<br>
+Titular: LEONARDO BURGOS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.948913 lng=-68.056594 title="OSPSA NEUQUÉN"]
+<strong>OSPSA NEUQUÉN</strong><br>
+DIAG. ESPAÑA N° 170<br>
+NEUQUEN<br>
+Tel: (0299) 442-6382 <br>
+Titular: MARINA NOEMI DIAZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.021960 lng= -67.59396 title="OSPSA RÍO NEGRO"]
+<strong>OSPSA RÍO NEGRO</strong><br>
+España 1718<br>
+GRAL. ROCA<br>
+Tel: (0298) 4424672<br>
+Titular: GLORIA DELFA NOEMI OVEJERO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-51.616511 lng=-69.220587 title="OSPSA SANTA CRUZ"]
+<strong>OSPSA SANTA CRUZ</strong><br>
+MAGALLANES N° 175<br>
+RÍO GALLEGOS <br>
+Tel: (02966) 420-301 <br>
+Titular: ANDREA MORENO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.59535, lng=60.950966 title="OSPSA JUNIN"]
+<strong>OSPSA JUNIN</strong><br>
+BENITO DE MIGUEL N° 239<br>
+JUNIN<br>
+Tel: (0236) 443-3815 <br>
+Titular: HÉCTOR AZIL<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.395499 lng=-58.025325 title="OSPSA CONCORDIA"]
+<strong>OSPSA CONCORDIA</strong><br>
+SAN MARTÍN N° 322<br>
+CONCORDIA<br>
+Tel: (0345) 422-7282 <br>
+Titular: OMAR DUERTO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.48652, lng=58.615844 title="OSPSA ZONA NORTE"]
+<strong>OSPSA ZONA NORTE</strong><br>
+FRAY JUSTO SANTA MARIA DE ORO N° 1528<br>
+DON TORCUATO<br>
+Tel: (011) 4846-4100<br>
+Titular: NÉSTOR GENTA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.737293 lng=-58.397786 title="OSPSA ZONA SUR"]
+<strong>OSPSA ZONA SUR</strong><br>
+HIPOLITO YRIGOYEN N°7066<br>
+BANFIELD<br>
+Tel: (011) 5088-2100<br>
+Titular: SERGIO JOSÉ OYHAMBURU<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-53.792223 lng=-67.703787 title="OSPSA TIERRA DEL FUEGO"]
+<strong>OSPSA TIERRA DEL FUEGO</strong><br>
+FRANCISCO BILBAO N°308<br>
+RÍO GRANDE<br>
+Tel: (02964) 423-523 <br>
+Titular: CLAUDIA ETCHEPARE<br>
+[/leaflet-marker]
+
+<!-- ATSA -->
+[leaflet-marker lat= lng= title="SUTSER"]
+<strong>SUTSER</strong><br>
+<br>
+ENTRE RIOS0<br>
+Tel: <br>
+Titular: <br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.6118,- lng=8.403109 title="BUENOS AIRES"]
+<strong>BUENOS AIRES</strong><br>
+SAAVEDRA N°166<br>
+CAPITAL FEDERAL<br>
+Tel: (011) 4959 -7100<br>
+Titular: HÉCTOR DAER<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.413932 lng=-64.171327 title="CORDOBA"]
+<strong>CORDOBA</strong><br>
+LIMA N°877<br>
+CORDOBA<br>
+Tel: (0351) 423-3882<br>
+Titular: RICARDO LÓPEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.643545 lng=-60.709914 title="SANTA FE"]
+<strong>SANTA FE</strong><br>
+1° DE MAYO N° 2718<br>
+SANTA FE<br>
+Tel: (0342) 455-2574<br>
+Titular: LIDIA ORTEGA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.905079 lng=-57.958321 title="LA PLATA"]
+<strong>LA PLATA</strong><br>
+CALLE 5 N°375<br>
+LA PLATA<br>
+Tel: (0221) 483-8573  <br>
+Titular: PEDRO F. BORGINI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.898916 lng=-68.817942 title="MENDOZA"]
+<strong>MENDOZA</strong><br>
+25 DE MAYO N° 1745<br>
+MENDOZA<br>
+Tel: (0261) 423-9666 <br>
+Titular: PATRICIA EDITH IRRUTIA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731874 lng=-58.258964 title="QUILMES"]
+<strong>QUILMES</strong><br>
+VICENTE LOPEZ N° 1969<br>
+QUILMES<br>
+Tel: (011) 4350-7400<br>
+Titular: RAMÓN RICARDO ROMERO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.7359,- lng=0.5321 title="ENTRE RÍOS"]
+<strong>ENTRE RÍOS</strong><br>
+GUALEGUAYCHU 599 esq Pascual Palma<br>
+PARANÁ<br>
+Tel: (0343) 423-0029<br>
+Titular: MARIELA PONCE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.82093, lng=65.214868 title="TUCUMÁN"]
+<strong>TUCUMÁN</strong><br>
+SUIPACHA N°553<br>
+TUCUMÁN<br>
+Tel: (0381) 433-1665<br>
+Titular: EDGAR RENEÉ RAMIREZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124919 lng=-64.351884 title="RÍO CUARTO"]
+<strong>RÍO CUARTO</strong><br>
+CABRERA N° 930<br>
+RÍO CUARTO<br>
+Tel: (0358) 464-5789<br>
+Titular: CRISTINA FERNANDEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-37.992144 lng=-57.555147 title="MAR DEL PLATA"]
+<strong>MAR DEL PLATA</strong><br>
+20 DE SPTIEMBRE N°1440<br>
+MAR DEL PLATA<br>
+Tel: (0223) 475-2274 <br>
+Titular: LAURA DEL PIR<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.6511,- lng=8.624185 title="HURLINGHAM"]
+<strong>HURLINGHAM</strong><br>
+ALMIRANTE G. BROWN 1172<br>
+MORON <br>
+Tel: (011) 6074-8900<br>
+Titular: JORGE VICTOR D´ANDREA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.457102 lng=-58.988302 title="CHACO "]
+<strong>CHACO </strong><br>
+RODRIGUEZ PEÑA N°275<br>
+RESISTENCIA<br>
+Tel: (0362)444 9554 <br>
+Titular: ADRIÁN BELLOMI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.4698,- lng=8.8166 title="CORRIENTES"]
+<strong>CORRIENTES</strong><br>
+PLAYA MIRAMAR N°832<br>
+CORRIENTES<br>
+Tel: (03794) 422-087<br>
+Titular: ROBERTO GUIDO TELLO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.676475 lng=-59.666059 title="SAN PEDRO"]
+<strong>SAN PEDRO</strong><br>
+BELGRANO N°589<br>
+SAN PEDRO<br>
+Tel: (03329) 426-949<br>
+Titular: NILDA IGLESIAS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.791819 lng=-65.417794 title="SALTA"]
+<strong>SALTA</strong><br>
+URQUIZA N°1070<br>
+SALTA<br>
+Tel: (0387) 421-2552 <br>
+Titular: EDUARDO RAMOS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.723212 lng=-62.266004 title="BAHÍA BLANCA"]
+<strong>BAHÍA BLANCA</strong><br>
+FITZ ROY N° 192<br>
+BAHÍA BLANCA<br>
+Tel: (0291) 452-8961 <br>
+Titular: HUGO MODARELLI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.788498 lng=-64.255367 title="STGO DEL ESTERO"]
+<strong>STGO DEL ESTERO</strong><br>
+URQUIZA N°324<br>
+STGO DEL ESTERO<br>
+Tel: (0385) 421-3463 <br>
+Titular: RODOLFO JOSE ARCE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.5382,- lng=8.5139 title="SAN JUAN"]
+<strong>SAN JUAN</strong><br>
+SANTA FE N°856 (ESTE )<br>
+SAN JUAN<br>
+Tel: (0264) 4214388<br>
+Titular: REYMUNDO ALFREDO DUARTE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.890408 lng=-60.570924 title="PERGAMINO"]
+<strong>PERGAMINO</strong><br>
+LAGOS N°578<br>
+PERGAMINO<br>
+Tel: (02477) 426-237 <br>
+Titular: GRACIELA SIBAT<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.186686 lng=-65.293572 title="JUJUY"]
+<strong>JUJUY</strong><br>
+3 Sargentos esq. Pasaje Suecia<br>
+S.S DE JUJUY<br>
+Tel:  (0388) 422-2936  <br>
+Titular: CLAUDIA VIVIANA LOPEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-29.410517 lng=-66.852797 title="LA RIOJA"]
+<strong>LA RIOJA</strong><br>
+San Nicolas de Bari 1144<br>
+LA RIOJA<br>
+Tel: (0380) 442-8434  <br>
+Titular: NICOLÁS I. DE LA FUENTE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.689442 lng=-65.465816 title="SAN LUIS"]
+<strong>SAN LUIS</strong><br>
+PRINGLES N°84<br>
+VILLA MERCEDES<br>
+Tel: (02657) 421-882<br>
+Titular: ANÍBAL HÉCTOR GOMEZ<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.430238 lng=-62.078143 title="SAN FRANCISCO"]
+<strong>SAN FRANCISCO</strong><br>
+BOULEVARD GARIBALDI N°43<br>
+SAN FRANCISCO<br>
+Tel: (03564) 426-137 <br>
+Titular: GABRIELA ALEJANDRA SIDLER<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-43.253799 lng=-65.318273 title="CHUBUT"]
+<strong>CHUBUT</strong><br>
+MARCONI N° 171<br>
+TRELEW<br>
+Tel: (0280) 443-2468<br>
+Titular: SARA BARRERA DE OLMOS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-35.656965 lng=-63.754481 title="LA PAMPA"]
+<strong>LA PAMPA</strong><br>
+RIVADAVIA 335 LOC.3<br>
+SANTA ROSA<br>
+Tel: (02954) 413288<br>
+Titular: MIRTA ERRO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.192374 lng=-58.182224 title="FORMOSA"]
+<strong>FORMOSA</strong><br>
+PANTALEON GOMEZ N°1187<br>
+FORMOSA<br>
+Tel: (0370) 4432-551<br>
+Titular: CARMEN IRENE FERREYRA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.356312 lng=-55.892776 title="MISIONES"]
+<strong>MISIONES</strong><br>
+IVANOWSKY N° 1845<br>
+POSADAS<br>
+Tel: (0376) 443-8184<br>
+Titular: IRMA RACZKOWSKI<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.330156 lng=-60.222425 title="SAN NICOLÁS"]
+<strong>SAN NICOLÁS</strong><br>
+LAVALLE N° 267<br>
+SAN NICOLAS DE LOS ARROYOS<br>
+Tel: (0336) 445-3805 <br>
+Titular: MÓNICA CHUNGO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-28.467748 lng=-65.789376 title="CATAMARCA "]
+<strong>CATAMARCA </strong><br>
+SAMUEL MOLINA N° 178<br>
+CATAMARCA<br>
+Tel: (03834) 43-3566<br>
+Titular: LEONARDO BURGOS<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.946744 lng=-68.054105 title="NEUQUÉN"]
+<strong>NEUQUÉN</strong><br>
+DIAGONAL ESPAÑA 175<br>
+NEUQUEN<br>
+Tel: (0299) 448-8503<br>
+Titular: ADALIA NICOLAU<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.0391,- lng=7.5781 title="RÍO NEGRO"]
+<strong>RÍO NEGRO</strong><br>
+ESPAÑA 1718<br>
+GRAL. ROCA<br>
+Tel: (0298) 4424672<br>
+Titular: GLORIA DELFA NOEMI OVEJERO<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-51.629753 lng=-69.206231 title="SANTA CRUZ"]
+<strong>SANTA CRUZ</strong><br>
+ALVEAR N° 840<br>
+RÍO GALLEGOS <br>
+Tel: (02966) 425-379<br>
+Titular: SILVIA LEIVA CELSA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.59535, lng=60.950966 title="JUNIN"]
+<strong>JUNIN</strong><br>
+BENITO DE MIGUEL N°239<br>
+JUNIN<br>
+Tel: (0236) 443-3815 <br>
+Titular: HÉCTOR AZIL<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.395499 lng=-58.025325 title="CONCORDIA"]
+<strong>CONCORDIA</strong><br>
+SAN MARTÍN N° 322<br>
+CONCORDIA<br>
+Tel: (0345) 422-7282 <br>
+Titular: LUCIA GRACIELA TRINIDAD<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.48652, lng=58.615844 title="ZONA NORTE"]
+<strong>ZONA NORTE</strong><br>
+FRAY JUSTO SANTA MARÍA DE ORO N°1528<br>
+DON TORCUATO<br>
+Tel: 4846-4150 <br>
+Titular: NÉSTOR GENTA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.737293 lng=-58.397786 title="ZONA SUR"]
+<strong>ZONA SUR</strong><br>
+HIPOLITO YRIGOYEN N°7066<br>
+BANFIELD<br>
+Tel: (011) 5088-2100<br>
+Titular: SERGIO OYHAMBURU<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-53.792223 lng=-67.703787 title="TIERRA DEL FUEGO"]
+<strong>TIERRA DEL FUEGO</strong><br>
+FRANCISCO BILBAO N°308<br>
+RÍO GRANDE<br>
+Tel: (02964) 423-523 <br>
+Titular: CLAUDIA ETCHEPARE<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.913662 lng= -57.95885 title="SIND. SALUD PUBLICA"]
+<strong>SIND. SALUD PUBLICA</strong><br>
+CALLE 44 N° 771 E/10 Y 11<br>
+LA PLATA<br>
+Tel: (0221) 422- 9979 <br>
+Titular: MIGUEL ÁNGEL ZUBIETA<br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.413932 lng=-64.171327 title="OLIVA"]
+<strong>OLIVA</strong><br>
+LEANDRO N. ALEM ESQ. SAN LORENZO<br>
+OLIVA<br>
+Tel: (03532) 422-629 <br>
+Titular: VICTOR OLARIAGA<br>
+[/leaflet-marker]
+
+<!-- MARKERS END -->
+    <?php
+    return ob_get_clean();
+}
+
+add_shortcode('leaflet_map_todos', 'leaflet_map_shortcode_todos');

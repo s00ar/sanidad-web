@@ -1,0 +1,306 @@
+function leaflet_map_shortcode_ospsa() {
+    ob_start();
+    ?>
+	[leaflet-map lat=-34.611754 lng=-58.403259 zoomcontrol=1 scrollwheel=1 ]
+    
+    [leaflet-marker lat=-34.611754 lng=-58.403259 title="OSPSA BUENOS AIRES"]
+    <strong>OSPSA BUENOS AIRES</strong><br>
+    VENEZUELA 2359<br>
+    CAPITAL FEDERAL<br>
+    Tel: (011) 49439400<br>
+    Titular: CAROLINA BAHAMONDE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.403502 lng=-64.1746 title="OSPSA CORDOBA"]
+    <strong>OSPSA CORDOBA</strong><br>
+    COCHABAMBA N°940<br>
+    CORDOBA<br>
+    Tel: (0351) 556-0400<br>
+    Titular: SUSANA GARCIA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.643545 lng=-60.709914 title="OSPSA SANTA FE"]
+    <strong>OSPSA SANTA FE</strong><br>
+    SALTA 2828<br>
+    SANTA FE<br>
+    Tel: (0342) 454-7400<br>
+    Titular: NORMA KARINA RODONI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.905079 lng=-57.958321 title="OSPSA LA PLATA"]
+    <strong>OSPSA LA PLATA</strong><br>
+    CALLE 5 N°375<br>
+    LA PLATA<br>
+    Tel: (0221) 483-8573<br>
+    Titular: PEDRO F. BORGINI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-32.897953 lng=-68.826224 title="OSPSA MENDOZA"]
+    <strong>OSPSA MENDOZA</strong><br>
+    25 DE MAYO N° 722<br>
+    MENDOZA<br>
+    Tel: (0261) 423-6622<br>
+    Titular: OSCAR ALEJANDRO CAMPO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.731874 lng=-58.258964 title="OSPSA QUILMES"]
+    <strong>OSPSA QUILMES</strong><br>
+    Vicente Lopez N° 1969<br>
+    QUILMES<br>
+    Tel: (011) 4350-7400<br>
+    Titular: RAMÓN RICARDO ROMERO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.721044 lng= -60.52583 title="OSPSA ENTRE RÍOS"]
+    <strong>OSPSA ENTRE RÍOS</strong><br>
+    MONTE CASEROS 373 -C.C. NRO. 121<br>
+    PARANÁ<br>
+    Tel: (0343) 423-1466<br>
+    Titular: LEONEL W. WESISHEIM<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-26.820777 lng=-65.219203 title="OSPSA TUCUMÁN"]
+    <strong>OSPSA TUCUMÁN</strong><br>
+    STGO DEL ESTERO N°1578<br>
+    TUCUMÁN<br>
+    Tel: (0381) 432-2296<br>
+    Titular: DARÍO SUAREZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.124919 lng=-64.351884 title="OSPSA RÍO CUARTO"]
+    <strong>OSPSA RÍO CUARTO</strong><br>
+    CABRERA N° 930<br>
+    RÍO CUARTO<br>
+    Tel: (0358) 464-5789<br>
+    Titular: CRISTINA FERNANDEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-37.993704 lng=-57.559289 title="OSPSA MAR DEL PLATA"]
+    <strong>OSPSA MAR DEL PLATA</strong><br>
+    DORREGO N°1752<br>
+    MAR DEL PLATA<br>
+    Tel: (0223) 473-6501<br>
+    Titular: MARIO PIERGENTILI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.651791 lng=-58.616766 title="OSPSA HURLINGHAM"]
+    <strong>OSPSA HURLINGHAM</strong><br>
+    ALMIRANTE BROWN 1.172<br>
+    MORON <br>
+    Tel: (011) 4628-7006 <br>
+    Titular: JORGE VICTOR D´ANDREA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.457102 lng=-58.988302 title="OSPSA CHACO "]
+    <strong>OSPSA CHACO </strong><br>
+    RODRIGUEZ PEÑA N°275<br>
+    RESISTENCIA<br>
+    Tel: (0362)444 9554 <br>
+    Titular: ADRIAN BELLOMI <br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-28.931015 lng= -57.58243 title="OSPSA CORRIENTES"]
+    <strong>OSPSA CORRIENTES</strong><br>
+    PASAJE ALVARÉZ N°843<br>
+    CORRIENTES<br>
+    Tel: (03794) 464-763<br>
+    Titular: ROSA SEPULVEDA Y ROBERTO GUIDO TELLO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.676475 lng=-59.666059 title="OSPSA SAN PEDRO"]
+    <strong>OSPSA SAN PEDRO</strong><br>
+    BELGRANO N°589<br>
+    SAN PEDRO<br>
+    Tel: (03329) 426949<br>
+    Titular: NILDA IGLESIAS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-24.791819 lng=-65.417794 title="OSPSA SALTA"]
+    <strong>OSPSA SALTA</strong><br>
+    URQUIZA N°1070<br>
+    SALTA<br>
+    Tel: (0387) 421-2552 <br>
+    Titular: EDUARDO RAMOS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-38.723212 lng=-62.266004 title="OSPSA BAHÍA BLANCA"]
+    <strong>OSPSA BAHÍA BLANCA</strong><br>
+    FITZ ROY N° 192<br>
+    BAHÍA BLANCA<br>
+    Tel: (0291) 452-8961 <br>
+    Titular: HUGO MODARELLI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.788137 lng=-64.253929 title="OSPSA STGO DEL ESTERO"]
+    <strong>OSPSA STGO DEL ESTERO</strong><br>
+    MENDOZA 133<br>
+    STGO DEL ESTERO<br>
+    Tel: (0385) 422-7758<br>
+    Titular: DARIO SUAREZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.538100 lng= -68.51393 title="OSPSA SAN JUAN"]
+    <strong>OSPSA SAN JUAN</strong><br>
+    SANTA FE N°856 (ESTE)<br>
+    SAN JUAN<br>
+    Tel: (0264) 421-4388 <br>
+    Titular: REIMUNDO ALFREDO DUARTE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.890408 lng=-60.570924 title="OSPSA PERGAMINO"]
+    <strong>OSPSA PERGAMINO</strong><br>
+    LAGOS N°578<br>
+    PERGAMINO<br>
+    Tel: (02477) 426-237 <br>
+    Titular: GRACIELA SIBAT<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-24.186686 lng=-65.293572 title="OSPSA JUJUY"]
+    <strong>OSPSA JUJUY</strong><br>
+    3 Sargentos esq. Pasaje Suecia<br>
+    S. S DE JUJUY<br>
+    Tel:  (0388) 422-2936  <br>
+    Titular: CLAUDIA VIVIANA LOPEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-29.410517 lng=-66.852797 title="OSPSA LA RIOJA"]
+    <strong>OSPSA LA RIOJA</strong><br>
+    San Nicolas de Bari 1144<br>
+    LA RIOJA<br>
+    Tel: (0380) 442-8434  <br>
+    Titular: NICOLÁS I. DE LA FUENTE<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.687085 lng=-65.463885 title="OSPSA SAN LUIS"]
+    <strong>OSPSA SAN LUIS</strong><br>
+    PRINGLES 84<br>
+    VILLA MERCEDES<br>
+    Tel: (02657)  426-650 <br>
+    Titular: ANÍBAL HÉCTOR GOMEZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.430238 lng=-62.078143 title="OSPSA SAN FRANCISCO"]
+    <strong>OSPSA SAN FRANCISCO</strong><br>
+    BOULEVARD GARIBALDI N°43<br>
+    SAN FRANCISCO<br>
+    Tel: (03564) 426-137 <br>
+    Titular: GABRIELA ALEJANDRA SIDLER<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-43.253799 lng=-65.318273 title="OSPSA CHUBUT"]
+    <strong>OSPSA CHUBUT</strong><br>
+    MARCONI N° 171<br>
+    TRELEW<br>
+    Tel: (0280) 443-2468<br>
+    Titular: SARA BARRERA DE OLMOS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-35.656965 lng=-63.754481 title="OSPSA LA PAMPA"]
+    <strong>OSPSA LA PAMPA</strong><br>
+    RIVADAVIA 335 LOC.3<br>
+    SANTA ROSA<br>
+    Tel: (02954) 411654<br>
+    Titular: MIRTA ERRO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-26.192374 lng=-58.182224 title="OSPSA FORMOSA"]
+    <strong>OSPSA FORMOSA</strong><br>
+    PANTALEON GOMEZ  N°1187<br>
+    FORMOSA<br>
+    Tel: (0370) 15-4672264<br>
+    Titular: CARMEN IRENE FERREYRA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-27.356312 lng=-55.892776 title="OSPSA MISIONES"]
+    <strong>OSPSA MISIONES</strong><br>
+    IVANOWSKY N° 1845<br>
+    POSADAS<br>
+    Tel: (0376) 443-8184<br>
+    Titular: IRMA RACZKOWSKI<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-33.330156 lng=-60.222425 title="OSPSA SAN NICOLÁS"]
+    <strong>OSPSA SAN NICOLÁS</strong><br>
+    LAVALLE N° 267<br>
+    SAN NICOLAS DE LOS ARROYOS<br>
+    Tel: (0336) 442-5537<br>
+    Titular: MÓNICA CHUNGO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-28.467748 lng=-65.789376 title="OSPSA CATAMARCA "]
+    <strong>OSPSA CATAMARCA </strong><br>
+    SAMUEL MOLINA N° 178<br>
+    CATAMARCA<br>
+    Tel: (03834) 43-3566<br>
+    Titular: LEONARDO BURGOS<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-38.948913 lng=-68.056594 title="OSPSA NEUQUÉN"]
+    <strong>OSPSA NEUQUÉN</strong><br>
+    DIAG. ESPAÑA N° 170<br>
+    NEUQUEN<br>
+    Tel: (0299) 442-6382 <br>
+    Titular: MARINA NOEMI DIAZ<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-39.021960 lng= -67.59396 title="OSPSA RÍO NEGRO"]
+    <strong>OSPSA RÍO NEGRO</strong><br>
+    España 1718<br>
+    GRAL. ROCA<br>
+    Tel: (0298) 4424672<br>
+    Titular: GLORIA DELFA NOEMI OVEJERO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-51.616511 lng=-69.220587 title="OSPSA SANTA CRUZ"]
+    <strong>OSPSA SANTA CRUZ</strong><br>
+    MAGALLANES N° 175<br>
+    RÍO GALLEGOS <br>
+    Tel: (02966) 420-301 <br>
+    Titular: ANDREA MORENO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.59535, lng=60.950966 title="OSPSA JUNIN"]
+    <strong>OSPSA JUNIN</strong><br>
+    BENITO DE MIGUEL N° 239<br>
+    JUNIN<br>
+    Tel: (0236) 443-3815 <br>
+    Titular: HÉCTOR AZIL<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-31.395499 lng=-58.025325 title="OSPSA CONCORDIA"]
+    <strong>OSPSA CONCORDIA</strong><br>
+    SAN MARTÍN N° 322<br>
+    CONCORDIA<br>
+    Tel: (0345) 422-7282 <br>
+    Titular: OMAR DUERTO<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.48652, lng=58.615844 title="OSPSA ZONA NORTE"]
+    <strong>OSPSA ZONA NORTE</strong><br>
+    FRAY JUSTO SANTA MARIA DE ORO N° 1528<br>
+    DON TORCUATO<br>
+    Tel: (011) 4846-4100<br>
+    Titular: NÉSTOR GENTA<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-34.737293 lng=-58.397786 title="OSPSA ZONA SUR"]
+    <strong>OSPSA ZONA SUR</strong><br>
+    HIPOLITO YRIGOYEN N°7066<br>
+    BANFIELD<br>
+    Tel: (011) 5088-2100<br>
+    Titular: SERGIO JOSÉ OYHAMBURU<br>
+    [/leaflet-marker]
+
+    [leaflet-marker lat=-53.792223 lng=-67.703787 title="OSPSA TIERRA DEL FUEGO"]
+    <strong>OSPSA TIERRA DEL FUEGO</strong><br>
+    FRANCISCO BILBAO N°308<br>
+    RÍO GRANDE<br>
+    Tel: (02964) 423-523 <br>
+    Titular: CLAUDIA ETCHEPARE<br>
+    [/leaflet-marker]
+
+    <?php
+    return ob_get_clean();
+}
+
+add_shortcode('leaflet_map_ospsa', 'leaflet_map_shortcode_ospsa');

@@ -1,0 +1,263 @@
+function leaflet_map_shortcode_turismo() {
+    ob_start();
+    ?>
+    [leaflet-map lat=-34.60977567877862 lng=-38.38135838508607 zoomcontrol=1 scrollwheel=1 ]
+    
+[leaflet-marker lat=-34.421213 lng=-58.578985 title="Isla I´Marangatú | ATSA Bs As"]
+<strong>Isla I´Marangatú | ATSA Bs As</strong><br>
+General Bartolomé Mitre 305<br>
+Tigre<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">http://www.atsa.org.ar</a><br>
+En medio de un lugar paradisíaco, característico del delta de Tigre, adquirimos y renovamos I´Marangatu para hacerlo accesible y que todos nuestros compañeros puedan disfrutar  con sus familias.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0008A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-35.597168 lng= -58.03690 title="Camping 21 de Septiembre | ATSA Bs As"]
+<strong>Camping 21 de Septiembre | ATSA Bs As</strong><br>
+Camino de Circunvalación Km. 16,500<br>
+Chascomús<br>
+Tel: (011) 4959 4100<br>
+Web: <a href="http://www.atsa.org.ar" target="_blank">http://www.atsa.org.ar</a><br>
+Un lugar de esparcimiento para los trabajadores de la Sanidad ubicado a la vera de la laguna, un predio de gran extensión, donde hemos creado un sector para cada actividad. Disfrute un día a plena naturaleza.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0001A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.966788 lng=-57.86303 title="Complejo 8 de Marzo | SSP"]
+<strong>Complejo 8 de Marzo | SSP</strong><br>
+Calle 635 entre 1 y 115<br>
+La Plata<br>
+Tel: (0221) 421 5405<br>
+Web: <a href="http://www.ssp.org.ar" target="_blank">http://www.ssp.org.ar</a><br>
+Un lugar para disfrutar todo el año.Hotel. Cabañas. Quinchos. Parrillas.Comedor. Canchas de Paddle, Paleta, Basquet, Fútbol). Piletas, Jacuzzi.  Pileta Climatizada. Sauna. Estacionamiento.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0003A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.565257 lng= -60.94882 title="Complejo Polideportivo | ATSA Junin"]
+<strong>Complejo Polideportivo | ATSA Junin</strong><br>
+Ruta 188 y Avenida República<br>
+Junin<br>
+Tel: (0236) 443 3815<br>
+Web: <a href="http://www.sanidadjunin.com.ar/" target="_blank">http://www.sanidadjunin.com.ar/</a><br>
+Más de dos hectáreas dedicadas al deporte,  recreación y esparcimiento. Canchas de futbol. Quincho con capacidad para 80 personas completamente equipado.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0002A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.770270 lng= -60.83551 title="Recreativo Otto Calace | ATSA Santa Fé"]
+<strong>Recreativo Otto Calace | ATSA Santa Fé</strong><br>
+Almirante Brown y Estrella Federal<br>
+Sauce Viejo <br>
+Tel: (0342) 455 2574<br>
+Web: <a href="http://www.atsasantafe.org.ar" target="_blank">http://www.atsasantafe.org.ar</a><br>
+Ubicado en la localidad de Sauce Viejo, a 15 Km. de la ciudad de Santa Fé. Es un espacio pensado por y para los trabajadores de la Sanidad y sus familias, situado a orillas del Río Coronda.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0005A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.737734 lng= -60.48532 title="Complejo Camping | ATSA Entre Ríos"]
+<strong>Complejo Camping | ATSA Entre Ríos</strong><br>
+Don Bosco 2906<br>
+Paraná<br>
+Tel: (0343) 423 0029<br>
+Web: <a href="http://www.atsaentrerios.com.ar" target="_blank">http://www.atsaentrerios.com.ar</a><br>
+El predio cuenta con diferentes instalaciones: Cancha de Fútbol, Cancha de Hockey, Cancha  de Vóley. Juegos infantiles de libre acceso. Piletas de natación y solárium.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0004A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.261023 lng= -58.97002 title="Complejo Recreativo | ATSA Chaco"]
+<strong>Complejo Recreativo | ATSA Chaco</strong><br>
+R.N. 11 KM 1021 Dpto 1° de Mayo Margarita Belén<br>
+Chaco<br>
+Tel: (0362) 444 9554<br>
+Web: <a href="http://www.sanidadatsachaco.com.ar" target="_blank">http://www.sanidadatsachaco.com.ar</a><br>
+Este Complejo contará con un Salón de Usos Múltiples. Canchas de Fútbol 11, Voléy, Basquet y Hockey. Canchas de Bochas. Vestuarios. Piletas de Natación.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0009A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.689430 lng= -65.46591 title="Camping | ATSA San Luis"]
+<strong>Camping | ATSA San Luis</strong><br>
+Pringles 84<br>
+Villa Mercedes<br>
+Tel: (02657) 421 882<br>
+Web: <a href="www.atsafilialsanluis.com.ar" target="_blank">www.atsafilialsanluis.com.ar</a><br>
+Salón Multifunción con capacidad para 250 personas. Sector Parrillas. Juegos para niños. 3 Piletas de Natación. Quinchos con Parrillas. Canchas de Fútbol y Voley. <br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0007A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat= lng= title="Complejo El Cadillal | ATSA Tucumán"]
+<strong>Complejo El Cadillal | ATSA Tucumán</strong><br>
+Ruta 347 Km 4<br>
+Tucumán<br>
+Tel: (0381) 433 1665<br>
+Web: <a href="http://www.atsatucuman.org.ar/" target="_blank">http://www.atsatucuman.org.ar/</a><br>
+Complejo Social y Deportivo con albergue para 60 personas. Cancha de Fútbol.  Piletas de Natación. Juegos Infantiles. Salón de Fiestas para 300 personas.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0006A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-26.072901 lng= -65.97639 title="Hotel Cafayate | ATSA Salta"]
+<strong>Hotel Cafayate | ATSA Salta</strong><br>
+.<br>
+Cafayate<br>
+Tel: (0387) 425 6684 / (0387) 421 2552<br>
+Web: <a href=" " target="_blank"> </a><br>
+Aire acondicionado, calefacción. Habitaciones dobles twins. TV cable. Pileta de Natación.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0010A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.829677 lng= -68.12200 title="Camping Los Nonos | ATSA Neuquén"]
+<strong>Camping Los Nonos | ATSA Neuquén</strong><br>
+Calle 4 chacra 101<br>
+Centenario<br>
+Tel: (0299) 489 4856<br>
+Web: <a href="" target="_blank"></a><br>
+Lugar para acampar. Piscina. Cancha de fútbol. Tareas de chacra y huerta. Paseos en bicicleta. Dormis.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0018A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-32.848267 lng= -68.81590 title="Camping El Challao | ATSA Mendoza"]
+<strong>Camping El Challao | ATSA Mendoza</strong><br>
+Av. Champagnat y Arroyo Seco<br>
+Las Heras <br>
+Tel: (0261) 444 2167<br>
+Web: <a href="http://www.atsamza.org.ar/" target="_blank">http://www.atsamza.org.ar/</a><br>
+Cuenta con un sector de quinchos. Piletas para niños y adultos. Área de campamento con sanitarios y duchas. Sector de juegos.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0019A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.382941 lng= -58.73358 title="Las Clavelinas | ATSA Zona Norte"]
+<strong>Las Clavelinas | ATSA Zona Norte</strong><br>
+Ruta Panamericana km 43.5 - Colectora Oeste<br>
+Ingeniero Maschwitz<br>
+Tel: (011) 4846 4150<br>
+Web: <a href="http://www.atsazonanorte.org.ar/" target="_blank">http://www.atsazonanorte.org.ar/</a><br>
+9 hectáreas de pura diversión y esparcimiento para tus ratos libres en familia.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0017A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.500958 lng= -64.86453 title="Hotel ATSA | ATSA Tucumán"]
+<strong>Hotel ATSA | ATSA Tucumán</strong><br>
+Güemes N° 386-390<br>
+Termas de Río Hondo | Santiago del Estero<br>
+Tel: (03858) 422 005<br>
+Web: <a href="http://www.atsatucuman.org.ar/" target="_blank">http://www.atsatucuman.org.ar/</a><br>
+Habitaciones con baños privados. TV por cable. Wi Fi. Aire Acondicionado. Pileta con Agua Termal. Comedor. Juegos de Salón.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0026A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.731893 lng= -58.25900 title="Recreativo Fernando Kelly | ATSA Quilmes"]
+<strong>Recreativo Fernando Kelly | ATSA Quilmes</strong><br>
+Calle 422 y 13<br>
+Villa Elisa<br>
+Tel: (011) 4350 7400<br>
+Web: <a href="http://www.atsaquilmes.org.ar/" target="_blank">http://www.atsaquilmes.org.ar/</a><br>
+ATSA Quilmes | Pileta de Natación. Sector de fogones. Cancha de Fútbol. Salón comedor.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0015A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-24.733330 lng= -65.40810 title="Hotel Sanidad | ATSA Salta"]
+<strong>Hotel Sanidad | ATSA Salta</strong><br>
+Av. San Antonio de los Cobres s/n<br>
+Salta<br>
+Tel: (0387) 425 6684<br>
+Web: <a href="" target="_blank"></a><br>
+El hotel cuenta con 45 habitaciones con aire acondicionado, TV Cable. Confitería. Playa privada de estacionamiento. Predio parquizado. Pileta Olímpica. Juegos infantiles. Canchas de fútbol, básquet y voley.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0011A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.576813 lng= -68.52193 title="Camping Orlando Collado | ATSA San Juan"]
+<strong>Camping Orlando Collado | ATSA San Juan</strong><br>
+.<br>
+Rawson<br>
+Tel: (0264) 421 4388<br>
+Web: <a href="" target="_blank"></a><br>
+Contamos con dos SUM con capacidad para 700 y 100 personas. Cabañas con dormitorios, cocina y baño. <br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0013A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-39.039652 lng= -67.59337 title="Complejo Recreativo | ATSA Río Negro"]
+<strong>Complejo Recreativo | ATSA Río Negro</strong><br>
+Ruta 22 chacra 259<br>
+General Roca<br>
+Tel: (0298) 442 4672<br>
+Web: <a href="http://www.atsarionegro.com" target="_blank">http://www.atsarionegro.com</a><br>
+Quinchos abiertos y cerrados con parrillero. Canchas de pádel. Canchas de fútbol con vestuarios. 3 piscinas (para bebés, niños y adultos). Espacio para acampar. Parque.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0012A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-38.554960 lng= -58.74007 title="Camping Necochea | ATSA La Plata"]
+<strong>Camping Necochea | ATSA La Plata</strong><br>
+10 y 189<br>
+Villa Zabala | Necochea<br>
+Tel: (0221) 421 6023<br>
+Web: <a href="http://www.atsalaplata.org.ar/" target="_blank">http://www.atsalaplata.org.ar/</a><br>
+Guardavidas. Emergencia Médica. Baños, Vestuarios. Duchas. Proveeduría, Restaurant, TV, Video-Juegos-Pool. 4 Hectáreas Arboladas. Salida al Mar. Fogones, Mesas. Carpas y Autoportantes.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.998542 lng= -58.01654 title="Camping La Plata | ATSA La Plata"]
+<strong>Camping La Plata | ATSA La Plata</strong><br>
+Calle 66 y 185<br>
+La Plata<br>
+Tel: (0221) 496 1185<br>
+Web: <a href="http://www.atsalaplata.org.ar/" target="_blank">http://www.atsalaplata.org.ar/</a><br>
+Baños, vestuarios y duchas. Buffet. Piletas. Guardavidas. Médico en el camping. Emergencias Médicas. Parrillas. Parcelas para acampar. Canchas de voley, Paddle, Fútbol. Salón de fiestas.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/noimage.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-27.786829 lng= -64.26597 title="Polideportivo | ATSA Stgo del Estero"]
+<strong>Polideportivo | ATSA Stgo del Estero</strong><br>
+Puestito de San Antonio<br>
+Puestito de San Antonio<br>
+Tel: (0385) 421 3463<br>
+Web: <a href="http://www.atsasgo.com.ar/" target="_blank">http://www.atsasgo.com.ar/</a><br>
+Complejo Polideportivo. Canchas de Fútbol, Basquet. Piletas. Colonia de Vacaciones. Salón de Eventos.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0016A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-34.751397 lng= -58.48767 title="Recreativo Pasteleros | ATSA Zona Sur"]
+<strong>Recreativo Pasteleros | ATSA Zona Sur</strong><br>
+Ruta de la Tradición (Ex Camino de Cintura) 6455<br>
+Esteban Echeverria<br>
+Tel: (011) 5088 2100<br>
+Web: <a href="http://www.atsazonasur.com/" target="_blank">http://www.atsazonasur.com/</a><br>
+Quinchos. Parrillas. Piletas de Natación. Canchas de Fútbol. Playón Multifuncional. Salón de Juegos. Juegos Infantiles. Vestuarios. Estacionamiento.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0014A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-31.405263 lng= -64.50012 title="Gran Hotel Casablanca | ATSA Córdoba"]
+<strong>Gran Hotel Casablanca | ATSA Córdoba</strong><br>
+Bv. Sarmiento 1001<br>
+Villa Carlos Paz<br>
+Tel: (0351) 423 3885 Int 105<br>
+Web: <a href="http://www.sanidadatsacba.com.ar/" target="_blank">http://www.sanidadatsacba.com.ar/</a><br>
+El Hotel cuenta con 67 amplias habitaciones. Restaurant - Bar. Terraza. Estacionamiento. Pileta. Solarium. Wi Fi. Recepción las 24 hs.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0020A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.287751 lng= -60.27015 title="Camping ACA | ATSA San Nicolás"]
+<strong>Camping ACA | ATSA San Nicolás</strong><br>
+Ruta 21, Km 242 <br>
+San Nicolás de los Arroyos<br>
+Tel: (0336) 445 3805<br>
+Web: <a href="" target="_blank"></a><br>
+Es un espacio dedicado a la recreación y descanso familiar. Cuenta con Pileta de Natación. Parrillas. Canchas de Tenis. Canchas de Fútbol. Colonia de vacaciones. Salón para eventos.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0024A.jpg"><br>
+[/leaflet-marker]
+
+[leaflet-marker lat=-33.124942 lng= -64.35210 title="Círculo de Oficiales | ATSA Río Cuarto"]
+<strong>Círculo de Oficiales | ATSA Río Cuarto</strong><br>
+Cabrera 930<br>
+Río Cuarto<br>
+Tel: (0358) 464 5789<br>
+Web: <a href="http://www.atsariocuarto.com.ar/" target="_blank">http://www.atsariocuarto.com.ar/</a><br>
+Salón de fiestas con capacidad para 500 personas. Pileta de Natación. Gran Parque de esparcimiento. Quincho cubierto. Quinchos abiertos y asadores. Canchas de fútbol.<br>
+<img src="https://www.sanidad.org.ar/CONTENTMANAGER/Files/ContentFileManager/turismo/image_mapa/0025A.png"><br>
+[/leaflet-marker]
+
+
+
+    
+    <?php
+    return ob_get_clean();
+}
+
+add_shortcode('leaflet_map_turismo', 'leaflet_map_shortcode_turismo');
