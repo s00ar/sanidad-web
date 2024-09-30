@@ -6,7 +6,7 @@ function leaflet_zone_category_selector_shortcode() {
         .map-controls {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
+            margin: 20px 5px 20px 5px;
         }
 
         .map-controls label {
@@ -16,7 +16,11 @@ function leaflet_zone_category_selector_shortcode() {
         .map-controls select {
             padding: 5px;
             font-size: 16px;
+			width:100%;
         }
+		.panel{
+			width:50%;
+		}
         #map-container .map {
             display: none; /* Ocultar todos los mapas inicialmente */
             width: 100%;
@@ -29,10 +33,22 @@ function leaflet_zone_category_selector_shortcode() {
     </style>
 
     <div class="map-controls">
-        <div>
+		
+        <div class="panel">
+            <label for="category-select">Seleccione la categoría:</label>
+            <select id="category-select" onchange="filterMarkers()">
+                <option value="all">Todas</option>
+                <option value="atsa">ATSA</option>
+                <option value="ospsa">OSPSA</option>
+                <option value="capacitacion">Capacitación</option>
+                <option value="turismo">Turismo</option>
+            </select>
+        </div>
+		
+        <div class="panel">
             <label for="zone-select">Seleccione la zona:</label>
             <select id="zone-select" onchange="moveMap()">
-                <option value="">Zona</option>
+                <option value=""></option>
                 <option value="CABA">Buenos Aires, CABA</option>
                 <option value="BahiaBlanca">Buenos Aires, Bahía Blanca</option>
                 <option value="LaPlata">Buenos Aires, La Plata</option>
@@ -74,16 +90,6 @@ function leaflet_zone_category_selector_shortcode() {
             </select>
         </div>
 
-        <div>
-            <label for="category-select">Seleccione la categoría:</label>
-            <select id="category-select" onchange="filterMarkers()">
-                <option value="all">Todas</option>
-                <option value="atsa">ATSA</option>
-                <option value="ospsa">OSPSA</option>
-                <option value="capacitacion">Capacitación</option>
-                <option value="turismo">Turismo</option>
-            </select>
-        </div>
     </div>
 
     <!-- Contenedor de mapas -->
