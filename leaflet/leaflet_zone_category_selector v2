@@ -176,6 +176,7 @@ function leaflet_zone_category_selector_shortcode() {
             } else if (category === "turismo") {
                 document.getElementById('map-turismo').classList.add('active');
             }
+			window.dispatchEvent(new Event('resize'));
         }
     </script>
     <?php
