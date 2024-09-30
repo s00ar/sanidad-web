@@ -1,0 +1,25 @@
+[leaflet_zone_selector]
+[su_tabs active="1" vertical="no" class="custom-tabs"]
+
+[leaflet_zone_selector]
+[su_tab title="Todos" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet_map_todos]
+[/su_tab]
+
+[su_tab title="Capacitación" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet_map_capacitacion]
+[/su_tab]
+
+[su_tab title="Turismo" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet_map_turismo]
+[/su_tab]
+
+[su_tab title="OSPSA" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet_map_ospsa]
+[/su_tab]
+
+[su_tab title="ATSA" disabled="no" anchor="" url="" target="blank" class=""]
+[leaflet_map_atsa]
+[/su_tab]
+
+[/su_tabs]
