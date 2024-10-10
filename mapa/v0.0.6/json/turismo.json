@@ -1,3 +1,192 @@
 [
-    { "lat": -34.9205, "lng": -57.9536, "popup": "La Plata - Capacitación" }
-]
+    {
+      "title": "Isla I´Marangatú | ATSA Bs As",
+      "latitude": "-34.421213",
+      "longitude": "-58.578985",
+      "address": "General Bartolomé Mitre 305, Tigre",
+      "phone": "(011) 4959 4100",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping 21 de Septiembre | ATSA Bs As",
+      "latitude": "-35.597168",
+      "longitude": "-58.03690",
+      "address": "Camino de Circunvalación Km. 16,500, Chascomús",
+      "phone": "(011) 4959 4100",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Complejo 8 de Marzo | SSP",
+      "latitude": "-34.966788",
+      "longitude": "-57.86303",
+      "address": "Calle 635 entre 1 y 115, La Plata",
+      "phone": "(0221) 421 5405",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Complejo Polideportivo | ATSA Junin",
+      "latitude": "-34.565257",
+      "longitude": "-60.94882",
+      "address": "Ruta 188 y Avenida República, Junin",
+      "phone": "(0236) 443 3815",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Recreativo Otto Calace | ATSA Santa Fé",
+      "latitude": "-31.770270",
+      "longitude": "-60.83551",
+      "address": "Almirante Brown y Estrella Federal, Sauce Viejo",
+      "phone": "(0342) 455 2574",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Complejo Camping | ATSA Entre Ríos",
+      "latitude": "-31.737734",
+      "longitude": "-60.48532",
+      "address": "Don Bosco 2906, Paraná",
+      "phone": "(0343) 423 0029",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Complejo Recreativo | ATSA Chaco",
+      "latitude": "-27.261023",
+      "longitude": "-58.97002",
+      "address": "R.N. 11 KM 1021 Dpto 1° de Mayo, Margarita Belén",
+      "phone": "(0362) 444 9554",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping | ATSA San Luis",
+      "latitude": "-33.689430",
+      "longitude": "-65.46591",
+      "address": "Pringles 84, Villa Mercedes",
+      "phone": "(02657) 421 882",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Complejo El Cadillal | ATSA Tucumán",
+      "latitude": "",
+      "longitude": "",
+      "address": "Ruta 347 Km 4, Tucumán",
+      "phone": "(0381) 433 1665",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Hotel Cafayate | ATSA Salta",
+      "latitude": "-26.072901",
+      "longitude": "-65.97639",
+      "address": "Cafayate",
+      "phone": "(0387) 425 6684 / (0387) 421 2552",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping Los Nonos | ATSA Neuquén",
+      "latitude": "-38.829677",
+      "longitude": "-68.12200",
+      "address": "Calle 4 chacra 101, Centenario",
+      "phone": "(0299) 489 4856",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping El Challao | ATSA Mendoza",
+      "latitude": "-32.848267",
+      "longitude": "-68.81590",
+      "address": "Av. Champagnat y Arroyo Seco, Las Heras",
+      "phone": "(0261) 444 2167",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Las Clavelinas | ATSA Zona Norte",
+      "latitude": "-34.382941",
+      "longitude": "-58.73358",
+      "address": "Ruta Panamericana km 43.5 - Colectora Oeste, Ingeniero Maschwitz",
+      "phone": "(011) 4846 4150",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Hotel ATSA | ATSA Tucumán",
+      "latitude": "-27.500958",
+      "longitude": "-64.86453",
+      "address": "Güemes N° 386-390, Termas de Río Hondo, Santiago del Estero",
+      "phone": "(03858) 422 005",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Recreativo Fernando Kelly | ATSA Quilmes",
+      "latitude": "-34.731893",
+      "longitude": "-58.25900",
+      "address": "Calle 422 y 13, Villa Elisa",
+      "phone": "(011) 4350 7400",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Hotel Sanidad | ATSA Salta",
+      "latitude": "-24.733330",
+      "longitude": "-65.40810",
+      "address": "Av. San Antonio de los Cobres s/n, Salta",
+      "phone": "(0387) 425 6684",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping Orlando Collado | ATSA San Juan",
+      "latitude": "-31.576813",
+      "longitude": "-68.52193",
+      "address": "Rawson",
+      "phone": "(0264) 421 4388",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Complejo Recreativo | ATSA Río Negro",
+      "latitude": "-39.039652",
+      "longitude": "-67.59337",
+      "address": "Ruta 22 chacra 259, General Roca",
+      "phone": "(0298) 442 4672",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping Necochea | ATSA La Plata",
+      "latitude": "-38.554960",
+      "longitude": "-58.74007",
+      "address": "10 y 189, Villa Zabala, Necochea",
+      "phone": "(0221) 421 6023",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Camping La Plata | ATSA La Plata",
+      "latitude": "-34.998542",
+      "longitude": "-58.01654",
+      "address": "Calle 66 y 185, La Plata",
+      "phone": "(0221) 496 1185",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    },
+    {
+      "title": "Polideportivo | ATSA Stgo del Estero",
+      "latitude": "-27.786829",
+      "longitude": "-64.26597",
+      "address": "Puestito de San Antonio, Puestito de San Antonio",
+      "phone": "(0385) 421 3463",
+      "responsible": "",
+      "icon": "/wp-content/uploads/2024/09/Turismo.png"
+    }
+  ]
+  
