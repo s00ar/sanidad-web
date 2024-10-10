@@ -1,0 +1,60 @@
+{
+  "all": [
+    {
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "nombre": "CABA - Todas",
+      "direccion": "Avenida Siempre Viva 123",
+      "telefono": "(011) 1234-5678",
+      "titular": "Juan Pérez"
+    },
+    {
+      "lat": -38.7167,
+      "lng": -62.2833,
+      "nombre": "Bahía Blanca - Todas",
+      "direccion": "Calle Falsa 456",
+      "telefono": "(0291) 9876-5432",
+      "titular": "María González"
+    }
+  ],
+  "atsa": [
+    {
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "nombre": "CABA - ATSA",
+      "direccion": "Avenida ATSA 123",
+      "telefono": "(011) 1111-2222",
+      "titular": "Carlos López"
+    }
+  ],
+  "ospsa": [
+    {
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "nombre": "CABA - OSPSA",
+      "direccion": "Boulevard OSPSA 456",
+      "telefono": "(011) 3333-4444",
+      "titular": "Ana Martínez"
+    }
+  ],
+  "capacitacion": [
+    {
+      "lat": -34.9205,
+      "lng": -57.9536,
+      "nombre": "La Plata - Capacitación",
+      "direccion": "Calle Capacitación 789",
+      "telefono": "(0221) 5555-6666",
+      "titular": "Lucía Fernández"
+    }
+  ],
+  "turismo": [
+    {
+      "lat": -34.9205,
+      "lng": -57.9536,
+      "nombre": "La Plata - Turismo",
+      "direccion": "Avenida Turismo 1011",
+      "telefono": "(0221) 7777-8888",
+      "titular": "Ricardo Gómez"
+    }
+  ]
+}

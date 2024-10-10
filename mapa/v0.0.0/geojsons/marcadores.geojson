@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "CABA ATSA",
+                "category": "atsa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-58.3816, -34.6037]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "CABA OSPSA",
+                "category": "ospsa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-58.3850, -34.6090]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bahía Blanca Capacitación",
+                "category": "capacitacion"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-62.2833, -38.7167]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "La Plata Turismo",
+                "category": "turismo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-57.9536, -34.9205]
+            }
+        }
+    ]
+}

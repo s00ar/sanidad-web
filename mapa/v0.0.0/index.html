@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        /* Estilos para el contenedor de controles y mapa */
+        .map-controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .map-controls label {
+            margin-right: 10px;
+        }
+
+        .map-controls select {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-controls">
+        <div>
+            <label for="zone-select">Seleccione la zona:</label>
+            <select id="zone-select" onchange="moveMap()">
+                <option value="">Zona</option>
+                <option value="CABA">Buenos Aires, CABA</option>
+                <option value="BahiaBlanca">Buenos Aires, Bahía Blanca</option>
+                <option value="LaPlata">Buenos Aires, La Plata</option>
+                <!-- Más zonas según tu necesidad -->
+            </select>
+        </div>
+
+        <div>
+            <label for="category-select">Seleccione la categoría:</label>
+            <select id="category-select" onchange="filterMarkers()">
+                <option value="all">Todas</option>
+                <option value="atsa">ATSA</option>
+                <option value="ospsa">OSPSA</option>
+                <option value="capacitacion">Capacitación</option>
+                <option value="turismo">Turismo</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Inicialización del mapa
+        var map = L.map('map').setView([-34.6037, -58.3816], 10); // Coordenadas iniciales: Buenos Aires
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Definir ubicaciones
+        var mapLocations = {
+            "CABA": [-34.6037, -58.3816],
+            "BahiaBlanca": [-38.7167, -62.2833],
+            "LaPlata": [-34.9205, -57.9536]
+            // Más ubicaciones según tus necesidades
+        };
+
+        // Definir marcadores de diferentes categorías
+        var markers = {
+            "all": [
+                L.marker([-34.6037, -58.3816]).bindPopup("CABA - Todas"),
+                L.marker([-38.7167, -62.2833]).bindPopup("Bahía Blanca - Todas")
+            ],
+            "atsa": [
+                L.marker([-34.6037, -58.3816]).bindPopup("CABA - ATSA"),
+                L.marker([-38.7167, -62.2833]).bindPopup("Bahía Blanca - ATSA")
+            ],
+            "ospsa": [
+                L.marker([-34.6037, -58.3816]).bindPopup("CABA - OSPSA")
+            ],
+            "capacitacion": [
+                L.marker([-34.9205, -57.9536]).bindPopup("La Plata - Capacitación")
+            ]
+        };
+
+        // Añadir marcadores por defecto (mostrar todos)
+        markers["all"].forEach(function(marker) {
+            marker.addTo(map);
+        });
+
+        // Función para mover el mapa según la zona seleccionada
+        function moveMap() {
+            var zone = document.getElementById("zone-select").value;
+            if (mapLocations[zone]) {
+                var coords = mapLocations[zone];
+                map.setView([coords[0], coords[1]], 13);
+            }
+        }
+
+        // Función para filtrar marcadores según la categoría seleccionada{}
+        function filterMarkers() {
+            var category = document.getElementById("category-select").value;
+            
+            // Eliminar todos los marcadores actuales
+            for (var cat in markers) {
+                markers[cat].forEach(function(marker) {
+                    map.removeLayer(marker);
+                });
+            }
+
+            // Añadir los marcadores de la categoría seleccionada
+            markers[category].forEach(function(marker) {
+                marker.addTo(map);
+            });
+        }
+    </script>
+</body>
+</html>
