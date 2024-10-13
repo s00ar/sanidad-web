@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        /* Estilos para el contenedor de controles y mapa */
+        .map-controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .map-controls label {
+            margin-right: 10px;
+        }
+
+        .map-controls select {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-controls">
+        <div>
+            <label for="zone-select">Seleccione la zona:</label>
+            <select id="zone-select" onchange="moveMap()">
+                <option value="TodoPais">Todo el país</option>
+                <option value="CABA">Buenos Aires, CABA</option>
+                <option value="BahiaBlanca">Buenos Aires, Bahía Blanca</option>
+                <option value="LaPlata">Buenos Aires, La Plata</option>
+                <option value="MarDelPlata">Buenos Aires, Mar del Plata</option>
+                <option value="Hurlingham">Buenos Aires, Hurlingham</option>
+                <option value="Junin">Buenos Aires, Junín</option>
+                <option value="Pergamino">Buenos Aires, Pergamino</option>
+                <option value="Quilmes">Buenos Aires, Quilmes</option>
+                <option value="SanNicolas">Buenos Aires, San Nicolás</option>
+                <option value="SanPedro">Buenos Aires, San Pedro</option>
+                <option value="ZonaNorte">Buenos Aires, Zona Norte</option>
+                <option value="ZonaSur">Buenos Aires, Zona Sur</option>
+                <option value="CatamarcaCapital">Catamarca, Capital</option>
+                <option value="CordobaCapital">Córdoba, Capital</option>
+                <option value="Oliva">Córdoba, Oliva</option>
+                <option value="RioCuarto">Córdoba, Río Cuarto</option>
+                <option value="SanFrancisco">Córdoba, San Francisco</option>
+                <option value="CorrientesCapital">Corrientes, Capital</option>
+                <option value="Resistencia">Chaco, Resistencia</option>
+                <option value="Trelew">Chubut, Trelew</option>
+                <option value="Parana">Entre Ríos, Paraná</option>
+                <option value="Concordia">Entre Ríos, Concordia</option>
+                <option value="FormosaCapital">Formosa, Capital</option>
+                <option value="JujuyCapital">Jujuy, Capital</option>
+                <option value="GeneralPico">La Pampa, General Pico</option>
+                <option value="LaRiojaCapital">La Rioja, Capital</option>
+                <option value="MendozaCapital">Mendoza, Capital</option>
+                <option value="Posadas">Misiones, Posadas</option>
+                <option value="NeuquenCapital">Neuquén, Capital</option>
+                <option value="GeneralRoca">Río Negro, General Roca</option>
+                <option value="SaltaCapital">Salta, Capital</option>
+                <option value="SanJuanCapital">San Juan, Capital</option>
+                <option value="VillaMercedes">San Luis, Villa Mercedes</option>
+                <option value="RioGallegos">Santa Cruz, Río Gallegos</option>
+                <option value="SantaFeCapital">Santa Fe, Capital</option>
+                <option value="SantiagoDelEstero">Santiago del Estero, Capital</option>
+                <option value="RioGrande">Tierra del Fuego, Río Grande</option>
+                <option value="TucumanCapital">Tucumán, Capital</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="category-select">Seleccione la categoría:</label>
+            <select id="category-select" onchange="filterMarkers()">
+                <option value="all">Todas</option>
+                <option value="atsa">ATSA</option>
+                <option value="ospsa">OSPSA</option>
+                <option value="capacitacion">Capacitación</option>
+                <option value="turismo">Turismo</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([-34.6118, -58.403109], 5);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Icons
+        var atsaIcon = L.icon({
+            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/ATSA.png',
+            iconSize: [30, 50]
+        });
+
+        var capacitacionIcon = L.icon({
+            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/Capacitacion.png',
+            iconSize: [30, 50]
+        });
+
+        var ospaIcon = L.icon({
+            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/OSPSA.png',
+            iconSize: [30, 50]
+        });
+
+        var turismoIcon = L.icon({
+            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/Turismo.png',
+            iconSize: [30, 50]
+        });
+
+        // ATSA locations
+        var atsaLocations = [
+  {
+    "title": "SUTSER",
+    "latitude": "-31.737601",
+    "longitude": "-60.532783",
+    "address": "9 de Julio 380, E3100 Paraná, Entre Ríos, Argentina",
+    "phone": "+543434236080",
+    "responsible": ""
+  },
+  {
+    "title": "BUENOS AIRES",
+    "latitude": "-34.6118",
+    "longitude": "-58.403109",
+    "address": "SAAVEDRA N°166, CAPITAL FEDERAL",
+    "phone": "(011) 4959-7100",
+    "responsible": "HÉCTOR DAER"
+  },
+  {
+    "title": "CORDOBA",
+    "latitude": "-31.413932",
+    "longitude": "-64.171327",
+    "address": "LIMA N°877, CORDOBA",
+    "phone": "(0351) 423-3882",
+    "responsible": "RICARDO LÓPEZ"
+  },
+  {
+    "title": "SANTA FE",
+    "latitude": "-31.643545",
+    "longitude": "-60.709914",
+    "address": "1° DE MAYO N° 2718, SANTA FE",
+    "phone": "(0342) 455-2574",
+    "responsible": "LIDIA ORTEGA"
+  },
+  {
+    "title": "LA PLATA",
+    "latitude": "-34.905079",
+    "longitude": "-57.958321",
+    "address": "CALLE 5 N°375, LA PLATA",
+    "phone": "(0221) 483-8573",
+    "responsible": "PEDRO F. BORGINI"
+  },
+  {
+    "title": "MENDOZA",
+    "latitude": "-32.898916",
+    "longitude": "-68.817942",
+    "address": "25 DE MAYO N° 1745, MENDOZA",
+    "phone": "(0261) 423-9666",
+    "responsible": "PATRICIA EDITH IRRUTIA"
+  },
+  {
+    "title": "QUILMES",
+    "latitude": "-34.731874",
+    "longitude": "-58.258964",
+    "address": "VICENTE LOPEZ N° 1969, QUILMES",
+    "phone": "(011) 4350-7400",
+    "responsible": "RAMÓN RICARDO ROMERO"
+  },
+  {
+    "title": "ENTRE RÍOS",
+    "latitude": "-31.7359",
+    "longitude": "-60.5321",
+    "address": "GUALEGUAYCHU 599 esq Pascual Palma, PARANÁ",
+    "phone": "(0343) 423-0029",
+    "responsible": "MARIELA PONCE"
+  },
+  {
+    "title": "TUCUMÁN",
+    "latitude": "-26.82093",
+    "longitude": "-65.214868",
+    "address": "SUIPACHA N°553, TUCUMÁN",
+    "phone": "(0381) 433-1665",
+    "responsible": "EDGAR RENEÉ RAMIREZ"
+  },
+  {
+    "title": "RÍO CUARTO",
+    "latitude": "-33.124919",
+    "longitude": "-64.351884",
+    "address": "CABRERA N° 930, RÍO CUARTO",
+    "phone": "(0358) 464-5789",
+    "responsible": "CRISTINA FERNANDEZ"
+  },
+  {
+    "title": "ZONA NORTE",
+    "latitude": "-34.4864326",
+    "longitude": "-58.6183867",
+    "address": "FRAY JUSTO SANTA MARÍA DE ORO N°1528, DON TORCUATO",
+    "phone": "4846-4150",
+    "responsible": "NÉSTOR GENTA"
+  },
+  {
+    "title": "ZONA SUR",
+    "latitude": "-34.737293",
+    "longitude": "-58.397786",
+    "address": "HIPOLITO YRIGOYEN N°7066, BANFIELD",
+    "phone": "(011) 5088-2100",
+    "responsible": "SERGIO OYHAMBURU"
+  },
+  {
+    "title": "MAR DEL PLATA",
+    "latitude": "-37.992144",
+    "longitude": "-57.555147",
+    "address": "20 DE SPTIEMBRE N°1440, MAR DEL PLATA",
+    "phone": "(0223) 475-2274",
+    "responsible": "LAURA DEL PIR"
+  },
+  {
+    "title": "HURLINGHAM",
+    "latitude": "-34.6511",
+    "longitude": "-58.624185",
+    "address": "ALMIRANTE G. BROWN 1172, MORON",
+    "phone": "(011) 6074-8900",
+    "responsible": "JORGE VICTOR D´ANDREA"
+  },
+  {
+    "title": "CHACO",
+    "latitude": "-27.457102",
+    "longitude": "-58.988302",
+    "address": "RODRIGUEZ PEÑA N°275, RESISTENCIA",
+    "phone": "(0362)444-9554",
+    "responsible": "ADRIÁN BELLOMI"
+  },
+  {
+    "title": "CORRIENTES",
+    "latitude": "-27.4698",
+    "longitude": "-58.8166",
+    "address": "PLAYA MIRAMAR N°832, CORRIENTES",
+    "phone": "(03794) 422-087",
+    "responsible": "ROBERTO GUIDO TELLO"
+  },
+  {
+    "title": "SAN PEDRO",
+    "latitude": "-33.676475",
+    "longitude": "-59.666059",
+    "address": "BELGRANO N°589, SAN PEDRO",
+    "phone": "(03329) 426-949",
+    "responsible": "NILDA IGLESIAS"
+  },
+  {
+    "title": "SALTA",
+    "latitude": "-24.791819",
+    "longitude": "-65.417794",
+    "address": "URQUIZA N°1070, SALTA",
+    "phone": "(0387) 421-2552",
+    "responsible": "EDUARDO RAMOS"
+  },
+  {
+    "title": "BAHÍA BLANCA",
+    "latitude": "-38.723212",
+    "longitude": "-62.266004",
+    "address": "FITZ ROY N°192, BAHÍA BLANCA",
+    "phone": "(0291) 452-8961",
+    "responsible": "HUGO MODARELLI"
+  },
+  {
+    "title": "STGO DEL ESTERO",
+    "latitude": "-27.788498",
+    "longitude": "-64.255367",
+    "address": "URQUIZA N°324, STGO DEL ESTERO",
+    "phone": "(0385) 421-3463",
+    "responsible": "RODOLFO JOSE ARCE"
+  },
+  {
+    "title": "SAN JUAN",
+    "latitude": "-31.5382",
+    "longitude": "-68.5139",
+    "address": "SANTA FE N°856 (ESTE), SAN JUAN",
+    "phone": "(0264) 4214388",
+    "responsible": "ANTONIO RECABARREN"
+  },
+  {
+    "title": "NEUQUÉN",
+    "latitude": "-38.9494",
+    "longitude": "-68.0625",
+    "address": "LA RIOJA N°541, NEUQUÉN",
+    "phone": "(0299) 447-2022",
+    "responsible": "CARLOS QUIROGA"
+  },
+  {
+    "title": "SAN NICOLÁS",
+    "latitude": "-33.331849",
+    "longitude": "-60.229908",
+    "address": "ALMAFUERTE N°275, SAN NICOLÁS",
+    "phone": "(0336) 442-2772",
+    "responsible": "ALEJANDRO SEVILLANO"
+  }
+];
+
+        // Capacitacion locations
+        var capacitacionLocations = [
+    {
+      "title": "Escuela de Enfermería | ATSA Bahía Blanca",
+      "latitude": "-38.717921",
+      "longitude": "-62.272172",
+      "address": "Gorriti 146, Bahía Blanca",
+      "phone": "(0291) 451 1545",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA Zona Sur",
+      "latitude": "-34.737282",
+      "longitude": "-58.397821",
+      "address": "Hipólito Yrigoyen 7066, Banfield",
+      "phone": "(011) 5088 2100",
+      "responsible": "Técnico en Radiología, Hemoterapia, Instrumentación Quirúrgica, Laboratorio. Profesionalización de Auxiliar en Enfermería (ISALUD)"
+    },
+    {
+      "title": "Sede Beccar | ATSA Zona Norte",
+      "latitude": "-34.458863",
+      "longitude": "-58.537676",
+      "address": "Udaondo 417, Beccar",
+      "phone": "(011) 4846 4150",
+      "responsible": "Secundario. Técnico en Radiología, Instrumentación Quirúrgica, Laboratorio, Hemoterapia. Cursos de Computación. Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA Catamarca",
+      "latitude": "-28.467799",
+      "longitude": "-65.789321",
+      "address": "Samuel Molina 178, Catamarca",
+      "phone": "(0383) 443 3566",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "Instituto Amado Olmos | ATSA Bs As",
+      "latitude": "-34.611985",
+      "longitude": "-58.401633",
+      "address": "Alberti 191, Ciudad Autónoma de Buenos Aires",
+      "phone": "(011) 4959 7100",
+      "responsible": "Plan Fines. Técnico Superior en Enfermería Profesional, Hemoterapia, Instrumentación Quirúrgica, Laboratorio, Radiología. Curso Asistente Gerontológico. Profesionalización de Auxiliares en Enfermería (ISALUD)"
+    },
+    {
+      "title": "Instituto Cruz del Sacrificio | ATSA Córdoba",
+      "latitude": "-31.414051",
+      "longitude": "-64.171562",
+      "address": "Lima 871, Córdoba",
+      "phone": "(0351) 424 1542",
+      "responsible": "Enfermería Nivel Terciario. Hemoterapia e Inmunología. Instrumentación Quirúrgica. Bachillerato a Distancia para adultos. Cursos de Facturación. Cursos a Distancia."
+    },
+    {
+      "title": "Instituto de Capacitación | ATSA Río Negro",
+      "latitude": "-39.027202",
+      "longitude": "-67.571644",
+      "address": "Rodhe 55, General Roca",
+      "phone": "(0298) 443 2918",
+      "responsible": "Tecnicatura en Acompañante Terapéutico. Cursos de Auxiliar Odontológico y Facturación en prestaciones Médicas. Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA Jujuy",
+      "latitude": "-24.186671",
+      "longitude": "-65.293594",
+      "address": "3 Sargentos esquina Pasaje Suecia, Jujuy",
+      "phone": "(0388) 422 2936 int 112",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    }
+];
+
+        // OSPSA locations
+        var ospaLocations = [
+    {
+      "title": "OSPSA BUENOS AIRES",
+      "latitude": "-34.611754",
+      "longitude": "-58.403259",
+      "address": "VENEZUELA 2359, CAPITAL FEDERAL",
+      "phone": "(011) 49439400",
+      "responsible": "CAROLINA BAHAMONDE"
+    },
+    {
+      "title": "OSPSA CORDOBA",
+      "latitude": "-31.403502",
+      "longitude": "-64.1746",
+      "address": "COCHABAMBA N°940, CORDOBA",
+      "phone": "(0351) 556-0400",
+      "responsible": "SUSANA GARCIA"
+    },
+    {
+      "title": "OSPSA SANTA FE",
+      "latitude": "-31.643545",
+      "longitude": "-60.709914",
+      "address": "SALTA 2828, SANTA FE",
+      "phone": "(0342) 454-7400",
+      "responsible": "NORMA KARINA RODONI"
+    },
+    {
+      "title": "OSPSA LA PLATA",
+      "latitude": "-34.905079",
+      "longitude": "-57.958321",
+      "address": "CALLE 5 N°375, LA PLATA",
+      "phone": "(0221) 483-8573",
+      "responsible": "PEDRO F. BORGINI"
+    },
+    {
+      "title": "OSPSA MENDOZA",
+      "latitude": "-32.897953",
+      "longitude": "-68.826224",
+      "address": "25 DE MAYO N°722, MENDOZA",
+      "phone": "(0261) 423-6622",
+      "responsible": "OSCAR ALEJANDRO CAMPO"
+    },
+    {
+      "title": "OSPSA QUILMES",
+      "latitude": "-34.731874",
+      "longitude": "-58.258964",
+      "address": "Vicente Lopez N°1969, QUILMES",
+      "phone": "(011) 4350-7400",
+      "responsible": "RAMÓN RICARDO ROMERO"
+    },
+    {
+      "title": "OSPSA ENTRE RÍOS",
+      "latitude": "-31.721044",
+      "longitude": "-60.52583",
+      "address": "MONTE CASEROS 373 -C.C. NRO. 121, PARANÁ",
+      "phone": "(0343) 423-1466",
+      "responsible": "LEONEL W. WESISHEIM"
+    },
+    {
+      "title": "OSPSA TUCUMÁN",
+      "latitude": "-26.820777",
+      "longitude": "-65.219203",
+      "address": "STGO DEL ESTERO N°1578, TUCUMÁN",
+      "phone": "(0381) 432-2296",
+      "responsible": "DARÍO SUAREZ"
+    },
+    {
+      "title": "OSPSA RÍO CUARTO",
+      "latitude": "-33.124919",
+      "longitude": "-64.351884",
+      "address": "CABRERA N°930, RÍO CUARTO",
+      "phone": "(0358) 464-5789",
+      "responsible": "CRISTINA FERNANDEZ"
+    },
+    {
+      "title": "OSPSA MAR DEL PLATA",
+      "latitude": "-37.993704",
+      "longitude": "-57.559289",
+      "address": "DORREGO N°1752, MAR DEL PLATA",
+      "phone": "(0223) 473-6501",
+      "responsible": "MARIO PIERGENTILI"
+    }
+  ];
+
+        // Turismo locations
+        var turismoLocations = [
+    {
+      "title": "Isla I´Marangatú | ATSA Bs As",
+      "latitude": "-34.421213",
+      "longitude": "-58.578985",
+      "address": "General Bartolomé Mitre 305, Tigre",
+      "phone": "(011) 4959 4100",
+      "responsible": ""
+    },
+    {
+      "title": "Camping 21 de Septiembre | ATSA Bs As",
+      "latitude": "-35.597168",
+      "longitude": "-58.03690",
+      "address": "Camino de Circunvalación Km. 16,500, Chascomús",
+      "phone": "(011) 4959 4100",
+      "responsible": ""
+    },
+    {
+      "title": "Complejo 8 de Marzo | SSP",
+      "latitude": "-34.966788",
+      "longitude": "-57.86303",
+      "address": "Calle 635 entre 1 y 115, La Plata",
+      "phone": "(0221) 421 5405",
+      "responsible": ""
+    },
+    {
+      "title": "Complejo Polideportivo | ATSA Junin",
+      "latitude": "-34.565257",
+      "longitude": "-60.94882",
+      "address": "Ruta 188 y Avenida República, Junin",
+      "phone": "(0236) 443 3815",
+      "responsible": ""
+    },
+    {
+      "title": "Recreativo Otto Calace | ATSA Santa Fé",
+      "latitude": "-31.770270",
+      "longitude": "-60.83551",
+      "address": "Almirante Brown y Estrella Federal, Sauce Viejo",
+      "phone": "(0342) 455 2574",
+      "responsible": ""
+    },
+    {
+      "title": "Complejo Camping | ATSA Entre Ríos",
+      "latitude": "-31.737734",
+      "longitude": "-60.48532",
+      "address": "Don Bosco 2906, Paraná",
+      "phone": "(0343) 423 0029",
+      "responsible": ""
+    },
+    {
+      "title": "Complejo Recreativo | ATSA Chaco",
+      "latitude": "-27.261023",
+      "longitude": "-58.97002",
+      "address": "R.N. 11 KM 1021 Dpto 1° de Mayo, Margarita Belén",
+      "phone": "(0362) 444 9554",
+      "responsible": ""
+    },
+    {
+      "title": "Camping | ATSA San Luis",
+      "latitude": "-33.689430",
+      "longitude": "-65.46591",
+      "address": "Pringles 84, Villa Mercedes",
+      "phone": "(02657) 421 882",
+      "responsible": ""
+    },
+    {
+      "title": "Complejo El Cadillal | ATSA Tucumán",
+      "latitude": "-26.63368138802506",
+      "longitude": "-65.20769370167687",
+      "address": "Ruta 347 Km 4, Tucumán",
+      "phone": "(0381) 433 1665",
+      "responsible": ""
+    },
+    {
+      "title": "Hotel Cafayate | ATSA Salta",
+      "latitude": "-26.072901",
+      "longitude": "-65.97639",
+      "address": "Cafayate",
+      "phone": "(0387) 425 6684 / (0387) 421 2552",
+      "responsible": ""
+    },
+    {
+      "title": "Camping Los Nonos | ATSA Neuquén",
+      "latitude": "-38.829677",
+      "longitude": "-68.12200",
+      "address": "Calle 4 chacra 101, Centenario",
+      "phone": "(0299) 489 4856",
+      "responsible": ""
+    },
+    {
+      "title": "Camping El Challao | ATSA Mendoza",
+      "latitude": "-32.848267",
+      "longitude": "-68.81590",
+      "address": "Av. Champagnat y Arroyo Seco, Las Heras",
+      "phone": "(0261) 444 2167",
+      "responsible": ""
+    },
+    {
+      "title": "Las Clavelinas | ATSA Zona Norte",
+      "latitude": "-34.382941",
+      "longitude": "-58.73358",
+      "address": "Ruta Panamericana km 43.5 - Colectora Oeste, Ingeniero Maschwitz",
+      "phone": "(011) 4846 4150",
+      "responsible": ""
+    },
+    {
+      "title": "Hotel ATSA | ATSA Tucumán",
+      "latitude": "-27.500958",
+      "longitude": "-64.86453",
+      "address": "Güemes N° 386-390, Termas de Río Hondo, Santiago del Estero",
+      "phone": "(03858) 422 005",
+      "responsible": ""
+    },
+    {
+      "title": "Recreativo Fernando Kelly | ATSA Quilmes",
+      "latitude": "-34.731893",
+      "longitude": "-58.25900",
+      "address": "Calle 422 y 13, Villa Elisa",
+      "phone": "(011) 4350 7400",
+      "responsible": ""
+    },
+    {
+      "title": "Hotel Sanidad | ATSA Salta",
+      "latitude": "-24.733330",
+      "longitude": "-65.40810",
+      "address": "Av. San Antonio de los Cobres s/n, Salta",
+      "phone": "(0387) 425 6684",
+      "responsible": ""
+    },
+    {
+      "title": "Camping Orlando Collado | ATSA San Juan",
+      "latitude": "-31.576813",
+      "longitude": "-68.52193",
+      "address": "Rawson",
+      "phone": "(0264) 421 4388",
+      "responsible": ""
+    },
+    {
+      "title": "Complejo Recreativo | ATSA Río Negro",
+      "latitude": "-39.039652",
+      "longitude": "-67.59337",
+      "address": "Ruta 22 chacra 259, General Roca",
+      "phone": "(0298) 442 4672",
+      "responsible": ""
+    },
+    {
+      "title": "Camping Necochea | ATSA La Plata",
+      "latitude": "-38.554960",
+      "longitude": "-58.74007",
+      "address": "10 y 189, Villa Zabala, Necochea",
+      "phone": "(0221) 421 6023",
+      "responsible": ""
+    },
+    {
+      "title": "Camping La Plata | ATSA La Plata",
+      "latitude": "-34.998542",
+      "longitude": "-58.01654",
+      "address": "Calle 66 y 185, La Plata",
+      "phone": "(0221) 496 1185",
+      "responsible": ""
+    },
+    {
+      "title": "Polideportivo | ATSA Stgo del Estero",
+      "latitude": "-27.786829",
+      "longitude": "-64.26597",
+      "address": "Puestito de San Antonio, Puestito de San Antonio",
+      "phone": "(0385) 421 3463",
+      "responsible": ""
+    }
+  ];
+
+        // Function to add markers with popups formatted as required
+        function addMarkers(locations, icon, category) {
+            locations.forEach(function(location) {
+                var marker = L.marker([location.latitude, location.longitude], {icon: icon})
+                    .bindPopup("<strong>" + location.title + "</strong><br>" + "<br>" +
+                               location.address + "<br>" + "<br>" +
+                              //  location.city + "<br>" + "<br>" +
+                               "Tel: " + (location.phone || 'N/A') + "<br>" + "<br>" +
+                               "Titular: " + (location.responsible || 'N/A'));
+
+                marker.category = category;
+                activeMarkers.push(marker);
+                marker.addTo(map);
+            });
+        }
+
+        // Add markers for each category
+        var activeMarkers = [];
+        addMarkers(atsaLocations, atsaIcon, 'atsa');
+        addMarkers(capacitacionLocations, capacitacionIcon, 'capacitacion');
+        addMarkers(ospaLocations, ospaIcon, 'ospsa');
+        addMarkers(turismoLocations, turismoIcon, 'turismo');
+
+        // Definir ubicaciones de las zonas
+        var mapLocations = {
+            "TodoPais": [[-55, -73], [-21, -53]],
+            "CABA": [-34.6037, -58.3816],
+            "BahiaBlanca": [-38.7167, -62.2833],
+            "LaPlata": [-34.9205, -57.9536],
+            "MarDelPlata": [-38.0055, -57.5426],
+            "Hurlingham": [-34.5883, -58.6358],
+            "Junin": [-34.5838, -60.9454],
+            "Pergamino": [-33.894, -60.5736],
+            "Quilmes": [-34.7203, -58.2545],
+            "SanNicolas": [-33.3345, -60.2268],
+            "SanPedro": [-33.6797, -59.6616],
+            "ZonaNorte": [-34.4803, -58.5603],
+            "ZonaSur": [-34.7909, -58.3729],
+            "CatamarcaCapital": [-28.4696, -65.7852],
+            "CordobaCapital": [-31.4201, -64.1888],
+            "Oliva": [-32.0407, -63.5669],
+            "RioCuarto": [-33.1232, -64.3497],
+            "SanFrancisco": [-31.4276, -62.0827],
+            "CorrientesCapital": [-27.4696, -58.8341],
+            "Resistencia": [-27.4514, -58.9867],
+            "Trelew": [-43.2489, -65.305],
+            "Parana": [-31.7333, -60.5333],
+            "Concordia": [-31.3929, -58.0209],
+            "FormosaCapital": [-26.1849, -58.1731],
+            "JujuyCapital": [-24.1858, -65.2995],
+            "GeneralPico": [-35.6566, -63.7517],
+            "LaRiojaCapital": [-29.4135, -66.8565],
+            "MendozaCapital": [-32.8895, -68.8458],
+            "Posadas": [-27.3671, -55.8961],
+            "NeuquenCapital": [-38.9516, -68.0591],
+            "GeneralRoca": [-39.0349, -67.5895],
+            "SaltaCapital": [-24.7821, -65.4232],
+            "SanJuanCapital": [-31.5375, -68.5364],
+            "VillaMercedes": [-33.6757, -65.4583],
+            "RioGallegos": [-51.6226, -69.2181],
+            "SantaFeCapital": [-31.6239, -60.6954],
+            "SantiagoDelEstero": [-27.7824, -64.2667],
+            "RioGrande": [-53.7913, -67.6986],
+            "TucumanCapital": [-26.8083, -65.2176]
+        };
+
+        // Función para mover el mapa a la zona seleccionada
+        function moveMap() {
+            var zone = document.getElementById("zone-select").value;
+            if (zone === "TodoPais") {
+                map.fitBounds(mapLocations[zone]); // Ajustar la vista para mostrar todo el país
+            } else if (mapLocations[zone]) {
+                var coords = mapLocations[zone];
+                map.setView([coords[0], coords[1]], 13);
+            }
+        }
+
+        // Función para filtrar los marcadores por categoría
+        function filterMarkers() {
+            var selectedCategory = document.getElementById("category-select").value;
+            activeMarkers.forEach(function(marker) {
+                if (selectedCategory === "all" || marker.category === selectedCategory) {
+                    map.addLayer(marker);
+                } else {
+                    map.removeLayer(marker);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
