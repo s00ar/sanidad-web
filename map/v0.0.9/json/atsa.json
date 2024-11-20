@@ -1,0 +1,209 @@
+[
+  {
+    "title": "SUTSER",
+    "latitude": "",
+    "longitude": "",
+    "address": "ENTRE RIOS",
+    "phone": "",
+    "responsible": "",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "BUENOS AIRES",
+    "latitude": "-34.6118",
+    "longitude": "-58.403109",
+    "address": "SAAVEDRA N°166, CAPITAL FEDERAL",
+    "phone": "(011) 4959-7100",
+    "responsible": "HÉCTOR DAER",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "CORDOBA",
+    "latitude": "-31.413932",
+    "longitude": "-64.171327",
+    "address": "LIMA N°877, CORDOBA",
+    "phone": "(0351) 423-3882",
+    "responsible": "RICARDO LÓPEZ",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "SANTA FE",
+    "latitude": "-31.643545",
+    "longitude": "-60.709914",
+    "address": "1° DE MAYO N° 2718, SANTA FE",
+    "phone": "(0342) 455-2574",
+    "responsible": "LIDIA ORTEGA",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "LA PLATA",
+    "latitude": "-34.905079",
+    "longitude": "-57.958321",
+    "address": "CALLE 5 N°375, LA PLATA",
+    "phone": "(0221) 483-8573",
+    "responsible": "PEDRO F. BORGINI",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "MENDOZA",
+    "latitude": "-32.898916",
+    "longitude": "-68.817942",
+    "address": "25 DE MAYO N° 1745, MENDOZA",
+    "phone": "(0261) 423-9666",
+    "responsible": "PATRICIA EDITH IRRUTIA",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "QUILMES",
+    "latitude": "-34.731874",
+    "longitude": "-58.258964",
+    "address": "VICENTE LOPEZ N° 1969, QUILMES",
+    "phone": "(011) 4350-7400",
+    "responsible": "RAMÓN RICARDO ROMERO",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "ENTRE RÍOS",
+    "latitude": "-31.7359",
+    "longitude": "-60.5321",
+    "address": "GUALEGUAYCHU 599 esq Pascual Palma, PARANÁ",
+    "phone": "(0343) 423-0029",
+    "responsible": "MARIELA PONCE",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "TUCUMÁN",
+    "latitude": "-26.82093",
+    "longitude": "-65.214868",
+    "address": "SUIPACHA N°553, TUCUMÁN",
+    "phone": "(0381) 433-1665",
+    "responsible": "EDGAR RENEÉ RAMIREZ",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "RÍO CUARTO",
+    "latitude": "-33.124919",
+    "longitude": "-64.351884",
+    "address": "CABRERA N° 930, RÍO CUARTO",
+    "phone": "(0358) 464-5789",
+    "responsible": "CRISTINA FERNANDEZ",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "ZONA NORTE",
+    "latitude": "-34.4864326",
+    "longitude": "-58.6183867",
+    "address": "FRAY JUSTO SANTA MARÍA DE ORO N°1528, DON TORCUATO",
+    "phone": "4846-4150",
+    "responsible": "NÉSTOR GENTA",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "ZONA SUR",
+    "latitude": "-34.737293",
+    "longitude": "-58.397786",
+    "address": "HIPOLITO YRIGOYEN N°7066, BANFIELD",
+    "phone": "(011) 5088-2100",
+    "responsible": "SERGIO OYHAMBURU",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "MAR DEL PLATA",
+    "latitude": "-37.992144",
+    "longitude": "-57.555147",
+    "address": "20 DE SPTIEMBRE N°1440, MAR DEL PLATA",
+    "phone": "(0223) 475-2274",
+    "responsible": "LAURA DEL PIR",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "HURLINGHAM",
+    "latitude": "-34.6511",
+    "longitude": "-58.624185",
+    "address": "ALMIRANTE G. BROWN 1172, MORON",
+    "phone": "(011) 6074-8900",
+    "responsible": "JORGE VICTOR D´ANDREA",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "CHACO",
+    "latitude": "-27.457102",
+    "longitude": "-58.988302",
+    "address": "RODRIGUEZ PEÑA N°275, RESISTENCIA",
+    "phone": "(0362)444-9554",
+    "responsible": "ADRIÁN BELLOMI",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "CORRIENTES",
+    "latitude": "-27.4698",
+    "longitude": "-58.8166",
+    "address": "PLAYA MIRAMAR N°832, CORRIENTES",
+    "phone": "(03794) 422-087",
+    "responsible": "ROBERTO GUIDO TELLO",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "SAN PEDRO",
+    "latitude": "-33.676475",
+    "longitude": "-59.666059",
+    "address": "BELGRANO N°589, SAN PEDRO",
+    "phone": "(03329) 426-949",
+    "responsible": "NILDA IGLESIAS",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "SALTA",
+    "latitude": "-24.791819",
+    "longitude": "-65.417794",
+    "address": "URQUIZA N°1070, SALTA",
+    "phone": "(0387) 421-2552",
+    "responsible": "EDUARDO RAMOS",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "BAHÍA BLANCA",
+    "latitude": "-38.723212",
+    "longitude": "-62.266004",
+    "address": "FITZ ROY N°192, BAHÍA BLANCA",
+    "phone": "(0291) 452-8961",
+    "responsible": "HUGO MODARELLI",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "STGO DEL ESTERO",
+    "latitude": "-27.788498",
+    "longitude": "-64.255367",
+    "address": "URQUIZA N°324, STGO DEL ESTERO",
+    "phone": "(0385) 421-3463",
+    "responsible": "RODOLFO JOSE ARCE",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "SAN JUAN",
+    "latitude": "-31.5382",
+    "longitude": "-68.5139",
+    "address": "SANTA FE N°856 (ESTE), SAN JUAN",
+    "phone": "(0264) 4214388",
+    "responsible": "ANTONIO RECABARREN",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "NEUQUÉN",
+    "latitude": "-38.9494",
+    "longitude": "-68.0625",
+    "address": "LA RIOJA N°541, NEUQUÉN",
+    "phone": "(0299) 447-2022",
+    "responsible": "CARLOS QUIROGA",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  },
+  {
+    "title": "SAN NICOLÁS",
+    "latitude": "-33.331849",
+    "longitude": "-60.229908",
+    "address": "ALMAFUERTE N°275, SAN NICOLÁS",
+    "phone": "(0336) 442-2772",
+    "responsible": "ALEJANDRO SEVILLANO",
+    "icon": "/wp-content/uploads/2024/09/ATSA.png"
+  }
+]

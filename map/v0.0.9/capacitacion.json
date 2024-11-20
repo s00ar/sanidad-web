@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Escuela de Enfermería | ATSA Bahía Blanca",
+      "latitude": "-38.717921",
+      "longitude": "-62.272172",
+      "address": "Gorriti 146, Bahía Blanca",
+      "phone": "(0291) 451 1545",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "ATSA Zona Sur",
+      "latitude": "-34.737282",
+      "longitude": "-58.397821",
+      "address": "Hipólito Yrigoyen 7066, Banfield",
+      "phone": "(011) 5088 2100",
+      "responsible": "Técnico en Radiología, Hemoterapia, Instrumentación Quirúrgica, Laboratorio. Profesionalización de Auxiliar en Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "Sede Beccar | ATSA Zona Norte",
+      "latitude": "-34.458863",
+      "longitude": "-58.537676",
+      "address": "Udaondo 417, Beccar",
+      "phone": "(011) 4846 4150",
+      "responsible": "Secundario. Técnico en Radiología, Instrumentación Quirúrgica, Laboratorio, Hemoterapia. Cursos de Computación. Profesionalización de Auxiliares de Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "ATSA Catamarca",
+      "latitude": "-28.467799",
+      "longitude": "-65.789321",
+      "address": "Samuel Molina 178, Catamarca",
+      "phone": "(0383) 443 3566",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "Instituto Amado Olmos | ATSA Bs As",
+      "latitude": "-34.611985",
+      "longitude": "-58.401633",
+      "address": "Alberti 191, Ciudad Autónoma de Buenos Aires",
+      "phone": "(011) 4959 7100",
+      "responsible": "Plan Fines. Técnico Superior en Enfermería Profesional, Hemoterapia, Instrumentación Quirúrgica, Laboratorio, Radiología. Curso Asistente Gerontológico. Profesionalización de Auxiliares en Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "Instituto Cruz del Sacrificio | ATSA Córdoba",
+      "latitude": "-31.414051",
+      "longitude": "-64.171562",
+      "address": "Lima 871, Córdoba",
+      "phone": "(0351) 424 1542",
+      "responsible": "Enfermería Nivel Terciario. Hemoterapia e Inmunología. Instrumentación Quirúrgica. Bachillerato a Distancia para adultos. Cursos de Facturación. Cursos a Distancia.",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "Instituto de Capacitación | ATSA Río Negro",
+      "latitude": "-39.027202",
+      "longitude": "-67.571644",
+      "address": "Rodhe 55, General Roca",
+      "phone": "(0298) 443 2918",
+      "responsible": "Tecnicatura en Acompañante Terapéutico. Cursos de Auxiliar Odontológico y Facturación en prestaciones Médicas. Profesionalización de Auxiliares de Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    },
+    {
+      "title": "ATSA Jujuy",
+      "latitude": "-24.186671",
+      "longitude": "-65.293594",
+      "address": "3 Sargentos esquina Pasaje Suecia, Jujuy",
+      "phone": "(0388) 422 2936 int 112",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)",
+      "icon": "/wp-content/uploads/2024/09/Capacitacion.png"
+    }
+]
+  

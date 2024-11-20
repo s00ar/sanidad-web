@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -94,34 +94,33 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
         // Initialize the map
-        var map = L.map('map').setView([-34.6118, -58.403109], 5);
+        var map = L.map('map', {
+          scrollWheelZoom: false // Desactiva el zoom con el scroll del mouse
+        }).setView([-34.6118, -58.403109], 5);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
             attribution: '© OpenStreetMap'
         }).addTo(map);
 
-        // Deshabilitar zoom con la rueda del mouse
-        map.scrollWheelZoom.disable();
-        
         // Icons
         var atsaIcon = L.icon({
-            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/ATSA.png',
+            iconUrl: 'https://sanidad.pixvo.tech/filiales/wp-content/uploads/2024/10/ATSA.png',
             iconSize: [30, 50]
         });
 
         var capacitacionIcon = L.icon({
-            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/Capacitacion.png',
+            iconUrl: 'https://sanidad.pixvo.tech/filiales/wp-content/uploads/2024/09/Capacitacion.png',
             iconSize: [30, 50]
         });
 
         var ospaIcon = L.icon({
-            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/OSPSA.png',
+            iconUrl: 'https://sanidad.pixvo.tech/filiales/wp-content/uploads/2024/09/OSPSA.png',
             iconSize: [30, 50]
         });
 
         var turismoIcon = L.icon({
-            iconUrl: 'https://sanidad.pixvo.tech/wp-content/uploads/2024/09/Turismo.png',
+            iconUrl: 'https://sanidad.pixvo.tech/filiales/wp-content/uploads/2024/09/Turismo.png',
             iconSize: [30, 50]
         });
 
@@ -310,11 +309,331 @@
     "address": "ALMAFUERTE N°275, SAN NICOLÁS",
     "phone": "(0336) 442-2772",
     "responsible": "ALEJANDRO SEVILLANO"
-  }
+  },
+    {
+        "title": "PERGAMINO",
+        "latitude": "-33.890408",
+        "longitude": "-60.570924",
+        "address": "LAGOS N°578, PERGAMINO, BUENOS AIRES, 2700",
+        "phone": "(02477) 426-237",
+        "responsible": "atsapergamino@fibertel.com.ar"
+    },
+    {
+        "title": "JUJUY",
+        "latitude": "-24.186686",
+        "longitude": "-65.293572",
+        "address": "3 Sargentos esq. Pasaje Suecia, S.S DE JUJUY, JUJUY, 4600",
+        "phone": "(0388) 422-2936",
+        "responsible": "ospsa_jujuy@fiberway.com.ar"
+    },
+    {
+        "title": "LA RIOJA",
+        "latitude": "-29.410517",
+        "longitude": "-66.852797",
+        "address": "San Nicolas de Bari 1144, LA RIOJA, 5300",
+        "phone": "(0380) 442-8434",
+        "responsible": "institucion@atsalarioja.com.ar"
+    },
+    {
+        "title": "SAN LUIS",
+        "latitude": "-33.689442",
+        "longitude": "-65.465816",
+        "address": "PRINGLES N°84, VILLA MERCEDES, SAN LUIS, 5730",
+        "phone": "(02657) 421-882",
+        "responsible": "sanidadsanluis@hotmail.com.ar"
+    },
+    {
+        "title": "SAN FRANCISCO",
+        "latitude": "-31.430238",
+        "longitude": "-62.078143",
+        "address": "BOULEVARD GARIBALDI N°43, SAN FRANCISCO, CORDOBA, 2400",
+        "phone": "(03564) 426-137",
+        "responsible": "atsa_ospsa_sfco@fibertel.com.ar"
+    },
+    {
+        "title": "CHUBUT",
+        "latitude": "-43.253799",
+        "longitude": "-65.318273",
+        "address": "MARCONI N°171, TRELEW, CHUBUT, 9100",
+        "phone": "(0280) 443-2468",
+        "responsible": "chubut@sanidad.org.ar"
+    },
+    {
+        "title": "LA PAMPA",
+        "latitude": "-35.656965",
+        "longitude": "-63.754481",
+        "address": "RIVADAVIA 335 LOC.3, SANTA ROSA, LA PAMPA, 6300",
+        "phone": "(02954) 413288",
+        "responsible": "atsalp@cpenet.com.ar"
+    },
+    {
+        "title": "FORMOSA",
+        "latitude": "-26.192374",
+        "longitude": "-58.182224",
+        "address": "PANTALEON GOMEZ N°1187, FORMOSA, 3600",
+        "phone": "(0370) 4432-551",
+        "responsible": ""
+    },
+    {
+        "title": "MISIONES",
+        "latitude": "-27.356312",
+        "longitude": "-55.892776",
+        "address": "IVANOWSKY N°1845, POSADAS, MISIONES, 3300",
+        "phone": "(0376) 443-8184",
+        "responsible": "ospsamisiones@hotmail.com.ar"
+    },
+    {
+        "title": "SAN NICOLÁS",
+        "latitude": "-33.330156",
+        "longitude": "-60.222425",
+        "address": "LAVALLE N°267, SAN NICOLAS DE LOS ARROYOS, BUENOS AIRES, 2900",
+        "phone": "(0336) 445-3805",
+        "responsible": "atsasannicolas@sanidad.org.ar"
+    },
+    {
+        "title": "CATAMARCA",
+        "latitude": "-28.467748",
+        "longitude": "-65.789376",
+        "address": "SAMUEL MOLINA N°178, CATAMARCA, 4700",
+        "phone": "(03834) 43-3566",
+        "responsible": ""
+    },
+    {
+        "title": "NEUQUÉN",
+        "latitude": "-38.946744",
+        "longitude": "-68.054105",
+        "address": "DIAGONAL ESPAÑA 175, NEUQUEN, 8300",
+        "phone": "(0299) 448-8503",
+        "responsible": "atsafilialneuquen@yahoo.com.ar"
+    },
+    {
+        "title": "RÍO NEGRO",
+        "latitude": "-39.0391",
+        "longitude": "-67.5781",
+        "address": "ESPAÑA 1718, GRAL. ROCA, RÍO NEGRO, 8332",
+        "phone": "(0298) 4424672",
+        "responsible": "sanidadrionegro@speedy.com.ar"
+    },
+    {
+        "title": "SANTA CRUZ",
+        "latitude": "-51.629753",
+        "longitude": "-69.206231",
+        "address": "ALVEAR N°840, RÍO GALLEGOS, SANTA CRUZ, 9400",
+        "phone": "(02966) 425-379",
+        "responsible": "rgatsa@hotmail.com"
+    },
+    {
+        "title": "JUNIN",
+        "latitude": "-34.59535",
+        "longitude": "-60.950966",
+        "address": "BENITO DE MIGUEL N°239, JUNIN, BUENOS AIRES, 6000",
+        "phone": "(0236) 443-3815",
+        "responsible": "atsajunin@acerca.com.ar"
+    },
+    {
+        "title": "CONCORDIA",
+        "latitude": "-31.395499",
+        "longitude": "-58.025325",
+        "address": "SAN MARTÍN N°322, CONCORDIA, ENTRE RÍOS, 3200",
+        "phone": "(0345) 422-7282",
+        "responsible": "atsaconcordia@gmail.com"
+    },
+    {
+        "title": "TIERRA DEL FUEGO",
+        "latitude": "-53.792223",
+        "longitude": "-67.703787",
+        "address": "FRANCISCO BILBAO N°308, RÍO GRANDE, TIERRA DEL FUEGO, 9420",
+        "phone": "(02964) 423-523",
+        "responsible": "administracion@atsatdf.com.ar"
+    },
+    {
+        "title": "SIND. SALUD PUBLICA",
+        "latitude": "-34.913662",
+        "longitude": "-57.958853",
+        "address": "CALLE 44 N°771 E/10 Y 11, LA PLATA, BUENOS AIRES, 1900",
+        "phone": "(0221) 422- 9979",
+        "responsible": "infossp@ssp.org.ar"
+    },
+    {
+        "title": "OLIVA",
+        "latitude": "-31.413932",
+        "longitude": "-64.171327",
+        "address": "LEANDRO N. ALEM ESQ. SAN LORENZO, OLIVA, CORDOBA, 5980",
+        "phone": "(03532) 422-629",
+        "responsible": "atsaoliva@coop-oliva.com.ar"
+    },
+    {
+        "title": "SUTSER",
+        "latitude": "-31.737601",
+        "longitude": "-60.532783",
+        "address": "9 de Julio 380, E3100 Paraná, Entre Ríos, Argentina",
+        "phone": "+543434236080",
+        "responsible": ""
+    }
 ];
 
         // Capacitacion locations
-        var capacitacionLocations = [
+        var capacitacionLocations = [{
+      "title": "Escuela de Enfermería | ATSA Hurlingham",
+      "latitude": "-34.659996",
+      "longitude": "-58.622813",
+      "address": "San Martín 1060, Morón",
+      "phone": "(011) 4483 5827",
+      "responsible": "Tecnicatura en Enfermería, Radiología. Auxiliar de Familia (Geriatría). Cursos de Computación. Administrador Contable. Profesionalización de Auxiliar de Enfermería (ISALUD)"
+    },
+    {
+      "title": "Teresa de Calcuta | ATSA San Francisco",
+      "latitude": "-31.430447",
+      "longitude": "-62.105581",
+      "address": "Belgrano 2158, San Francisco",
+      "phone": "(03564) 1556 0972",
+      "responsible": "Enfermería Profesional."
+    },
+    {
+      "title": "ATSA Quilmes",
+      "latitude": "-34.721024",
+      "longitude": "-58.262746",
+      "address": "Colón 21, Quilmes",
+      "phone": "(011) 4253 7292",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA Santiago del Estero",
+      "latitude": "-27.786736",
+      "longitude": "-64.257195",
+      "address": "Avellaneda 340, Santiago del Estero",
+      "phone": "(0385) 425 7724",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA Tucumán",
+      "latitude": "-26.820952",
+      "longitude": "-65.214889",
+      "address": "Suipacha 553, Tucumán",
+      "phone": "(0381) 423 8840",
+      "responsible": "Enfermería Profesional. Técnico en Esterilización. Técnico en Análisis Clínicos. Cursos de Informática. Formación Hospitalaria. Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "Instituto de Capacitación | SSP",
+      "latitude": "-34.910611",
+      "longitude": "-57.954249",
+      "address": "Diagonal 77 N°875, La Plata",
+      "phone": "(0221) 424-0313 | 427-1917",
+      "responsible": "Tecnicaturas Radiología, Enfermería, Hematología, Instrumentación Quirúrgica, Análisis Clínicos, Seguridad e Higiene. Cursos de Formación Profesional. Cursos Post Título. Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "Instituto de la Sanidad | ATSA Mendoza",
+      "latitude": "-32.899487",
+      "longitude": "-68.838350",
+      "address": "Morón 265, Mendoza",
+      "phone": "(0261) 424 8520",
+      "responsible": "Enfermería Profesional. Tecnicatura Superior en Administración de Empresas de la Salud. Cursos de Primeros Auxilios. Emergentologia. Asistencia Adultos Mayores. Secretariado Ejecutivo. Facturación (1° y 2° Nivel). Capacitación Sindical."
+    },
+    {
+      "title": "ATSA Chaco",
+      "latitude": "-27.457171",
+      "longitude": "-58.988388",
+      "address": "Avenida Rodriguez Peña 275, Resistencia",
+      "phone": "(0362) 442 1096",
+      "responsible": "Auxiliar de Enfermería. Profesionalización de Auxiliares de Enfermería y Licenciatura en Enfermería. Marco Convenio con la Facultad de Ciencias de la Salud de la Universidad de Entre Ríos (UNER)."
+    },
+    {
+      "title": "ATSA Chaco | Presidencia Roque Saenz Peña",
+      "latitude": "-26.783390",
+      "longitude": "-60.450021",
+      "address": "Calle 0 (Pibernus) Entre 11 y 15, Presidencia Roque Saenz Peña",
+      "phone": "(0362) 442 1096",
+      "responsible": "Auxiliar de Enfermería. Profesionalización de Auxiliares de Enfermería y Licenciatura en Enfermería. Marco Convenio con la Facultad de Ciencias de la Salud de la Universidad de Entre Ríos (UNER)."
+    },
+    {
+      "title": "ATSA Tierra del Fuego",
+      "latitude": "-53.792185",
+      "longitude": "-67.703882",
+      "address": "Bilbao 308, Río Grande",
+      "phone": "02964 - 423523 / 420493",
+      "responsible": "Nivelación y Profesionalización a Enfermeros Auxiliares en actividad (ISALUD)."
+    },
+    {
+      "title": "Instituto Dr. Ramón Carrillo | ATSA Salta",
+      "latitude": "-24.787784",
+      "longitude": "-65.406130",
+      "address": "Pasaje Zorrilla 253, Salta",
+      "phone": "(0387) 431 8963",
+      "responsible": "Enfermería Profesional, Tecnicatura Superior en Radiología, Farmacia, Laboratorio, Instrumentación Quirúrgica y Esterilización. Todas las carreras tienen una duración de 3 años."
+    },
+    {
+      "title": "ATSA San Pedro",
+      "latitude": "-33.676496",
+      "longitude": "-59.666079",
+      "address": "Belgrano 589, San Pedro",
+      "phone": "(03329) 426 949",
+      "responsible": "Tecnicatura Superior en Enfermería. Duración 3 años. Cursos a Distancia del Departamento de Capacitación de FATSA."
+    },
+    {
+      "title": "ATSA Pergamino",
+      "latitude": "-33.890372",
+      "longitude": "-60.570935",
+      "address": "Lagos 578, Pergamino",
+      "phone": "(02477) 426 237",
+      "responsible": "Carrera Tecnicatura Superior en Enfermería. Profesionalización de Auxiliares a Distancia-UNER. Auxiliar de Enfermería. Auxiliar de Familia Especializado en cuidado de Adultos Mayores."
+    },
+    {
+      "title": "ATSA Santa Fé",
+      "latitude": "-31.643550",
+      "longitude": "-60.709975",
+      "address": "1 de Mayo 2718, Santa Fé",
+      "phone": "(0342) 455 2574 / 456 0877",
+      "responsible": "Cursos a Distancia del Departamento de Capacitación de FATSA. Cursos de Corte y Confección. Cursos de Instalaciones Eléctricas Domiciliarias, con títulos Oficiales otorgados por el Ministerio de Educación de la Provincia."
+    },
+    {
+      "title": "ATSA Entre Ríos",
+      "latitude": "-31.721364",
+      "longitude": "-60.525838",
+      "address": "San Martín 1272, Paraná",
+      "phone": "(0343) 423 0029 int. 107",
+      "responsible": "Profesionalización de Auxiliares de Enfermería. Curso Nivelador. Cursos de actualización a distancia."
+    },
+    {
+      "title": "ATSA Río Cuarto",
+      "latitude": "-33.124897",
+      "longitude": "-64.351996",
+      "address": "Cabrera 930, Río Cuarto",
+      "phone": "(0358) 464 5666",
+      "responsible": "Carrera de Enfermería. Cursos a Distancia."
+    },
+    {
+      "title": "ATSA La Plata",
+      "latitude": "-34.904983",
+      "longitude": "-57.958489",
+      "address": "calle 5 N° 359, La Plata",
+      "phone": "(0221) 422 6563",
+      "responsible": "Auxiliar de Enfermería. Técnicatura Sup. en Enfermería. Profesionalización de Auxiliar de Enfermería (ISALUD). Curso Auxiliar de Familia especializado en Adulto Mayor."
+    },
+    {
+      "title": "ATSA La Rioja",
+      "latitude": "-29.410582",
+      "longitude": "-66.852889",
+      "address": "Bazan y Abel Bustos 311/13, La Rioja",
+      "phone": "(0380) 442 8434",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA Misiones",
+      "latitude": "-27.360481",
+      "longitude": "-55.895284",
+      "address": "Ivanowsky 1845, Posadas",
+      "phone": "(0376) 443 8184",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+    {
+      "title": "ATSA La Rioja | Sede Villa Unión",
+      "latitude": "-29.299295",
+      "longitude": "-68.201067",
+      "address": "Avenida Juan Domingo Perón S/N, Villa Unión - La Rioja",
+      "phone": "(0380) 442 8434",
+      "responsible": "Profesionalización de Auxiliares de Enfermería (ISALUD)"
+    },
+
     {
       "title": "Escuela de Enfermería | ATSA Bahía Blanca",
       "latitude": "-38.717921",
@@ -462,6 +781,191 @@
       "address": "DORREGO N°1752, MAR DEL PLATA",
       "phone": "(0223) 473-6501",
       "responsible": "MARIO PIERGENTILI"
+    },
+    // Nuevos marcadores para agregar al array ospaLocations
+    {
+        "title": "OSPSA HURLINGHAM",
+        "latitude": "-34.651791",
+        "longitude": "-58.616766",
+        "address": "ALMIRANTE BROWN 1.172, MORON",
+        "phone": "(011) 4628-7006",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA CHACO",
+        "latitude": "-27.457102",
+        "longitude": "-58.988302",
+        "address": "RODRIGUEZ PEÑA N°275, RESISTENCIA",
+        "phone": "(0362) 444 9554",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA CORRIENTES",
+        "latitude": "-28.931015",
+        "longitude": "-57.582433",
+        "address": "PASAJE ALVARÉZ N°843, CORRIENTES",
+        "phone": "(03794) 464-763",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SAN PEDRO",
+        "latitude": "-33.676475",
+        "longitude": "-59.666059",
+        "address": "BELGRANO N°589, SAN PEDRO",
+        "phone": "(03329) 426949",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SALTA",
+        "latitude": "-24.791819",
+        "longitude": "-65.417794",
+        "address": "URQUIZA N°1070, SALTA",
+        "phone": "(0387) 421-2552",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA BAHÍA BLANCA",
+        "latitude": "-38.723212",
+        "longitude": "-62.266004",
+        "address": "FITZ ROY N°192, BAHÍA BLANCA",
+        "phone": "(0291) 452-8961",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA STGO DEL ESTERO",
+        "latitude": "-27.788137",
+        "longitude": "-64.253929",
+        "address": "MENDOZA 133, STGO DEL ESTERO",
+        "phone": "(0385) 422-7758",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SAN JUAN",
+        "latitude": "-31.538100",
+        "longitude": "-68.513931",
+        "address": "SANTA FE N°856 (ESTE), SAN JUAN",
+        "phone": "(0264) 421-4388",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA PERGAMINO",
+        "latitude": "-33.890408",
+        "longitude": "-60.570924",
+        "address": "LAGOS N°578, PERGAMINO",
+        "phone": "(02477) 426-237",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA JUJUY",
+        "latitude": "-24.186686",
+        "longitude": "-65.293572",
+        "address": "3 Sargentos esq. Pasaje Suecia, S. S DE JUJUY",
+        "phone": "(0388) 422-2936",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA LA RIOJA",
+        "latitude": "-29.410517",
+        "longitude": "-66.852797",
+        "address": "San Nicolas de Bari 1144, LA RIOJA",
+        "phone": "(0380) 442-8434",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SAN LUIS",
+        "latitude": "-33.687085",
+        "longitude": "-65.463885",
+        "address": "PRINGLES 84, VILLA MERCEDES",
+        "phone": "(02657) 426-650",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SAN FRANCISCO",
+        "latitude": "-31.430238",
+        "longitude": "-62.078143",
+        "address": "BOULEVARD GARIBALDI N°43, SAN FRANCISCO",
+        "phone": "(03564) 426-137",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA CHUBUT",
+        "latitude": "-43.253799",
+        "longitude": "-65.318273",
+        "address": "MARCONI N°171, TRELEW",
+        "phone": "(0280) 443-2468",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA LA PAMPA",
+        "latitude": "-35.656965",
+        "longitude": "-63.754481",
+        "address": "RIVADAVIA 335 LOC.3, SANTA ROSA",
+        "phone": "(02954) 411654",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA FORMOSA",
+        "latitude": "-26.192374",
+        "longitude": "-58.182224",
+        "address": "PANTALEON GOMEZ N°1187, FORMOSA",
+        "phone": "(0370) 15-4672264",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA MISIONES",
+        "latitude": "-27.356312",
+        "longitude": "-55.892776",
+        "address": "IVANOWSKY N°1845, POSADAS",
+        "phone": "(0376) 443-8184",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SAN NICOLÁS",
+        "latitude": "-33.330156",
+        "longitude": "-60.222425",
+        "address": "LAVALLE N°267, SAN NICOLAS DE LOS ARROYOS",
+        "phone": "(0336) 442-5537",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA CATAMARCA",
+        "latitude": "-28.467748",
+        "longitude": "-65.789376",
+        "address": "SAMUEL MOLINA N°178, CATAMARCA",
+        "phone": "(03834) 43-3566",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA NEUQUÉN",
+        "latitude": "-38.948913",
+        "longitude": "-68.056594",
+        "address": "DIAG. ESPAÑA N°170, NEUQUEN",
+        "phone": "(0299) 442-6382",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA RÍO NEGRO",
+        "latitude": "-39.021960",
+        "longitude": "-67.593966",
+        "address": "España 1718, GRAL. ROCA",
+        "phone": "(0298) 4424672",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA SANTA CRUZ",
+        "latitude": "-51.616511",
+        "longitude": "-69.220587",
+        "address": "MAGALLANES N°175, RÍO GALLEGOS",
+        "phone": "(02966) 420-301",
+        "responsible": "N/A"  // Añade el responsable si se conoce
+    },
+    {
+        "title": "OSPSA JUNIN",
+        "latitude": "-34.59535",
+        "longitude": "-60.950966",
+        "address": "BENITO DE MIGUEL N°239, JUNIN",
+        "phone": "(0236) 443-3815",
+        "responsible": "N/A"  // Añade el responsable si se conoce
     }
   ];
 
@@ -634,6 +1138,62 @@
       "address": "Puestito de San Antonio, Puestito de San Antonio",
       "phone": "(0385) 421 3463",
       "responsible": ""
+    },
+    {
+        "title": "Recreativo Pasteleros | ATSA Zona Sur",
+        "latitude": "-34.751397",
+        "longitude": "-58.487679",
+        "address": "Ruta de la Tradición (Ex Camino de Cintura) 6455, Esteban Echeverria",
+        "phone": "(011) 5088 2100",
+        "responsible": "info@atsazonasur.com"
+    },
+    {
+        "title": "Gran Hotel Casablanca | ATSA Córdoba",
+        "latitude": "-31.405263",
+        "longitude": "-64.500125",
+        "address": "Bv. Sarmiento 1001, Villa Carlos Paz",
+        "phone": "(0351) 423 3885 Int 105",
+        "responsible": ""
+    },
+    {
+        "title": "Complejo el Oasis | ATSA Bahía Blanca",
+        "latitude": "-38.711596",
+        "longitude": "-62.269955",
+        "address": "Moseñor de Andrea y 3 de Febrero, Bahía Blanca",
+        "phone": "(0291) 452 8961",
+        "responsible": ""
+    },
+    {
+        "title": "Colonia Verano Feliz | ATSA Bahía Blanca",
+        "latitude": "-38.711596",
+        "longitude": "-62.269955",
+        "address": "Entrada Los Nogales (Frente a Coca Cola), Bahía Blanca",
+        "phone": "(0291) 452 8961",
+        "responsible": ""
+    },
+    {
+        "title": "Club Atlético Liniers | ATSA Bahía Blanca",
+        "latitude": "-38.704559",
+        "longitude": "-62.268423",
+        "address": "Avenida Alem 1089, Bahía Blanca",
+        "phone": "(0291) 452 8961",
+        "responsible": ""
+    },
+    {
+        "title": "Camping ACA | ATSA San Nicolás",
+        "latitude": "-33.287751",
+        "longitude": "-60.270150",
+        "address": "Ruta 21, Km 242, San Nicolás de los Arroyos",
+        "phone": "(0336) 445 3805",
+        "responsible": ""
+    },
+    {
+        "title": "Círculo de Oficiales | ATSA Río Cuarto",
+        "latitude": "-33.124942",
+        "longitude": "-64.352103",
+        "address": "Cabrera 930, Río Cuarto",
+        "phone": "(0358) 464 5789",
+        "responsible": ""
     }
   ];
 

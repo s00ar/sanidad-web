@@ -1,0 +1,93 @@
+[
+    {
+      "title": "OSPSA BUENOS AIRES",
+      "latitude": "-34.611754",
+      "longitude": "-58.403259",
+      "address": "VENEZUELA 2359, CAPITAL FEDERAL",
+      "phone": "(011) 49439400",
+      "responsible": "CAROLINA BAHAMONDE",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA CORDOBA",
+      "latitude": "-31.403502",
+      "longitude": "-64.1746",
+      "address": "COCHABAMBA N°940, CORDOBA",
+      "phone": "(0351) 556-0400",
+      "responsible": "SUSANA GARCIA",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA SANTA FE",
+      "latitude": "-31.643545",
+      "longitude": "-60.709914",
+      "address": "SALTA 2828, SANTA FE",
+      "phone": "(0342) 454-7400",
+      "responsible": "NORMA KARINA RODONI",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA LA PLATA",
+      "latitude": "-34.905079",
+      "longitude": "-57.958321",
+      "address": "CALLE 5 N°375, LA PLATA",
+      "phone": "(0221) 483-8573",
+      "responsible": "PEDRO F. BORGINI",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA MENDOZA",
+      "latitude": "-32.897953",
+      "longitude": "-68.826224",
+      "address": "25 DE MAYO N°722, MENDOZA",
+      "phone": "(0261) 423-6622",
+      "responsible": "OSCAR ALEJANDRO CAMPO",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA QUILMES",
+      "latitude": "-34.731874",
+      "longitude": "-58.258964",
+      "address": "Vicente Lopez N°1969, QUILMES",
+      "phone": "(011) 4350-7400",
+      "responsible": "RAMÓN RICARDO ROMERO",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA ENTRE RÍOS",
+      "latitude": "-31.721044",
+      "longitude": "-60.52583",
+      "address": "MONTE CASEROS 373 -C.C. NRO. 121, PARANÁ",
+      "phone": "(0343) 423-1466",
+      "responsible": "LEONEL W. WESISHEIM",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA TUCUMÁN",
+      "latitude": "-26.820777",
+      "longitude": "-65.219203",
+      "address": "STGO DEL ESTERO N°1578, TUCUMÁN",
+      "phone": "(0381) 432-2296",
+      "responsible": "DARÍO SUAREZ",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA RÍO CUARTO",
+      "latitude": "-33.124919",
+      "longitude": "-64.351884",
+      "address": "CABRERA N°930, RÍO CUARTO",
+      "phone": "(0358) 464-5789",
+      "responsible": "CRISTINA FERNANDEZ",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    },
+    {
+      "title": "OSPSA MAR DEL PLATA",
+      "latitude": "-37.993704",
+      "longitude": "-57.559289",
+      "address": "DORREGO N°1752, MAR DEL PLATA",
+      "phone": "(0223) 473-6501",
+      "responsible": "MARIO PIERGENTILI",
+      "icon": "/wp-content/uploads/2024/09/OSPSA.png"
+    }
+  ]
+  

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <style>
+        .map-controls {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        
+        .control-group {
+            flex: 1;
+        }
+        
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        #map {
+            height: 600px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        #debug {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-controls">
+        <div class="control-group">
+            <label for="zona">Seleccione la zona:</label>
+            <select id="zona"></select>
+        </div>
+        
+        <div class="control-group">
+            <label for="categoria">Seleccione la categoría:</label>
+            <select id="categoria">
+                <option value="todas">Todas</option>
+                <option value="atsa">ATSA</option>
+                <option value="ospsa">OSPSA</option>
+                <option value="capacitacion">Capacitación</option>
+                <option value="turismo">Turismo</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="map"></div>
+    <div id="debug"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script>
+        // Debug function
+        function debug(msg) {
+            console.log(msg);
+            const debugDiv = document.getElementById('debug');
+            debugDiv.style.display = 'block';
+            debugDiv.innerHTML += msg + '<br>';
+        }
+
+        // Initialize map
+        const map = L.map('map').setView([-34.6037, -58.3816], 5);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Create markers layer group
+        let markersLayer = L.layerGroup().addTo(map);
+
+        async function loadJSON(filename) {
+            try {
+                const response = await fetch(`json/${filename}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                debug(`Loaded ${filename}: ${JSON.stringify(data).slice(0, 100)}...`);
+                return data;
+            } catch (error) {
+                debug(`Error loading ${filename}: ${error.message}`);
+                return [];
+            }
+        }
+
+        async function initializeControls() {
+            try {
+                const zonas = await loadJSON('zonas.json');
+                const zonaSelect = document.getElementById('zona');
+                
+                // Add "Todas" option
+                const allOption = document.createElement('option');
+                allOption.value = 'todas';
+                allOption.textContent = 'Todo el país';
+                zonaSelect.appendChild(allOption);
+                
+                // Populate zonas dropdown
+                zonas.forEach(zona => {
+                    const option = document.createElement('option');
+                    option.value = zona.value || zona;
+                    option.textContent = zona.label || zona;
+                    zonaSelect.appendChild(option);
+                });
+
+                const categoriaSelect = document.getElementById('categoria');
+                
+                zonaSelect.addEventListener('change', handleFiltersChange);
+                categoriaSelect.addEventListener('change', handleFiltersChange);
+                
+                await handleFiltersChange();
+            } catch (error) {
+                debug(`Error in initializeControls: ${error.message}`);
+            }
+        }
+
+        async function handleFiltersChange() {
+            try {
+                const categoria = document.getElementById('categoria').value;
+                const zona = document.getElementById('zona').value;
+                
+                debug(`Filters changed - Categoria: ${categoria}, Zona: ${zona}`);
+                
+                let dataToShow = [];
+                
+                if (categoria !== 'todas') {
+                    const categoryData = await loadJSON(`${categoria}.json`);
+                    dataToShow = categoryData;
+                } else {
+                    const [atsaData, ospsaData, capacitacionData, turismoData] = await Promise.all([
+                        loadJSON('atsa.json'),
+                        loadJSON('ospsa.json'),
+                        loadJSON('capacitacion.json'),
+                        loadJSON('turismo.json')
+                    ]);
+                    
+                    dataToShow = [
+                        ...atsaData,
+                        ...ospsaData,
+                        ...capacitacionData,
+                        ...turismoData
+                    ];
+                }
+
+                if (zona !== 'todas') {
+                    dataToShow = dataToShow.filter(item => item.zona === zona);
+                }
+                
+                debug(`Filtered data count: ${dataToShow.length}`);
+                debug(`Sample data: ${JSON.stringify(dataToShow[0])}`);
+                
+                updateMap(dataToShow);
+            } catch (error) {
+                debug(`Error in handleFiltersChange: ${error.message}`);
+            }
+        }
+
+        function updateMap(data) {
+            try {
+                debug('Clearing existing markers');
+                markersLayer.clearLayers();
+                
+                debug(`Adding ${data.length} markers`);
+                
+                data.forEach((item, index) => {
+                    if (item.latitud && item.longitud) {
+                        // Intenta convertir a números si son strings
+                        const lat = parseFloat(item.latitud);
+                        const lng = parseFloat(item.longitud);
+                        
+                        if (!isNaN(lat) && !isNaN(lng)) {
+                            const marker = L.marker([lat, lng])
+                                .bindPopup(`
+                                    <h3>${item.nombre || 'Sin nombre'}</h3>
+                                    <p>${item.descripcion || ''}</p>
+                                    <p>Categoría: ${item.categoria || 'No especificada'}</p>
+                                    <p>Zona: ${item.zona || 'No especificada'}</p>
+                                `);
+                            markersLayer.addLayer(marker);
+                        } else {
+                            debug(`Invalid coordinates for item ${index}: ${item.latitud}, ${item.longitud}`);
+                        }
+                    } else if (item.lat && item.lng) {
+                        const lat = parseFloat(item.lat);
+                        const lng = parseFloat(item.lng);
+                        
+                        if (!isNaN(lat) && !isNaN(lng)) {
+                            const marker = L.marker([lat, lng])
+                                .bindPopup(`
+                                    <h3>${item.nombre || 'Sin nombre'}</h3>
+                                    <p>${item.descripcion || ''}</p>
+                                    <p>Categoría: ${item.categoria || 'No especificada'}</p>
+                                    <p>Zona: ${item.zona || 'No especificada'}</p>
+                                `);
+                            markersLayer.addLayer(marker);
+                        } else {
+                            debug(`Invalid coordinates for item ${index}: ${item.lat}, ${item.lng}`);
+                        }
+                    } else {
+                        debug(`Missing coordinates for item ${index}`);
+                    }
+                });
+
+                const layers = Array.from(markersLayer.getLayers());
+                debug(`Added ${layers.length} markers to the map`);
+                
+                if (layers.length > 0) {
+                    const group = L.featureGroup(layers);
+                    map.fitBounds(group.getBounds().pad(0.1));
+                }
+            } catch (error) {
+                debug(`Error in updateMap: ${error.message}`);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeControls);
+    </script>
+</body>
+</html>
